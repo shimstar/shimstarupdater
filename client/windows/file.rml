@@ -1,0 +1,52 @@
+<rml>
+	<head>
+		<title>directory</title>
+		<link type="text/template" href="window.rml" />
+		<style>
+			body
+			{
+				width: 400px;
+				height: 250px;
+				position: absolute;
+				margin: auto;
+			}
+
+			div#title_bar div#icon
+			{
+				icon-image-s: 230px 281px;
+				icon-image-t: 152px 191px;
+
+				display: none;
+			}
+
+			form div
+			{
+				width: 200px;
+				margin: auto;
+			}
+		</style>
+	<script>
+from updatestate import *
+from updater import *
+import os
+def onLoad(doc):
+	pass
+	
+def onOk(doc):
+	shimStarUpaterClient.getInstance().onChoosePath()
+	
+	
+	</script>
+	</head>
+	<body template="pywindow" onLoad="onLoad(document);">
+	<div style="position:absolute; top:80px; left:60px;width:250px;">
+		<span><p>Saisissez le repertoire d'installation</p></span>
+		</div>
+		<div style="position:absolute; top:120px; left:20px;width:250px;">
+					<input type="text" id="path"  value="c:\shimstar\" align="center" style="width:350px;height:40px;font-size:14px;"/>
+		</div>
+		<div style="position:absolute; top:220px; left:70px;">
+			<button class="topress" style="width:200px;height:30px;display:Block;" onclick="onOk(document)"  id="btnok"><span style='color:#00ff00;'>OK</span></button>
+		</div>
+	</body>
+</rml>

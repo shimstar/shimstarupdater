@@ -1,0 +1,89 @@
+<rml>
+	<head>
+		<title>Options</title>
+		<link type="text/template" href="window.rml" />
+		<style>
+			body
+			{
+				width: 850px;
+				height: 350px;
+				
+				margin: auto;
+			}
+
+			div#title_bar div#icon
+			{
+				icon-image-s: 230px 281px;
+				icon-image-t: 152px 191px;
+
+				display: none;
+			}
+
+			form div
+			{
+				width: 200px;
+				margin: auto;
+			}
+		</style>
+	<script>
+import os,sys
+from updatestate import *
+
+def onLoad(document):
+	titleElement=document.GetElementById('title')
+	
+	for l in titleElement.child_nodes:
+		titleElement.RemoveChild(l)
+	newtitle=document.CreateTextNode("Update")
+	titleElement.AppendChild(newtitle)
+	
+def update(document):
+	updateState.getInstance().setState(C_STATE_WAITING_UPDATE)
+	
+def play(document):
+	dir=document.GetElementById("path").inner_rml
+	os.startfile(dir + "\\ShimstarClient.exe")
+	sys.exit()
+	</script>
+	
+	</head>
+	<body template="pywindow" onLoad="onLoad(document);">
+	<form name="formtest" onsubmit="">
+				<div style="position:absolute; top:50px; left:0px;">
+					<button class="roundleft" style="width:250px;height:30px;">Shimstar</button>
+				</div>
+				<div style="position:absolute; top:50px; left:300px;">
+					<button class="roundleft" style="width:100px;height:30px;" id="status">Server KO</button>
+				</div>
+				<div style="position:absolute; top:120px; left:-250px;">
+					<button class="roundleft" style="width:250px;height:30px;" >Version installee</button>
+				</div>
+				<div style="position:absolute; top:120px; left:50px;">
+					<button class="roundleft" style="width:100px;height:30px;" id="actualversion">0.0</button>
+				</div>
+				<div style="position:absolute; top:190px; left:-250px;">
+					<button class="roundleft" style="width:250px;height:30px;" >Version disponible</button>
+				</div>
+				<div style="position:absolute; top:190px; left:50px;">
+					<button class="roundleft" style="width:100px;height:30px;" id="targetversion">2.0</button>
+				</div>
+				<div style="position:absolute; top:260px; left:-250px;">
+					<button class="roundleft" style="width:250px;height:30px;" >Nb de fichiers</button>
+				</div>
+				<div style="position:absolute; top:260px; left:50px;">
+					<button class="roundleft" style="width:100px;height:30px;" id="nbfichier">1000</button>
+				</div>
+				<div style="position:absolute; top:330px; left:320px;">
+					<button class="topress" style="width:150px;height:30px;" id="connect" onclick="play(document)">Jouer</button>
+				</div>
+				<div style="position:absolute; top:330px; left:130px;">
+					<button class="topress" style="width:150px;height:30px;" id="update" onclick="update(document)">Update</button>
+				</div>
+				<div style="position:absolute; top:310px; left:-280px;">
+					<button class="roundleft" style="width:300px;height:30px;" id="path"></button>
+					<!--<input type="text" id="path"  value="" align="center" style="width:350px;height:40px;" disabled/>-->
+				</div>
+				
+		</form>
+	</body>
+</rml>

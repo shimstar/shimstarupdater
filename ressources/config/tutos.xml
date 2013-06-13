@@ -1,0 +1,77 @@
+<tutos>
+	<tuto>
+		<id>1</id>
+		<msg>
+			Bienvenue dans shimstar,\n
+			Vous etes presentement dans la station de depart.\n
+			Vous avez acces par le menu a differentes fonctionnalites:\n
+			 -- Personnel de bord (dialogues et quetes)\n
+			 -- Inventaire de votre soute\n
+			 -- Dock pour equiper votre vaisseau\n
+			 Commencer par parler a Nina, elle vous expliquera pourquoi vous etes ici, et ce que vous devez y faire.
+		</msg>
+	</tuto>
+	<tuto>
+		<id>2</id>
+		<msg>
+			Cette fenetre vous permet de dialoguer avec un personnage de la station.\n
+			Vous aurez acces a des informations en lisant les dialogues, et vous pourrez accepter des missions.\n
+		</msg>
+	</tuto>
+	<tuto>
+		<id>4</id>
+		<msg>
+			Cette fenetre vous indique le contenu de votre soute.\n
+			En survolant un item, vous verrez ses caracteristiques apparaitre.\n
+		</msg>
+	</tuto>
+	<tuto>
+		<id>3</id>
+		<msg>
+			Cette fenetre affiche tous les dialogues qui vous sont accessibles.\n
+			En cliquant sur les mots clefs a gauche, vous verrez apparaitre le dialogue correspondant.\n
+			Certains mots clefs diparaitront suite a lecture, et d'autres pourront apparaitre en plus.\n
+			Les mots clefs en verts correspondent a des missions qui vous sont accessibles.\n
+			Les mots clefs en jaune correspondent a des missions en cours.\n
+			Les mots clefs en rouge correspondent a des missions qui sont a valider car terminees.\n
+			
+		</msg>
+	</tuto>
+		<tuto>
+		<id>5</id>
+		<msg>
+			Bienvenue dans l'espace!\n
+			Pour naviguer, utilisez qzsd (pour tourner et pivoter), A pour accelerer, W pour decelerer.\n\n
+			Vous pouvez cliquer gauche pour tirer, et cliquer droit pour selectionner un objet dans l'espace (asteroid, vaisseau), et permettre d'interagir avec.\n\n
+			La touche I vous permet d'acceder a votre inventaire\n\n
+			Bon jeu!			
+		</msg>
+	</tuto>
+	<tuto>
+		<id>6</id>
+		<msg>
+			Cette fenetre est votre journal de mission personnel.\n\n
+			Il regroupe toutes les missions que vous acceptees.\n\n
+			En cliquant sur un mot clef a gauche, vous accedez au contenu de la mission.\n\n
+			Si le mot clef est orange, c'est que la mission se passe dans la zone ou vous vous trouvez\n\n
+			S'il est vert, c'est que les objectifs de la mission sont atteints, et que vous pouvez rendre la quete au pnj correspondant.
+		</msg>
+	</tuto>
+	<tuto>
+		<id>7</id>
+		<msg>
+			Vous avez cible un vaisseau, un asteroid.\n\n
+			Desormais un reticule apparait autour de la cible avec quelques infos sur la cible (vie, distance, nom).\n\n
+			Si la cible est en dehors de l ecran, un carre rouge sur le bord, permet de connaitre dans quelle direction il se trouve\n\n
+			En utilisant la touche "V", vous pouvez faire defiler les objets de meme categorie. Vous changez alors de cible, mais en restant dans la meme categorie d objet\n
+			Par exemple, si vous aviez cible un asteroid, en appuyant sur "V", un autre asteroid est cible, et ainsi de suite\n\n
+			N hesitez pas a utiliser "T" pour cibler l ennemi le plus proche, et "M" le loots le plus proche.
+		</msg>
+	</tuto>
+		<tuto>
+		<id>8</id>
+		<msg>
+			TODO
+		</msg>
+	</tuto>
+</tutos>

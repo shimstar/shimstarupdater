@@ -1,0 +1,48 @@
+<rml>
+	<head>
+		<title>quitgame</title>
+		<link type="text/template" href="window.rml" />
+		<style>
+			body
+			{
+				width: 400px;
+				height: 150px;
+				position: absolute;
+			/*top : 25px;
+				left : 300px;*/
+				margin: auto;
+			}
+
+			div#title_bar div#icon
+			{
+				icon-image-s: 230px 281px;
+				icon-image-t: 152px 191px;
+
+				display: none;
+			}
+
+			form div
+			{
+				width: 200px;
+				margin: auto;
+			}
+		</style>
+	<script>
+def onLoad(doc):
+	titleBar=doc.GetElementById("title")
+	titleBar.inner_rml="Erreur"
+	
+def onCancel(doc):
+	doc.Hide()
+	
+	</script>
+	</head>
+	<body template="pywindow" onLoad="onLoad(document);">
+		<div style="position:absolute; top:70px; left:-0px;">
+			<button class="roundleft" style="width:300px;height:30px;" >Le chemin specifie n'existe pas</button>
+		</div>
+		<div style="position:absolute; top:150px; left:-0px;">
+			<button class="topress" style="width:100px;height:30px;" onclick="onCancel(document)">OK</button>
+		</div>
+	</body>
+</rml>
