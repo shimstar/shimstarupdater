@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="Shimstar/BackgroundImage" Name="ConnexionBg" >
+            <Property Name="UnifiedAreaRect" Value="{{0.00062814,0},{-0.00132624,0},{1.00063,0},{0.998674,0}}" />
+            <Window Type="Shimstar/Groupbox" Name="ConnexionBg/group" >
+                <Property Name="Text" Value="Choisissez votre personnage" />
+                <Property Name="RiseOnClick" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0226563,0},{0.0668039,0},{0.961133,0},{0.418313,0}}" />
+							<Window Type="Shimstar/ScrollablePane" Name="ConnexionBg/Panel" >
+									<Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+									<Property Name="HorzStepSize" Value="0.1" />
+									<Property Name="VertStepSize" Value="0.1" />
+									<Property Name="HorzOverlapSize" Value="0.01" />
+									<Property Name="UnifiedAreaRect" Value="{{0.001142,0},{-0.017533,0},{0.997659,0},{0.930751,0}}" />
+									<Property Name="VertOverlapSize" Value="0.01" />
+									<Property Name="HorzScrollPosition" Value="0" />
+									<Property Name="VertScrollPosition" Value="0" />
+									<AutoWindow NameSuffix="__auto_container__" >
+											<Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+											<Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+									</AutoWindow>
+							</Window>
+            </Window>
+            <Window Type="Shimstar/Button" Name="ConnexionBg/new" >
+                <Property Name="Text" Value="Créer un nouveau personnage" />
+                <Property Name="UnifiedAreaRect" Value="{{0.33418,0},{0.44952,0},{0.688672,0},{0.533539,0}}" />
+            </Window>
+				
+            <Window Type="Shimstar/Groupbox" Name="ConnexionBg/Group1" >
+                <Property Name="Text" Value="Choisissez votre personnage" />
+                <Property Name="RiseOnClick" Value="False" />
+						 <Property Name="Visible" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0186362,0},{0.550491,0},{0.957113,0},{0.902,0}}" />
+							<Window Type="Shimstar/Label" Name="ConnexionBg/NameLabel" >
+									<Property Name="Font" Value="Brassiere-m" />
+									<Property Name="Text" Value="Nom :" />
+									<Property Name="HorzExtent" Value="41" />
+									<Property Name="VertExtent" Value="22.496" />
+									<Property Name="UnifiedAreaRect" Value="{{0.041499,0},{0.222503,0},{0.131323,0},{0.399365,0}}" />
+							</Window>
+							<Window Type="Shimstar/Editbox" Name="ConnexionBg/NameEdit" >
+									<Property Name="Font" Value="Brassiere-m" />
+									<Property Name="MaxTextLength" Value="1073741823" />
+									<Property Name="UnifiedAreaRect" Value="{{0.143380,0},{0.224689,0},{0.274662,0},{0.397774,0}}" />
+									<Property Name="TextParsingEnabled" Value="False" />
+							</Window>
+							<Window Type="Shimstar/BackgroundImage" Name="ConnexionBg/Face" >
+									<Property Name="UnifiedAreaRect" Value="{{0.451835,0},{0.027398,0},{0.538518,0},{0.506943,0}}" />
+							</Window>
+							<Window Type="Shimstar/Button" Name="ConnexionBg/Previous" >
+									<Property Name="Font" Value="Brassiere-l" />
+									<Property Name="Text" Value="&lt;" />
+									<Property Name="Tooltip" Value="Image Precedente" />
+									<Property Name="UnifiedAreaRect" Value="{{0.384084,0},{0.279044,0},{0.431194,0},{0.401687,0}}" />
+							</Window>
+							<Window Type="Shimstar/Button" Name="ConnexionBg/Next" >
+									<Property Name="Font" Value="Brassiere-l" />
+									<Property Name="Text" Value="&gt;" />
+									<Property Name="Tooltip" Value="Image suivante" />
+									<Property Name="UnifiedAreaRect" Value="{{0.552252,0},{0.279044,0},{0.599363,0},{0.401687,0}}" />
+							</Window>
+							<Window Type="Shimstar/Button" Name="ConnexionBg/Create" >
+									<Property Name="Font" Value="Brassiere-m" />
+									<Property Name="Text" Value="Créer" />
+									<Property Name="UnifiedAreaRect" Value="{{0.039196,0},{0.673948,0},{0.224497,0},{0.878382,0}}" />
+							</Window>
+					</Window>
+					<Window Type="Shimstar/Window" Name="ConnexionBg/InfoHero" >
+                <Property Name="Text" Value="Informations" />
+						<Property Name="Visible" Value="False" />
+                <Property Name="TitlebarFont" Value="Brassiere-m" />
+                <Property Name="TitlebarEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.172674,0},{0.0456853,0},{0.727356,0},{0.866357,0}}" />
+                <Window Type="Shimstar/BackgroundImage" Name="ConnexionBg/InfoHero/Face" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,10},{0,10},{0,266},{0,266}}" />
+                </Window>
+                <Window Type="Shimstar/Label" Name="ConnexionBg/InfoHero/Name" >
+                    <Property Name="Font" Value="Brassiere-m" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.445544,0},{0.016231,0},{0.788431,0},{0.088361,0}}" />
+                </Window>
+                <Window Type="Shimstar/Button" Name="ConnexionBg/InfoHero/Play" >
+                    <Property Name="Font" Value="Brassiere-m" />
+                    <Property Name="Text" Value="Jouer" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.343081,0},{0.68826,0},{0.726063,0},{0.760282,0}}" />
+                </Window>
+                <Window Type="Shimstar/Button" Name="ConnexionBg/InfoHero/Delete" >
+                    <Property Name="Font" Value="Brassiere-m" />
+                    <Property Name="Text" Value="Supprimer" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.342208,0},{0.777848,0},{0.727449,0},{0.851479,0}}" />
+                </Window>
+						<Window Type="Shimstar/Button" Name="ConnexionBg/InfoHero/Cancel" >
+                    <Property Name="Font" Value="Brassiere-m" />
+                    <Property Name="Text" Value="Annuler" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.34336,0},{0.868297,0},{0.728601,0},{0.941928,0}}" />
+                </Window>
+                <Window Type="Shimstar/Window" Name="ConnexionBg/InfoHero/Confirm" >
+                    <Property Name="Visible" Value="False" />
+                    <Property Name="TitlebarFont" Value="Brassiere-m" />
+                    <Property Name="SizingEnabled" Value="False" />
+                    <Property Name="TitlebarEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.188919,0},{0.194099,0},{0.854749,0},{0.725329,0}}" />
+                    <Property Name="CloseButtonEnabled" Value="False" />
+                    <Window Type="Shimstar/Label" Name="ConnexionBg/InfoHero/Confirm/Msg" >
+                        <Property Name="Font" Value="Brassiere-s" />
+                        <Property Name="Text" Value="Etes vous sur de supprimer ce personnage?" />
+                        <Property Name="HorzExtent" Value="269" />
+                        <Property Name="VertExtent" Value="18.7393" />
+                        <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0432388,0},{-0.013666,0},{0.964406,0},{0.513575,0}}" />
+                    </Window>
+                    <Window Type="Shimstar/Button" Name="ConnexionBg/InfoHero/Confirm/Yes" >
+                        <Property Name="Font" Value="Brassiere-s" />
+                        <Property Name="Text" Value="Supprimer" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0514632,0},{0.67061,0},{0.465163,0},{0.92061,0}}" />
+                    </Window>
+                    <Window Type="Shimstar/Button" Name="ConnexionBg/InfoHero/Confirm/No" >
+                        <Property Name="Font" Value="Brassiere-s" />
+                        <Property Name="Text" Value="Annuler" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.520534,0},{0.667294,0},{0.965936,0},{0.917294,0}}" />
+                    </Window>
+                </Window>
+								 <Window Type="Shimstar/Label" Name="ConnexionBg/InfoHero/Localisation" >
+                    <Property Name="Font" Value="Brassiere-m" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.447922,0},{0.19441,0},{0.790809,0},{0.26654,0}}" />
+                </Window>
+                <Window Type="Shimstar/Label" Name="ConnexionBg/InfoHero/Hours" >
+                    <Property Name="Font" Value="Brassiere-m" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.446898,0},{0.268748,0},{0.789785,0},{0.340878,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout version="4" >
+    <Window Type="DefaultWindow" Name="Window" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="Shimstar/BackgroundImage" Name="background" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="Shimstar/Label" Name="LabelZone" >
+                <Property Name="UnifiedPosition" Value="{{0.07,0},{0.12,0}}" />
+				<Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+				<Property Name="UnifiedSize" Value="{{0.20,0},{0.07,0}}" />
+				<Property Name="HorzFormatting" Value="WordWrapCentred" />
+                <Property Name="Text" Value="Chargement de la zone" />                
+            </Window>
+            <Window Type="Shimstar/Label" Name="LabelNpc" >
+               <Property Name="UnifiedPosition" Value="{{0.07,0},{0.29,0}}" />
+				<Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+				<Property Name="UnifiedSize" Value="{{0.20,0},{0.07,0}}" />
+				<Property Name="HorzFormatting" Value="WordWrapCentred" />
+                <Property Name="Text" Value="Chargement des ennemis" />
+                
+            </Window>
+            <Window Type="Shimstar/Label" Name="LabelPlayer" >
+                <Property Name="UnifiedPosition" Value="{{0.07,0},{0.46,0}}" />
+				<Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+				<Property Name="UnifiedSize" Value="{{0.20,0},{0.07,0}}" />
+				<Property Name="HorzFormatting" Value="WordWrapCentred" />
+                <Property Name="Text" Value="Chargement des joueurs" />
+                
+            </Window>
+            <Window Type="Shimstar/Label" Name="LabelStatusZone" >
+                <Property Name="UnifiedPosition" Value="{{0.30,0},{0.12,0}}" />
+					<Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+					<Property Name="UnifiedSize" Value="{{0.15,0},{0.07,0}}" />
+					<Property Name="HorzFormatting" Value="WordWrapCentred" />
+                <Property Name="Text" Value="En cours" />
+					 <Property Name="Visible" Value="False" />
+                
+            </Window>
+            <Window Type="Shimstar/Label" Name="LabelStatusPlayer" >
+                <Property Name="UnifiedPosition" Value="{{0.30,0},{0.46,0}}" />
+				<Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+				<Property Name="UnifiedSize" Value="{{0.15,0},{0.07,0}}" />
+				<Property Name="HorzFormatting" Value="WordWrapCentred" />
+                <Property Name="Text" Value="En cours" />
+					 <Property Name="Visible" Value="False" />
+                
+            </Window>
+            <Window Type="Shimstar/Label" Name="LabelStatusEnnemis" >
+                <Property Name="UnifiedPosition" Value="{{0.30,0},{0.29,0}}" />
+				<Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+				<Property Name="UnifiedSize" Value="{{0.15,0},{0.07,0}}" />
+				<Property Name="HorzFormatting" Value="WordWrapCentred" />
+                <Property Name="Text" Value="En cours" />
+					 <Property Name="Visible" Value="False" />
+                
+            </Window>
+            <Window Type="Shimstar/Button" Name="Jouer" >
+                <Property Name="UnifiedPosition" Value="{{0.42,0},{0.63,0}}" />
+				<Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+				<Property Name="UnifiedSize" Value="{{0.20,0},{0.07,0}}" />
+                <Property Name="Text" Value="Jouer" />
+					
+            </Window>
+       </Window>
+    </Window>
+</GUILayout>

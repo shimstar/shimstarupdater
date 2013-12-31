@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="root" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="Shimstar/BackgroundImage" Name="MenuConnect/Background" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DefaultWindow" Name="MenuConnect/Login" >
+                <Property Name="Font" Value="Brassiere-m" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="Shimstar/Window" Name="MenuConnect/Login/Window" >
+                    <Property Name="Font" Value="Brassiere-m" />
+                    <Property Name="Text" Value="Connexion" />
+                    <Property Name="TitlebarFont" Value="Brassiere-m" />
+                    <Property Name="RollUpEnabled" Value="False" />
+                    <Property Name="SizingEnabled" Value="False" />
+                    <Property Name="TitlebarEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,640},{0,360}}" />
+                    <Property Name="DragMovingEnabled" Value="False" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                    <Property Name="CloseButtonEnabled" Value="False" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Window Type="Shimstar/Label" Name="MenuConnect/Login/LabelLogin" >
+                        <Property Name="Text" Value="Identifiant" />
+                        <Property Name="HorzExtent" Value="135" />
+                        <Property Name="VertExtent" Value="19.498" />
+                        <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.12,0},{0.4,0},{0.12,45}}" />
+                    </Window>
+                    <Window Type="Shimstar/Editbox" Name="MenuConnect/Login/EditboxLogin" >
+                        <Property Name="Tooltip" Value="Saisissez votre identifiant ici." />
+                        <Property Name="MaxTextLength" Value="1073741823" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.42,0},{0.12,0},{0.96,0},{0.12,45}}" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                    </Window>
+                    <Window Type="Shimstar/Label" Name="MenuConnect/Login/LabelPass" >
+                        <Property Name="Text" Value="Mot de passe" />
+                        <Property Name="HorzExtent" Value="173" />
+                        <Property Name="VertExtent" Value="19.498" />
+                        <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.29,0},{0.4,0},{0.29,45}}" />
+                    </Window>
+                    <Window Type="Shimstar/Editbox" Name="MenuConnect/Login/EditboxPass" >
+                        <Property Name="Tooltip" Value="Saisissez votre mot de passe ici." />
+                        <Property Name="MaxTextLength" Value="1073741823" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.42,0},{0.29,0},{0.96,0},{0.29,45}}" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                    </Window>
+                    <Window Type="Shimstar/Button" Name="MenuConnect/Login/ButtonEnter" >
+                        <Property Name="Text" Value="Entrer" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.52,0},{0.56,0},{0.96,0},{0.56,45}}" />
+                    </Window>
+                    <Window Type="Shimstar/Button" Name="MenuConnect/Login/ButtonNew" >
+                        <Property Name="Text" Value="Nouveau compte" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.52,0},{0.73,0},{0.96,0},{0.73,45}}" />
+                    </Window>
+                    <Window Type="Shimstar/Label" Name="MenuConnect/Login/LabelStatus" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.645,0},{0.4,0},{0.645,45}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DefaultWindow" Name="MenuConnect/LoginReport" >
+                <Property Name="Visible" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="Shimstar/Window" Name="MenuConnect/LoginReport/Window" >
+                    <Property Name="Text" Value="Erreur" />
+                    <Property Name="TitlebarFont" Value="Brassiere-m" />
+                    <Property Name="RollUpEnabled" Value="False" />
+                    <Property Name="SizingEnabled" Value="False" />
+                    <Property Name="TitlebarEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,300},{0,250}}" />
+                    <Property Name="DragMovingEnabled" Value="False" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                    <Property Name="CloseButtonEnabled" Value="False" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Window Type="Shimstar/Label" Name="MenuConnect/LoginReport/LabelReport" >
+                        <Property Name="Text" Value="Echec de l&apos;authentification. Veuillez vérifier vos informations de connexion." />
+                        <Property Name="HorzExtent" Value="231" />
+                        <Property Name="VertExtent" Value="97.4902" />
+                        <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.04,0},{0.96,0},{0.64,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="Shimstar/Button" Name="MenuConnect/LoginReport/ButtonOK" >
+                        <Property Name="Text" Value="OK" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.34,0},{0.74,0},{0.66,0},{0.74,45}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DefaultWindow" Name="MenuConnect/NewAccount" >
+                <Property Name="Visible" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="Shimstar/Window" Name="MenuConnect/NewAccount/Window" >
+                    <Property Name="Text" Value="Création d&apos;un nouveau compte" />
+                    <Property Name="TitlebarFont" Value="Brassiere-m" />
+                    <Property Name="RollUpEnabled" Value="False" />
+                    <Property Name="SizingEnabled" Value="False" />
+                    <Property Name="TitlebarEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,640},{0,270}}" />
+                    <Property Name="DragMovingEnabled" Value="False" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                    <Property Name="CloseButtonEnabled" Value="False" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Window Type="Shimstar/Label" Name="MenuConnect/NewAccount/LabelLogin" >
+                        <Property Name="Text" Value="Identifiant" />
+                        <Property Name="HorzExtent" Value="135" />
+                        <Property Name="VertExtent" Value="19.498" />
+                        <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.1,0},{0.4,0},{0.1,45}}" />
+                    </Window>
+                    <Window Type="Shimstar/Editbox" Name="MenuConnect/NewAccount/EditboxLogin" >
+                        <Property Name="Tooltip" Value="Saisissez votre identifiant ici." />
+                        <Property Name="MaxTextLength" Value="1073741823" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.42,0},{0.1,0},{0.96,0},{0.1,45}}" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                    </Window>
+                    <Window Type="Shimstar/Label" Name="MenuConnect/NewAccount/LabelPass" >
+                        <Property Name="Text" Value="Mot de passe" />
+                        <Property Name="HorzExtent" Value="173" />
+                        <Property Name="VertExtent" Value="19.498" />
+                        <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.35,0},{0.4,0},{0.35,45}}" />
+                    </Window>
+                    <Window Type="Shimstar/Editbox" Name="MenuConnect/NewAccount/EditboxPass" >
+                        <Property Name="Tooltip" Value="Saisissez votre mot de passe ici." />
+                        <Property Name="MaxTextLength" Value="1073741823" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.42,0},{0.35,0},{0.96,0},{0.35,45}}" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                    </Window>
+                    <Window Type="Shimstar/Button" Name="MenuConnect/NewAccount/ButtonCreate" >
+                        <Property Name="Text" Value="Créer" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.75,0},{0.48,0},{0.75,45}}" />
+                    </Window>
+                    <Window Type="Shimstar/Button" Name="MenuConnect/NewAccount/ButtonCancel" >
+                        <Property Name="Text" Value="Annuler" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.52,0},{0.75,0},{0.96,0},{0.75,45}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DefaultWindow" Name="MenuConnect/NewAccountReport" >
+                <Property Name="Visible" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="Shimstar/Window" Name="MenuConnect/NewAccountReport/Window" >
+                    <Property Name="Text" Value="Confirmation" />
+                    <Property Name="TitlebarFont" Value="Brassiere-m" />
+                    <Property Name="RollUpEnabled" Value="False" />
+                    <Property Name="SizingEnabled" Value="False" />
+                    <Property Name="TitlebarEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,300},{0,250}}" />
+                    <Property Name="DragMovingEnabled" Value="False" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                    <Property Name="CloseButtonEnabled" Value="False" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Window Type="Shimstar/Label" Name="MenuConnect/NewAccountReport/LabelReport" >
+                        <Property Name="Text" Value="Le nouveau compte a été créé avec succès." />
+                        <Property Name="HorzExtent" Value="230" />
+                        <Property Name="VertExtent" Value="58.4941" />
+                        <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.04,0},{0.96,0},{0.64,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="Shimstar/Button" Name="MenuConnect/NewAccountReport/ButtonOK" >
+                        <Property Name="Text" Value="OK" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.34,0},{0.74,0},{0.66,0},{0.74,45}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="menuConnect" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="Shimstar/BackgroundImage" Name="ConnexionBg" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="Shimstar/Groupbox" Name="menuConnect/group" >
+                <Property Name="Text" Value="Connexion " />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,128},{0,128}}" />
+						<Property Name="UnifiedPosition" Value="{{0,0},{0,0}}" />
+						<Property Name="HorizontalAlignment" Value="Centre" />
+						<Property Name="VerticalAlignment" Value="Centre" />
+						<Property Name="UnifiedSize" Value="{{0,640},{0,360}}" />
+						<Window Type="Shimstar/Label" Name="menuConnect/group/LabelLogin">
+							<Property Name="UnifiedPosition" Value="{{0.04,0},{0.12,0}}" />
+							<Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+							<Property Name="UnifiedSize" Value="{{0.36,0},{0.15,0}}" />
+							<Property Name="HorzFormatting" Value="WordWrapCentred" />
+							<Property Name="Text" Value="Identifiant" />
+						</Window>
+						<Window Type="Shimstar/Editbox" Name="menuConnect/group/EditboxLogin">
+								<Property Name="UnifiedPosition" Value="{{0.42,0},{0.12,0}}" />
+								<Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+								<Property Name="UnifiedSize" Value="{{0.54,0},{0.15,0}}" />
+								<Property Name="Tooltip" Value="Saisissez votre identifiant ici." />
+						</Window>
+						<Window Type="Shimstar/Label" Name="menuConnect/group/LabelPass">
+							<Property Name="UnifiedPosition" Value="{{0.04,0},{0.29,0}}" />
+							<Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+							<Property Name="UnifiedSize" Value="{{0.36,0},{0.15,0}}" />
+							<Property Name="HorzFormatting" Value="WordWrapCentred" />
+							<Property Name="Text" Value="Mot de passe" />
+						</Window>
+						<Window Type="Shimstar/Editbox" Name="menuConnect/group/EditboxPass">
+								<Property Name="UnifiedPosition" Value="{{0.42,0},{0.29,0}}" />
+								<Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+								<Property Name="UnifiedSize" Value="{{0.54,0},{0.15,0}}" />
+								<Property Name="Tooltip" Value="Saisissez votre mot de passe ici." />
+						</Window>
+						<Window Type="Shimstar/Button" Name="menuConnect/group/ButtonEnter">
+								<Property Name="UnifiedPosition" Value="{{0.52,0},{0.56,0}}" />
+								<Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+								<Property Name="UnifiedSize" Value="{{0.44,0},{0.15,0}}" />
+								<Property Name="Text" Value="Entrer" />
+								<Property Name="ZRotation" Value="0" />
+							</Window>
+							<Window Type="Shimstar/Button" Name="menuConnect/group/ButtonNew">
+									<Property Name="UnifiedPosition" Value="{{0.52,0},{0.73,0}}" />
+									<Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+									<Property Name="UnifiedSize" Value="{{0.44,0},{0.15,0}}" />
+									<Property Name="Text" Value="Nouveau compte" />
+							</Window>
+							<Window Type="Shimstar/Label" Name="menuConnect/group/LabelStatus">
+									<Property Name="UnifiedPosition" Value="{{0.04,0},{0.632702,0}}" />
+									<Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+									<Property Name="UnifiedSize" Value="{{0.36,0},{0.15,0}}" />
+									<Property Name="Text" Value="" />
+									<Property Name="ZRotation" Value="0" />
+									<Property Name="BackgroundEnabled" Value="False" />
+									<Property Name="HorzFormatting" Value="HorzCentred" />
+									<Property Name="VertFormatting" Value="VertCentred" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

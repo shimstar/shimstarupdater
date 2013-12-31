@@ -1,0 +1,1696 @@
+<?xml version="1.0" ?>
+
+<!--
+    Shimstar.looknfeel by Chriskang
+-->
+<Falagard>
+
+    <WidgetLook name="Shimstar/Button">
+        <PropertyDefinition name="NormalTextColour" initialValue="tl:FFFFFFFF tr:FFFFFFFF bl:FFDDDDDD br:FFDDDDDD" redrawOnWrite="true" />
+        <PropertyDefinition name="HoverTextColour" initialValue="tl:FFFFFFFF tr:FFFFFFFF bl:FFDDDDDD br:FFDDDDDD" redrawOnWrite="true" />
+        <PropertyDefinition name="PushedTextColour" initialValue="tl:FFFFFFFF tr:FFFFFFFF bl:FFDDDDDD br:FFDDDDDD" redrawOnWrite="true" />
+        <PropertyDefinition name="DisabledTextColour" initialValue="tl:FFDDDDDD tr:FFDDDDDD bl:FFBBBBBB br:FFBBBBBB" redrawOnWrite="true" />
+        <ImagerySection name="label">
+            <TextComponent>
+                <Area>
+                    <Dim type="LeftEdge"><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge"><AbsoluteDim value="0" /></Dim>
+                    <Dim type="RightEdge"><UnifiedDim scale="1" type="RightEdge" /></Dim>
+                    <Dim type="BottomEdge"><UnifiedDim scale="1" type="BottomEdge" /></Dim>
+                </Area>
+                <VertFormat type="CentreAligned" />
+                <HorzFormat type="WordWrapCentreAligned" />
+            </TextComponent>
+        </ImagerySection>
+        <ImagerySection name="normal">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge"><AbsoluteDim value="2" /></Dim>
+                    <Dim type="TopEdge"><AbsoluteDim value="2" /></Dim>
+                    <Dim type="RightEdge"><UnifiedDim scale="1" offset="-2" type="RightEdge" /></Dim>
+                    <Dim type="BottomEdge"><UnifiedDim scale="1" offset="-2" type="BottomEdge" /></Dim>
+                </Area>
+                <Image type="LeftEdge" imageset="ShimstarImageset" image="Box1L" />
+                <Image type="RightEdge" imageset="ShimstarImageset" image="Box1R" />
+                <Image type="TopEdge" imageset="ShimstarImageset" image="Box1T" />
+                <Image type="BottomEdge" imageset="ShimstarImageset" image="Box1B" />
+                <Image type="Background" imageset="ShimstarImageset" image="Box1M" />
+                <Image type="TopRightCorner" imageset="ShimstarImageset" image="Box1SquareTR" />
+                <Image type="BottomLeftCorner" imageset="ShimstarImageset" image="Box1SquareBL" />
+                <Image type="BottomRightCorner" imageset="ShimstarImageset" image="Box1RoundBR" />
+                <Image type="TopLeftCorner" imageset="ShimstarImageset" image="Box1RoundTL" />
+            </FrameComponent>
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge"><AbsoluteDim value="4" /></Dim>
+                    <Dim type="TopEdge"><AbsoluteDim value="4" /></Dim>
+                    <Dim type="RightEdge"><UnifiedDim scale="1" offset="-4" type="RightEdge" /></Dim>
+                    <Dim type="BottomEdge"><UnifiedDim scale="1" offset="-4" type="BottomEdge" /></Dim>
+                </Area>
+                <Image imageset="ShimstarImageset" image="LightEffect" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        <ImagerySection name="hover">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge"><AbsoluteDim value="2" /></Dim>
+                    <Dim type="TopEdge"><AbsoluteDim value="2" /></Dim>
+                    <Dim type="RightEdge"><UnifiedDim scale="1" offset="-2" type="RightEdge" /></Dim>
+                    <Dim type="BottomEdge"><UnifiedDim scale="1" offset="-2" type="BottomEdge" /></Dim>
+                </Area>
+                <Image type="LeftEdge" imageset="ShimstarImageset" image="Box2L" />
+                <Image type="RightEdge" imageset="ShimstarImageset" image="Box2R" />
+                <Image type="TopEdge" imageset="ShimstarImageset" image="Box2T" />
+                <Image type="BottomEdge" imageset="ShimstarImageset" image="Box2B" />
+                <Image type="Background" imageset="ShimstarImageset" image="Box2M" />
+                <Image type="TopLeftCorner" imageset="ShimstarImageset" image="Box2RoundTL" />
+                <Image type="TopRightCorner" imageset="ShimstarImageset" image="Box2SquareTR" />
+                <Image type="BottomLeftCorner" imageset="ShimstarImageset" image="Box2SquareBL" />
+                <Image type="BottomRightCorner" imageset="ShimstarImageset" image="Box2RoundBR" />
+            </FrameComponent>
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge"><AbsoluteDim value="4" /></Dim>
+                    <Dim type="TopEdge"><AbsoluteDim value="4" /></Dim>
+                    <Dim type="RightEdge"><UnifiedDim scale="1" offset="-4" type="RightEdge" /></Dim>
+                    <Dim type="BottomEdge"><UnifiedDim scale="1" offset="-4" type="BottomEdge" /></Dim>
+                </Area>
+                <Image imageset="ShimstarImageset" image="LightEffect" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        <ImagerySection name="pushed">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge"><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge"><AbsoluteDim value="0" /></Dim>
+                    <Dim type="RightEdge"><UnifiedDim scale="1" type="RightEdge" /></Dim>
+                    <Dim type="BottomEdge"><UnifiedDim scale="1" type="BottomEdge" /></Dim>
+                </Area>
+                <Image type="LeftEdge" imageset="ShimstarImageset" image="Box3L" />
+                <Image type="RightEdge" imageset="ShimstarImageset" image="Box3R" />
+                <Image type="TopEdge" imageset="ShimstarImageset" image="Box3T" />
+                <Image type="BottomEdge" imageset="ShimstarImageset" image="Box3B" />
+                <Image type="Background" imageset="ShimstarImageset" image="Box3M" />
+                <Image type="TopLeftCorner" imageset="ShimstarImageset" image="Box3RoundTL" />
+                <Image type="TopRightCorner" imageset="ShimstarImageset" image="Box3SquareTR" />
+                <Image type="BottomLeftCorner" imageset="ShimstarImageset" image="Box3SquareBL" />
+                <Image type="BottomRightCorner" imageset="ShimstarImageset" image="Box3RoundBR" />
+            </FrameComponent>
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge"><AbsoluteDim value="2" /></Dim>
+                    <Dim type="TopEdge"><AbsoluteDim value="2" /></Dim>
+                    <Dim type="RightEdge"><UnifiedDim scale="1" offset="-2" type="RightEdge" /></Dim>
+                    <Dim type="BottomEdge"><UnifiedDim scale="1" offset="-2" type="BottomEdge" /></Dim>
+                </Area>
+                <Image imageset="ShimstarImageset" image="LightEffect" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        <StateImagery name="Normal">
+            <Layer>
+                <Section section="normal" >
+                </Section>
+                <Section section="label">
+					<ColourRectProperty name="NormalTextColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Hover">
+            <Layer>
+                <Section section="hover" />
+                <Section section="label">
+                    <ColourRectProperty name="HoverTextColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Pushed">
+            <Layer>
+                <Section section="pushed" />
+                <Section section="label">
+					<ColourRectProperty name="PushedTextColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="PushedOff">
+            <Layer>
+                <Section section="pushed" />
+                <Section section="label">
+					<ColourRectProperty name="PushedTextColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled">
+            <Layer>
+                <Section section="normal" />
+                <Section section="label">
+                    <ColourRectProperty name="DisabledTextColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+
+    <WidgetLook name="Shimstar/RoundButton">
+        <PropertyDefinition name="NormalImage" initialValue="" redrawOnWrite="true" />
+        <PropertyDefinition name="HoverImage" initialValue="" redrawOnWrite="true" />
+        <PropertyDefinition name="PushedImage" initialValue="" redrawOnWrite="true" />
+        <PropertyDefinition name="DisabledImage" initialValue="" redrawOnWrite="true" />
+        <PropertyDefinition name="VertImageFormatting" initialValue="CentreAligned" redrawOnWrite="true" />
+        <PropertyDefinition name="HorzImageFormatting" initialValue="CentreAligned" redrawOnWrite="true" />
+        <ImagerySection name="framenormal">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge"><AbsoluteDim value="2" /></Dim>
+                    <Dim type="TopEdge"><AbsoluteDim value="2" /></Dim>
+                    <Dim type="RightEdge"><UnifiedDim scale="1" offset="-2" type="RightEdge" /></Dim>
+                    <Dim type="BottomEdge"><UnifiedDim scale="1" offset="-2" type="BottomEdge" /></Dim>
+                </Area>
+                <Image type="LeftEdge" imageset="ShimstarImageset" image="Box1L" />
+                <Image type="RightEdge" imageset="ShimstarImageset" image="Box1R" />
+                <Image type="TopEdge" imageset="ShimstarImageset" image="Box1T" />
+                <Image type="BottomEdge" imageset="ShimstarImageset" image="Box1B" />
+                <Image type="Background" imageset="ShimstarImageset" image="Box1M" />
+                <Image type="TopRightCorner" imageset="ShimstarImageset" image="Box1SquareTR" />
+                <Image type="BottomLeftCorner" imageset="ShimstarImageset" image="Box1SquareBL" />
+                <Image type="BottomRightCorner" imageset="ShimstarImageset" image="Box1RoundBR" />
+                <Image type="TopLeftCorner" imageset="ShimstarImageset" image="Box1RoundTL" />
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="imagenormal">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge"><AbsoluteDim value="2" /></Dim>
+                    <Dim type="TopEdge"><AbsoluteDim value="2" /></Dim>
+                    <Dim type="RightEdge"><UnifiedDim scale="1" offset="-2" type="RightEdge" /></Dim>
+                    <Dim type="BottomEdge"><UnifiedDim scale="1" offset="-2" type="BottomEdge" /></Dim>
+                </Area>
+                <ImageProperty name="NormalImage" />
+                <VertFormatProperty name="VertImageFormatting" />
+                <HorzFormatProperty name="HorzImageFormatting" />
+            </ImageryComponent>
+        </ImagerySection>
+        <ImagerySection name="framehover">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge"><AbsoluteDim value="2" /></Dim>
+                    <Dim type="TopEdge"><AbsoluteDim value="2" /></Dim>
+                    <Dim type="RightEdge"><UnifiedDim scale="1" offset="-2" type="RightEdge" /></Dim>
+                    <Dim type="BottomEdge"><UnifiedDim scale="1" offset="-2" type="BottomEdge" /></Dim>
+                </Area>
+                <Image type="LeftEdge" imageset="ShimstarImageset" image="Box2L" />
+                <Image type="RightEdge" imageset="ShimstarImageset" image="Box2R" />
+                <Image type="TopEdge" imageset="ShimstarImageset" image="Box2T" />
+                <Image type="BottomEdge" imageset="ShimstarImageset" image="Box2B" />
+                <Image type="Background" imageset="ShimstarImageset" image="Box2M" />
+                <Image type="TopLeftCorner" imageset="ShimstarImageset" image="Box2RoundTL" />
+                <Image type="TopRightCorner" imageset="ShimstarImageset" image="Box2SquareTR" />
+                <Image type="BottomLeftCorner" imageset="ShimstarImageset" image="Box2SquareBL" />
+                <Image type="BottomRightCorner" imageset="ShimstarImageset" image="Box2RoundBR" />
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="imagehover">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge"><AbsoluteDim value="2" /></Dim>
+                    <Dim type="TopEdge"><AbsoluteDim value="2" /></Dim>
+                    <Dim type="RightEdge"><UnifiedDim scale="1" offset="-2" type="RightEdge" /></Dim>
+                    <Dim type="BottomEdge"><UnifiedDim scale="1" offset="-2" type="BottomEdge" /></Dim>
+                </Area>
+                <ImageProperty name="HoverImage" />
+                <VertFormatProperty name="VertImageFormatting" />
+                <HorzFormatProperty name="HorzImageFormatting" />
+            </ImageryComponent>
+        </ImagerySection>
+        <ImagerySection name="framepushed">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge"><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge"><AbsoluteDim value="0" /></Dim>
+                    <Dim type="RightEdge"><UnifiedDim scale="1" type="RightEdge" /></Dim>
+                    <Dim type="BottomEdge"><UnifiedDim scale="1" type="BottomEdge" /></Dim>
+                </Area>
+                <Image type="LeftEdge" imageset="ShimstarImageset" image="Box3L" />
+                <Image type="RightEdge" imageset="ShimstarImageset" image="Box3R" />
+                <Image type="TopEdge" imageset="ShimstarImageset" image="Box3T" />
+                <Image type="BottomEdge" imageset="ShimstarImageset" image="Box3B" />
+                <Image type="Background" imageset="ShimstarImageset" image="Box3M" />
+                <Image type="TopLeftCorner" imageset="ShimstarImageset" image="Box3RoundTL" />
+                <Image type="TopRightCorner" imageset="ShimstarImageset" image="Box3SquareTR" />
+                <Image type="BottomLeftCorner" imageset="ShimstarImageset" image="Box3SquareBL" />
+                <Image type="BottomRightCorner" imageset="ShimstarImageset" image="Box3RoundBR" />
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="imagepushed">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge"><AbsoluteDim value="2" /></Dim>
+                    <Dim type="TopEdge"><AbsoluteDim value="2" /></Dim>
+                    <Dim type="RightEdge"><UnifiedDim scale="1" offset="-2" type="RightEdge" /></Dim>
+                    <Dim type="BottomEdge"><UnifiedDim scale="1" offset="-2" type="BottomEdge" /></Dim>
+                </Area>
+                <ImageProperty name="PushedImage" />
+                <VertFormatProperty name="VertImageFormatting" />
+                <HorzFormatProperty name="HorzImageFormatting" />
+            </ImageryComponent>
+        </ImagerySection>
+        <ImagerySection name="framedisabled">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge"><AbsoluteDim value="2" /></Dim>
+                    <Dim type="TopEdge"><AbsoluteDim value="2" /></Dim>
+                    <Dim type="RightEdge"><UnifiedDim scale="1" offset="-2" type="RightEdge" /></Dim>
+                    <Dim type="BottomEdge"><UnifiedDim scale="1" offset="-2" type="BottomEdge" /></Dim>
+                </Area>
+                <Image type="LeftEdge" imageset="ShimstarImageset" image="Box1L" />
+                <Image type="RightEdge" imageset="ShimstarImageset" image="Box1R" />
+                <Image type="TopEdge" imageset="ShimstarImageset" image="Box1T" />
+                <Image type="BottomEdge" imageset="ShimstarImageset" image="Box1B" />
+                <Image type="Background" imageset="ShimstarImageset" image="Box1M" />
+                <Image type="TopRightCorner" imageset="ShimstarImageset" image="Box1SquareTR" />
+                <Image type="BottomLeftCorner" imageset="ShimstarImageset" image="Box1SquareBL" />
+                <Image type="BottomRightCorner" imageset="ShimstarImageset" image="Box1RoundBR" />
+                <Image type="TopLeftCorner" imageset="ShimstarImageset" image="Box1RoundTL" />
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="imagedisabled">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge"><AbsoluteDim value="2" /></Dim>
+                    <Dim type="TopEdge"><AbsoluteDim value="2" /></Dim>
+                    <Dim type="RightEdge"><UnifiedDim scale="1" offset="-2" type="RightEdge" /></Dim>
+                    <Dim type="BottomEdge"><UnifiedDim scale="1" offset="-2" type="BottomEdge" /></Dim>
+                </Area>
+                <ImageProperty name="DisabledImage" />
+                <VertFormatProperty name="VertImageFormatting" />
+                <HorzFormatProperty name="HorzImageFormatting" />
+            </ImageryComponent>
+        </ImagerySection>
+        <StateImagery name="Normal">
+            <Layer>
+                <Section section="framenormal" />
+                <Section section="imagenormal" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Hover">
+            <Layer>
+                <Section section="framehover" />
+                <Section section="imagehover" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Pushed">
+            <Layer>
+                <Section section="framepushed" />
+                <Section section="imagepushed" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="PushedOff">
+            <Layer>
+                <Section section="framepushed" />
+                <Section section="imagepushed" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled">
+            <Layer>
+                <Section section="framedisabled" />
+                <Section section="imagedisabled" />
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+
+    <WidgetLook name="Shimstar/ImageButton">
+        <PropertyDefinition name="NormalImage" initialValue="" redrawOnWrite="true" />
+        <PropertyDefinition name="HoverImage" initialValue="" redrawOnWrite="true" />
+        <PropertyDefinition name="PushedImage" initialValue="" redrawOnWrite="true" />
+        <PropertyDefinition name="DisabledImage" initialValue="" redrawOnWrite="true" />
+        <PropertyDefinition name="VertImageFormatting" initialValue="Stretched" redrawOnWrite="true" />
+        <PropertyDefinition name="HorzImageFormatting" initialValue="Stretched" redrawOnWrite="true" />
+        <ImagerySection name="normal">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+                </Area>
+                <ImageProperty name="NormalImage" />
+                <VertFormatProperty name="VertImageFormatting" />
+                <HorzFormatProperty name="HorzImageFormatting" />
+            </ImageryComponent>
+        </ImagerySection>
+        <ImagerySection name="hover">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+                </Area>
+                <ImageProperty name="HoverImage" />
+                <VertFormatProperty name="VertImageFormatting" />
+                <HorzFormatProperty name="HorzImageFormatting" />
+            </ImageryComponent>
+        </ImagerySection>
+        <ImagerySection name="pushed">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+                </Area>
+                <ImageProperty name="PushedImage" />
+                <VertFormatProperty name="VertImageFormatting" />
+                <HorzFormatProperty name="HorzImageFormatting" />
+            </ImageryComponent>
+        </ImagerySection>
+        <ImagerySection name="disabled">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+                </Area>
+                <ImageProperty name="DisabledImage" />
+                <VertFormatProperty name="VertImageFormatting" />
+                <HorzFormatProperty name="HorzImageFormatting" />
+            </ImageryComponent>
+        </ImagerySection>
+        <StateImagery name="Normal">
+            <Layer>
+                <Section section="normal" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Hover">
+            <Layer>
+                <Section section="hover" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Pushed">
+            <Layer>
+                <Section section="pushed" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="PushedOff">
+            <Layer>
+                <Section section="pushed" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled">
+            <Layer>
+                <Section section="disabled" />
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+
+    <WidgetLook name="Shimstar/Label">
+        <Property name="TextColours" value="tl:FFFFFFFF tr:FFFFFFFF bl:FFDDDDDD br:FFDDDDDD" />
+        <Property name="FrameEnabled" value="True" />
+        <Property name="BackgroundEnabled" value="True" />
+        <ImagerySection name="normal">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge"><AbsoluteDim value="2" /></Dim>
+                    <Dim type="TopEdge"><AbsoluteDim value="2" /></Dim>
+                    <Dim type="RightEdge"><UnifiedDim scale="1" offset="-2" type="RightEdge" /></Dim>
+                    <Dim type="BottomEdge"><UnifiedDim scale="1" offset="-2" type="BottomEdge" /></Dim>
+                </Area>
+                <Image type="LeftEdge" imageset="ShimstarImageset" image="Box1L" />
+                <Image type="RightEdge" imageset="ShimstarImageset" image="Box1R" />
+                <Image type="TopEdge" imageset="ShimstarImageset" image="Box1T" />
+                <Image type="BottomEdge" imageset="ShimstarImageset" image="Box1B" />
+                <Image type="Background" imageset="ShimstarImageset" image="Box1M" />
+                <Image type="TopLeftCorner" imageset="ShimstarImageset" image="Box1RoundTL" />
+                <Image type="TopRightCorner" imageset="ShimstarImageset" image="Box1SquareTR" />
+                <Image type="BottomLeftCorner" imageset="ShimstarImageset" image="Box1SquareBL" />
+                <Image type="BottomRightCorner" imageset="ShimstarImageset" image="Box1SquareBR" />
+            </FrameComponent>
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge"><AbsoluteDim value="4" /></Dim>
+                    <Dim type="TopEdge"><AbsoluteDim value="4" /></Dim>
+                    <Dim type="RightEdge"><UnifiedDim scale="1" offset="-4" type="RightEdge" /></Dim>
+                    <Dim type="BottomEdge"><UnifiedDim scale="1" offset="-4" type="BottomEdge" /></Dim>
+                </Area>
+                <Image imageset="ShimstarImageset" image="LightEffect" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        <ImagerySection name="black">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge"><AbsoluteDim value="2" /></Dim>
+                    <Dim type="TopEdge"><AbsoluteDim value="2" /></Dim>
+                    <Dim type="RightEdge"><UnifiedDim scale="1" offset="-2" type="RightEdge" /></Dim>
+                    <Dim type="BottomEdge"><UnifiedDim scale="1" offset="-2" type="BottomEdge" /></Dim>
+                </Area>
+                <Image type="LeftEdge" imageset="ShimstarImageset" image="Box5L" />
+                <Image type="RightEdge" imageset="ShimstarImageset" image="Box5R" />
+                <Image type="TopEdge" imageset="ShimstarImageset" image="Box5T" />
+                <Image type="BottomEdge" imageset="ShimstarImageset" image="Box5B" />
+                <Image type="Background" imageset="ShimstarImageset" image="Box5M" />
+                <Image type="TopLeftCorner" imageset="ShimstarImageset" image="Box5RoundTL" />
+                <Image type="TopRightCorner" imageset="ShimstarImageset" image="Box5SquareTR" />
+                <Image type="BottomLeftCorner" imageset="ShimstarImageset" image="Box5SquareBL" />
+                <Image type="BottomRightCorner" imageset="ShimstarImageset" image="Box5RoundBR" />
+            </FrameComponent>
+        </ImagerySection>
+        <NamedArea name="WithFrameTextRenderArea">
+			<Area>
+				<Dim type="LeftEdge"><AbsoluteDim value="8" /></Dim>
+				<Dim type="TopEdge"><AbsoluteDim value="8" /></Dim>
+				<Dim type="RightEdge"><UnifiedDim scale="1" offset="-8" type="RightEdge" /></Dim>
+				<Dim type="BottomEdge"><UnifiedDim scale="1" offset="-8" type="BottomEdge" /></Dim>
+			</Area>
+        </NamedArea>
+        <NamedArea name="WithFrameTextRenderAreaHScroll">
+			<Area>
+				<Dim type="LeftEdge"><AbsoluteDim value="8" /></Dim>
+				<Dim type="TopEdge"><AbsoluteDim value="8" /></Dim>
+				<Dim type="RightEdge"><UnifiedDim scale="1" offset="-8" type="RightEdge" /></Dim>
+				<Dim type="BottomEdge"><UnifiedDim scale="1" offset="-26" type="BottomEdge" /></Dim>
+			</Area>
+        </NamedArea>
+        <NamedArea name="WithFrameTextRenderAreaVScroll">
+			<Area>
+				<Dim type="LeftEdge"><AbsoluteDim value="8" /></Dim>
+				<Dim type="TopEdge"><AbsoluteDim value="8" /></Dim>
+				<Dim type="RightEdge"><UnifiedDim scale="1" offset="-26" type="RightEdge" /></Dim>
+				<Dim type="BottomEdge"><UnifiedDim scale="1" offset="-8" type="BottomEdge" /></Dim>
+			</Area>
+        </NamedArea>
+        <NamedArea name="WithFrameTextRenderAreaHVScroll">
+			<Area>
+				<Dim type="LeftEdge"><AbsoluteDim value="8" /></Dim>
+				<Dim type="TopEdge"><AbsoluteDim value="8" /></Dim>
+				<Dim type="RightEdge"><UnifiedDim scale="1" offset="-26" type="RightEdge" /></Dim>
+				<Dim type="BottomEdge"><UnifiedDim scale="1" offset="-26" type="BottomEdge" /></Dim>
+			</Area>
+        </NamedArea>
+        <StateImagery name="Enabled">
+        </StateImagery>
+        <StateImagery name="Disabled">
+        </StateImagery>
+        <StateImagery name="EnabledFrame">
+            <Layer>
+                <Section section="black" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="DisabledFrame">
+            <Layer>
+                <Section section="black" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="WithFrameEnabledBackground">
+            <Layer>
+                <Section section="normal" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="WithFrameDisabledBackground">
+            <Layer>
+                <Section section="normal" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="NoFrameEnabledBackground">
+            <Layer>
+                <Section section="normal" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="NoFrameDisabledBackground">
+        </StateImagery>
+        <Child  type="Shimstar/HScrollbar" nameSuffix="__auto_hscrollbar__">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="5" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="-5" /></Dim>
+                <Dim type="Width" ><UnifiedDim scale="1" offset="-26" type="Width" /></Dim>
+                <Dim type="Height" ><AbsoluteDim value="17" /></Dim>
+            </Area>
+            <VertAlignment type="BottomAligned" />
+        </Child>
+        <Child  type="Shimstar/VScrollbar" nameSuffix="__auto_vscrollbar__">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="-5" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="5" /></Dim>
+                <Dim type="Width" ><AbsoluteDim value="17" /></Dim>
+                <Dim type="Height" ><UnifiedDim scale="1" offset="-26" type="Height" /></Dim>
+            </Area>
+            <HorzAlignment type="RightAligned" />
+        </Child>
+    </WidgetLook>
+
+	<WidgetLook name="Shimstar/Editbox">
+        <PropertyDefinition name="NormalTextColour" initialValue="FF000000" redrawOnWrite="true" />
+        <PropertyDefinition name="SelectedTextColour" initialValue="FFFFFFFF" redrawOnWrite="true" />
+        <PropertyDefinition name="ActiveSelectionColour" initialValue="tl:FF507FBF tr:FF507FBF bl:FF305F9F br:FF305F9F" redrawOnWrite="true" />
+        <PropertyDefinition name="InactiveSelectionColour" initialValue="tl:FF808080 tr:FF808080 bl:FF808080 br:FF808080" redrawOnWrite="true" />
+        <!--Property name="MouseCursorImage" value="set:ShimstarImageset image:EditboxCarat" /-->
+        <NamedArea name="TextArea">
+			<Area>
+				<Dim type="LeftEdge"><AbsoluteDim value="7" /></Dim>
+				<Dim type="TopEdge"><AbsoluteDim value="7" /></Dim>
+				<Dim type="RightEdge"><UnifiedDim scale="1" offset="-7" type="RightEdge" /></Dim>
+				<Dim type="BottomEdge"><UnifiedDim scale="1" offset="-7" type="BottomEdge" /></Dim>
+			</Area>
+        </NamedArea>
+        <ImagerySection name="container_normal">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge"><AbsoluteDim value="2" /></Dim>
+                    <Dim type="TopEdge"><AbsoluteDim value="2" /></Dim>
+                    <Dim type="RightEdge"><UnifiedDim scale="1" offset="-2" type="RightEdge" /></Dim>
+                    <Dim type="BottomEdge"><UnifiedDim scale="1" offset="-2" type="BottomEdge" /></Dim>
+                </Area>
+                <Image type="LeftEdge" imageset="ShimstarImageset" image="Box4L" />
+                <Image type="RightEdge" imageset="ShimstarImageset" image="Box4R" />
+                <Image type="TopEdge" imageset="ShimstarImageset" image="Box4T" />
+                <Image type="BottomEdge" imageset="ShimstarImageset" image="Box4B" />
+                <Image type="Background" imageset="ShimstarImageset" image="Box4M" />
+                <Image type="TopLeftCorner" imageset="ShimstarImageset" image="Box4SquareTL" />
+                <Image type="TopRightCorner" imageset="ShimstarImageset" image="Box4SquareTR" />
+                <Image type="BottomLeftCorner" imageset="ShimstarImageset" image="Box4SquareBL" />
+                <Image type="BottomRightCorner" imageset="ShimstarImageset" image="Box4RoundBR" />
+            </FrameComponent>
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge"><AbsoluteDim value="4" /></Dim>
+                    <Dim type="TopEdge"><AbsoluteDim value="4" /></Dim>
+                    <Dim type="RightEdge"><UnifiedDim scale="1" offset="-4" type="RightEdge" /></Dim>
+                    <Dim type="BottomEdge"><UnifiedDim scale="1" offset="-4" type="BottomEdge" /></Dim>
+                </Area>
+                <Image imageset="ShimstarImageset" image="LightEffect" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        <ImagerySection name="selection">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge"><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge"><AbsoluteDim value="0" /></Dim>
+                    <Dim type="RightEdge"><UnifiedDim scale="1" offset="0" type="RightEdge" /></Dim>
+                    <Dim type="BottomEdge"><UnifiedDim scale="1" offset="0" type="BottomEdge" /></Dim>
+                </Area>
+                <Image imageset="ShimstarImageset" image="WhiteBg" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        <ImagerySection name="Carat">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="-3" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="5" /></Dim>
+                    <Dim type="Width" ><ImageDim imageset="ShimstarImageset" image="EditboxCarat" dimension="Width" /></Dim>
+                    <Dim type="BottomEdge" ><UnifiedDim scale="1" type="BottomEdge" /></Dim>
+                </Area>
+                <Image imageset="ShimstarImageset" image="EditboxCarat" />
+                <VertFormat type="CentreAligned" />
+                <HorzFormat type="CentreAligned" />
+            </ImageryComponent>
+        </ImagerySection>
+        <StateImagery name="Enabled">
+            <Layer>
+                <Section section="container_normal" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="ReadOnly">
+            <Layer>
+                <Section section="container_normal" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled">
+            <Layer>
+                <Section section="container_normal">
+                    <Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="ActiveSelection">
+            <Layer>
+                <Section section="selection">
+                    <ColourRectProperty name="ActiveSelectionColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="InactiveSelection">
+            <Layer>
+                <Section section="selection">
+                    <ColourRectProperty name="InactiveSelectionColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+
+	<WidgetLook name="Shimstar/Groupbox">
+	    <PropertyDefinition name="DisabledTextColour" initialValue="tl:FFFFFFFF tr:FFFFFFFF bl:FFDDDDDD br:FFDDDDDD" redrawOnWrite="true" />
+        <PropertyDefinition name="NormalTextColour" initialValue="tl:FFFFFFFF tr:FFFFFFFF bl:FFDDDDDD br:FFDDDDDD" redrawOnWrite="true" />
+
+        <Child type="DefaultWindow" nameSuffix="__auto_contentpane__">
+            <Area>
+                <Dim type="LeftEdge">
+                    <AbsoluteDim value="26" />
+                </Dim>
+                <Dim type="TopEdge">
+                    <AbsoluteDim value="48" />
+                </Dim>
+                <Dim type="RightEdge">
+                    <UnifiedDim scale="1" offset="0" type="RightEdge">
+                        <DimOperator op="Subtract">
+                            <AbsoluteDim value="8" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+                <Dim type="BottomEdge">
+                    <UnifiedDim scale="1" offset="0" type="BottomEdge">
+                        <DimOperator op="Subtract">
+                            <AbsoluteDim value="8" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+            </Area>
+        </Child>
+        <ImagerySection name="frame">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge"><AbsoluteDim value="18" /></Dim>
+                    <Dim type="TopEdge"><AbsoluteDim value="18" /></Dim>
+                    <Dim type="RightEdge"><UnifiedDim scale="1" offset="0" type="RightEdge" /></Dim>
+                    <Dim type="BottomEdge"><UnifiedDim scale="1" offset="0" type="BottomEdge" /></Dim>
+                </Area>
+                <Image type="LeftEdge" imageset="ShimstarImageset" image="BigBox1L" />
+                <Image type="RightEdge" imageset="ShimstarImageset" image="BigBox1R" />
+                <Image type="TopEdge" imageset="ShimstarImageset" image="BigBox1T" />
+                <Image type="BottomEdge" imageset="ShimstarImageset" image="BigBox1B" />
+                <Image type="Background" imageset="ShimstarImageset" image="BigBox1M" />
+                <Image type="TopLeftCorner" imageset="ShimstarImageset" image="BigBox1SquareTL" />
+                <Image type="TopRightCorner" imageset="ShimstarImageset" image="BigBox1SquareTR" />
+                <Image type="BottomLeftCorner" imageset="ShimstarImageset" image="BigBox1SquareBL" />
+                <Image type="BottomRightCorner" imageset="ShimstarImageset" image="BigBox1RoundBR" />
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="label">
+            <TextComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><FontDim type="HorzExtent" padding="30" /></Dim>
+                    <Dim type="Height" ><AbsoluteDim value="40" /></Dim>
+                </Area>
+                <VertFormat type="CentreAligned" />
+                <HorzFormat type="CentreAligned" />
+            </TextComponent>
+        </ImagerySection>
+        <ImagerySection name="label_bg">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><FontDim type="HorzExtent" padding="30" /></Dim>
+                    <Dim type="Height" ><AbsoluteDim value="40" /></Dim>
+                </Area>
+                <Image type="LeftEdge" imageset="ShimstarImageset" image="Box1L" />
+                <Image type="RightEdge" imageset="ShimstarImageset" image="Box1R" />
+                <Image type="TopEdge" imageset="ShimstarImageset" image="Box1T" />
+                <Image type="BottomEdge" imageset="ShimstarImageset" image="Box1B" />
+                <Image type="Background" imageset="ShimstarImageset" image="Box1M" />
+                <Image type="TopLeftCorner" imageset="ShimstarImageset" image="Box1RoundTL" />
+                <Image type="TopRightCorner" imageset="ShimstarImageset" image="Box1SquareTR" />
+                <Image type="BottomLeftCorner" imageset="ShimstarImageset" image="Box1SquareBL" />
+                <Image type="BottomRightCorner" imageset="ShimstarImageset" image="Box1SquareBR" />
+            </FrameComponent>
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge"><AbsoluteDim value="2" /></Dim>
+                    <Dim type="TopEdge"><AbsoluteDim value="2" /></Dim>
+                    <Dim type="Width" ><FontDim type="HorzExtent" padding="26" /></Dim>
+                    <Dim type="Height" ><AbsoluteDim value="36" /></Dim>
+                </Area>
+                <Image imageset="ShimstarImageset" image="LightEffect" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        <StateImagery name="Enabled">
+            <Layer>
+                <Section section="frame" />
+                <Section section="label_bg" />
+                <Section section="label">
+                    <ColourRectProperty name="NormalTextColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled">
+            <Layer>
+                <Section section="frame" />
+				<Section section="label_bg" />
+				<Section section="label">
+                    <ColourRectProperty name="DisabledTextColour" />
+                </Section>
+            </Layer>
+        </StateImagery>  
+    </WidgetLook>
+
+    <WidgetLook name="Shimstar/BackgroundImage">
+        <PropertyDefinition name="BackgroundImage" initialValue="" redrawOnWrite="true" />
+        <PropertyDefinition name="VertImageFormatting" initialValue="Stretched" redrawOnWrite="true" />
+        <PropertyDefinition name="HorzImageFormatting" initialValue="Stretched" redrawOnWrite="true" />
+        <ImagerySection name="normal">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+                </Area>
+                <ImageProperty name="BackgroundImage" />
+                <VertFormatProperty name="VertImageFormatting" />
+                <HorzFormatProperty name="HorzImageFormatting" />
+            </ImageryComponent>
+        </ImagerySection>
+        <StateImagery name="Enabled">
+            <Layer>
+                <Section section="normal" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled">
+        </StateImagery>
+    </WidgetLook>
+
+	
+	
+    <WidgetLook name="Shimstar/VerticalScrollbarThumb">
+        <Property name="VertFree" value="True" />
+        <Property name="MouseInputPropagationEnabled" value="True" />
+        <ImagerySection name="normal">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1.0" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1.0" type="Height" /></Dim>
+                </Area>
+                <Image type="TopEdge" imageset="ShimstarImageset" image="Slider1VT" />
+                <Image type="BottomEdge" imageset="ShimstarImageset" image="Slider1VB" />
+                <Image type="Background" imageset="ShimstarImageset" image="Slider1VM" />
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="hover">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1.0" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1.0" type="Height" /></Dim>
+                </Area>
+                <Image type="TopEdge" imageset="ShimstarImageset" image="Slider2VT" />
+                <Image type="BottomEdge" imageset="ShimstarImageset" image="Slider2VB" />
+                <Image type="Background" imageset="ShimstarImageset" image="Slider2VM" />
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="pushed">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1.0" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1.0" type="Height" /></Dim>
+                </Area>
+                <Image type="TopEdge" imageset="ShimstarImageset" image="Slider3VT" />
+                <Image type="BottomEdge" imageset="ShimstarImageset" image="Slider3VB" />
+                <Image type="Background" imageset="ShimstarImageset" image="Slider3VM" />
+            </FrameComponent>
+        </ImagerySection>
+        <StateImagery name="Normal">
+            <Layer>
+                <Section section="normal" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Hover">
+            <Layer>
+                <Section section="hover" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Pushed">
+            <Layer>
+                <Section section="pushed" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="PushedOff">
+            <Layer>
+                <Section section="pushed" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled">
+            <Layer>
+                <Section section="normal">
+                    <Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F" />
+                </Section>
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+
+    <WidgetLook name="Shimstar/VerticalScrollbar">
+        <Property name="VerticalScrollbar" value="True" />
+        <NamedArea name="ThumbTrackArea">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="14" /></Dim>
+                <Dim type="RightEdge" ><UnifiedDim scale="1.0" type="RightEdge" /></Dim>
+                <Dim type="BottomEdge" >
+                    <UnifiedDim scale="1.0" type="BottomEdge">
+                        <DimOperator op="Subtract">
+                            <AbsoluteDim value="14" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+            </Area>
+        </NamedArea>
+        <Child  type="Shimstar/ImageButton" nameSuffix="__auto_incbtn__">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                <Dim type="Height" ><ImageDim imageset="ShimstarImageset" image="ScrollButton1D" dimension="Height" /></Dim>
+            </Area>
+            <VertAlignment type="BottomAligned" />
+			<Property name="WantsMultiClickEvents" value="False" />
+            <Property name="NormalImage" value="set:ShimstarImageset image:ScrollButton1D" />
+            <Property name="HoverImage" value="set:ShimstarImageset image:ScrollButton2D" />
+            <Property name="PushedImage" value="set:ShimstarImageset image:ScrollButton3D" />
+        </Child>
+        <Child  type="Shimstar/ImageButton" nameSuffix="__auto_decbtn__">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                <Dim type="Height" ><ImageDim imageset="ShimstarImageset" image="ScrollButton1U" dimension="Height" /></Dim>
+            </Area>
+            <VertAlignment type="TopAligned" />
+			<Property name="WantsMultiClickEvents" value="False" />
+            <Property name="NormalImage" value="set:ShimstarImageset image:ScrollButton1U" />
+            <Property name="HoverImage" value="set:ShimstarImageset image:ScrollButton2U" />
+            <Property name="PushedImage" value="set:ShimstarImageset image:ScrollButton3U" />
+        </Child>
+        <Child  type="Shimstar/VScrollbarThumb" nameSuffix="__auto_thumb__">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                <Dim type="Height" ><AbsoluteDim value="44" /></Dim>
+            </Area>
+        </Child>
+        <ImagerySection name="main">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="RightEdge" ><UnifiedDim scale="1.0" type="RightEdge" /></Dim>
+                    <Dim type="BottomEdge" >
+                        <UnifiedDim scale="1.0" type="BottomEdge">
+                        </UnifiedDim>
+                    </Dim>
+                </Area>
+                <Image imageset="ShimstarImageset" image="Grid1V" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="CentreAligned" />
+            </ImageryComponent>
+        </ImagerySection>
+        <StateImagery name="Enabled">
+            <Layer>
+                <Section section="main" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled">
+            <Layer>
+                <Section section="main">
+                    <Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F" />
+                </Section>
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+
+	<WidgetLook name="Shimstar/HorizontalScrollbarThumb">
+        <Property name="HorzFree" value="True" />
+        <Property name="MouseInputPropagationEnabled" value="True" />
+        <ImagerySection name="normal">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1.0" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1.0" type="Height" /></Dim>
+                </Area>
+                <Image type="LeftEdge" imageset="ShimstarImageset" image="Slider1HL" />
+                <Image type="RightEdge" imageset="ShimstarImageset" image="Slider1HR" />
+                <Image type="Background" imageset="ShimstarImageset" image="Slider1HM" />
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="hover">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1.0" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1.0" type="Height" /></Dim>
+                </Area>
+                <Image type="LeftEdge" imageset="ShimstarImageset" image="Slider2HL" />
+                <Image type="RightEdge" imageset="ShimstarImageset" image="Slider2HR" />
+                <Image type="Background" imageset="ShimstarImageset" image="Slider2HM" />
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="pushed">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1.0" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1.0" type="Height" /></Dim>
+                </Area>
+                <Image type="LeftEdge" imageset="ShimstarImageset" image="Slider3HL" />
+                <Image type="RightEdge" imageset="ShimstarImageset" image="Slider3HR" />
+                <Image type="Background" imageset="ShimstarImageset" image="Slider3HM" />
+            </FrameComponent>
+        </ImagerySection>
+        <StateImagery name="Normal">
+            <Layer>
+                <Section section="normal" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Hover">
+            <Layer>
+                <Section section="hover" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Pushed">
+            <Layer>
+                <Section section="pushed" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="PushedOff">
+            <Layer>
+                <Section section="pushed" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled">
+            <Layer>
+                <Section section="normal">
+                    <Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F" />
+                </Section>
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+
+    <WidgetLook name="Shimstar/HorizontalScrollbar">
+        <NamedArea name="ThumbTrackArea">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="14" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="RightEdge" >
+                    <UnifiedDim scale="1.0" type="RightEdge">
+                        <DimOperator op="Subtract">
+                            <AbsoluteDim value="14" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+                <Dim type="BottomEdge" ><UnifiedDim scale="1.0" type="BottomEdge" /></Dim>
+            </Area>
+        </NamedArea>
+        <Child  type="Shimstar/ImageButton" nameSuffix="__auto_incbtn__">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="Width" ><ImageDim imageset="ShimstarImageset" image="ScrollButton1R" dimension="Width" /></Dim>
+                <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+            </Area>
+            <HorzAlignment type="RightAligned" />
+			<Property name="WantsMultiClickEvents" value="False" />
+            <Property name="NormalImage" value="set:ShimstarImageset image:ScrollButton1R" />
+            <Property name="HoverImage" value="set:ShimstarImageset image:ScrollButton2R" />
+            <Property name="PushedImage" value="set:ShimstarImageset image:ScrollButton3R" />
+        </Child>
+        <Child  type="Shimstar/ImageButton" nameSuffix="__auto_decbtn__">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="Width" ><ImageDim imageset="ShimstarImageset" image="ScrollButton1L" dimension="Width" /></Dim>
+                <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+            </Area>
+            <HorzAlignment type="LeftAligned" />
+			<Property name="WantsMultiClickEvents" value="False" />
+            <Property name="NormalImage" value="set:ShimstarImageset image:ScrollButton1L" />
+            <Property name="HoverImage" value="set:ShimstarImageset image:ScrollButton2L" />
+            <Property name="PushedImage" value="set:ShimstarImageset image:ScrollButton3L" />
+        </Child>
+        <Child  type="Shimstar/HScrollbarThumb" nameSuffix="__auto_thumb__">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="Width" ><AbsoluteDim value="44" /></Dim>
+                <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+            </Area>
+        </Child>
+        <ImagerySection name="main">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="RightEdge" >
+                        <UnifiedDim scale="1.0" type="RightEdge">
+                        </UnifiedDim>
+                    </Dim>
+                    <Dim type="BottomEdge" ><UnifiedDim scale="1.0" type="BottomEdge" /></Dim>
+                </Area>
+                <Image imageset="ShimstarImageset" image="Grid1H" />
+                <VertFormat type="CentreAligned" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        <StateImagery name="Enabled">
+            <Layer>
+                <Section section="main" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled">
+            <Layer>
+                <Section section="main">
+                    <Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F" />
+                </Section>
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+	
+	
+	
+    <WidgetLook name="Shimstar/GradientBar">
+        <Property name="VerticalProgress" value="False" />
+        <Property name="ReversedProgress" value="True" />
+        <PropertyDefinition name="GradientColour" initialValue="tl:FFFF0000 tr:FF00FF00 bl:FFBB0000 br:FF00BB00" redrawOnWrite="true" />
+        <NamedArea name="ProgressArea">
+            <Area>
+                    <Dim type="LeftEdge"><AbsoluteDim value="3" /></Dim>
+                    <Dim type="TopEdge"><AbsoluteDim value="3" /></Dim>
+                    <Dim type="RightEdge"><UnifiedDim scale="1" offset="-3" type="RightEdge" /></Dim>
+                    <Dim type="BottomEdge"><UnifiedDim scale="1" offset="-3" type="BottomEdge" /></Dim>
+            </Area>
+        </NamedArea>
+        <ImagerySection name="barFrame">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge"><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge"><AbsoluteDim value="0" /></Dim>
+                    <Dim type="RightEdge"><UnifiedDim scale="1" type="RightEdge" /></Dim>
+                    <Dim type="BottomEdge"><UnifiedDim scale="1" type="BottomEdge" /></Dim>
+                </Area>
+                <Image type="LeftEdge" imageset="ShimstarImageset" image="SmallBox5L" />
+                <Image type="RightEdge" imageset="ShimstarImageset" image="SmallBox5R" />
+                <Image type="TopEdge" imageset="ShimstarImageset" image="SmallBox5T" />
+                <Image type="BottomEdge" imageset="ShimstarImageset" image="SmallBox5B" />
+                <Image type="Background" imageset="ShimstarImageset" image="SmallBox5M" />
+                <Image type="TopLeftCorner" imageset="ShimstarImageset" image="SmallBox5SquareTL" />
+                <Image type="TopRightCorner" imageset="ShimstarImageset" image="SmallBox5SquareTR" />
+                <Image type="BottomLeftCorner" imageset="ShimstarImageset" image="SmallBox5SquareBL" />
+                <Image type="BottomRightCorner" imageset="ShimstarImageset" image="SmallBox5SquareBR" />
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="barGradient" >
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge"><AbsoluteDim value="3" /></Dim>
+                    <Dim type="TopEdge"><AbsoluteDim value="3" /></Dim>
+                    <Dim type="RightEdge"><UnifiedDim scale="1" offset="-3" type="RightEdge" /></Dim>
+                    <Dim type="BottomEdge"><UnifiedDim scale="1" offset="-3" type="BottomEdge" /></Dim>
+                </Area>
+                <Image imageset="ShimstarImageset" image="WhiteBg" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        <ImagerySection name="barBack" >
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><UnifiedDim scale="0" type="LeftEdge" /></Dim>
+                    <Dim type="TopEdge" ><UnifiedDim scale="0" type="TopEdge" /></Dim>
+                    <Dim type="RightEdge"><UnifiedDim scale="1" type="RightEdge" /></Dim>
+                    <Dim type="BottomEdge"><UnifiedDim scale="1" type="BottomEdge" /></Dim>
+                </Area>
+                <Image imageset="ShimstarImageset" image="WhiteBg" />
+                <Colours topLeft="FF000000" topRight="FF000000" bottomLeft="FF000000" bottomRight="FF000000" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        <StateImagery name="Enabled">
+            <Layer>
+                <Section section="barFrame" />
+                <Section section="barGradient" >
+					<ColourRectProperty name="GradientColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled">
+            <Layer>
+                <Section section="barFrame" />
+                <Section section="barGradient">
+                    <Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="EnabledProgress">
+            <Layer>
+                <Section section="barBack" />
+                <Section section="barBack" />
+                <Section section="barBack" />
+                <Section section="barBack" />
+                <Section section="barBack" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="DisabledProgress">
+            <Layer>
+                <Section section="barBack" />
+                <Section section="barBack" />
+                <Section section="barBack" />
+                <Section section="barBack" />
+                <Section section="barBack" />
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+
+    <WidgetLook name="Shimstar/MediumProgressBar">
+        <Property name="VerticalProgress" value="False" />
+        <PropertyDefinition name="ProgressImage" initialValue="set:ShimstarImageset image:RedYellowGreen" redrawOnWrite="true" />
+        <NamedArea name="ProgressArea">
+            <Area>
+                    <Dim type="LeftEdge"><AbsoluteDim value="3" /></Dim>
+                    <Dim type="TopEdge"><AbsoluteDim value="3" /></Dim>
+                    <Dim type="RightEdge"><UnifiedDim scale="1" offset="-3" type="RightEdge" /></Dim>
+                    <Dim type="BottomEdge"><UnifiedDim scale="1" offset="-3" type="BottomEdge" /></Dim>
+            </Area>
+        </NamedArea>
+        <ImagerySection name="barFrame">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge"><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge"><AbsoluteDim value="0" /></Dim>
+                    <Dim type="RightEdge"><UnifiedDim scale="1" type="RightEdge" /></Dim>
+                    <Dim type="BottomEdge"><UnifiedDim scale="1" type="BottomEdge" /></Dim>
+                </Area>
+                <Image type="LeftEdge" imageset="ShimstarImageset" image="SmallBox5L" />
+                <Image type="RightEdge" imageset="ShimstarImageset" image="SmallBox5R" />
+                <Image type="TopEdge" imageset="ShimstarImageset" image="SmallBox5T" />
+                <Image type="BottomEdge" imageset="ShimstarImageset" image="SmallBox5B" />
+                <Image type="Background" imageset="ShimstarImageset" image="SmallBox5M" />
+                <Image type="TopLeftCorner" imageset="ShimstarImageset" image="SmallBox5SquareTL" />
+                <Image type="TopRightCorner" imageset="ShimstarImageset" image="SmallBox5SquareTR" />
+                <Image type="BottomLeftCorner" imageset="ShimstarImageset" image="SmallBox5SquareBL" />
+                <Image type="BottomRightCorner" imageset="ShimstarImageset" image="SmallBox5SquareBR" />
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="barGradient" >
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><UnifiedDim scale="0" type="LeftEdge" /></Dim>
+                    <Dim type="TopEdge" ><UnifiedDim scale="0" type="TopEdge" /></Dim>
+                    <Dim type="RightEdge"><UnifiedDim scale="1" type="RightEdge" /></Dim>
+                    <Dim type="BottomEdge"><UnifiedDim scale="1" type="BottomEdge" /></Dim>
+                </Area>
+                <ImageProperty name="ProgressImage" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        <StateImagery name="Enabled">
+            <Layer>
+                <Section section="barFrame" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled">
+            <Layer>
+                <Section section="barFrame">
+                    <Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="EnabledProgress">
+            <Layer>
+                <Section section="barGradient">
+                    <Colours topLeft="FFFFFFFF" topRight="FFFFFFFF" bottomLeft="FFA0A0A0" bottomRight="FFA0A0A0" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="DisabledProgress">
+            <Layer>
+                <Section section="barGradient">
+                    <Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F" />
+                </Section>
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+
+	
+	
+	<WidgetLook name="Shimstar/Titlebar">
+        <PropertyDefinition name="CaptionColour" initialValue="FFFFFFFF" redrawOnWrite="true" />
+        <Property name="NonClient" value="True" />
+        <ImagerySection name="main">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1.0" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1.0" type="Height" /></Dim>
+                </Area>
+                <Image type="LeftEdge" imageset="ShimstarImageset" image="Box1L" />
+                <Image type="RightEdge" imageset="ShimstarImageset" image="Box1R" />
+                <Image type="TopEdge" imageset="ShimstarImageset" image="Box1T" />
+                <Image type="BottomEdge" imageset="ShimstarImageset" image="Box1B" />
+                <Image type="Background" imageset="ShimstarImageset" image="Box1M" />
+                <Image type="TopLeftCorner" imageset="ShimstarImageset" image="Box1RoundTL" />
+                <Image type="TopRightCorner" imageset="ShimstarImageset" image="Box1SquareTR" />
+                <Image type="BottomLeftCorner" imageset="ShimstarImageset" image="Box1SquareBL" />
+                <Image type="BottomRightCorner" imageset="ShimstarImageset" image="Box1SquareBR" />
+            </FrameComponent>
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge"><AbsoluteDim value="2" /></Dim>
+                    <Dim type="TopEdge"><AbsoluteDim value="2" /></Dim>
+                    <Dim type="RightEdge"><UnifiedDim scale="1" offset="-2" type="RightEdge" /></Dim>
+                    <Dim type="BottomEdge"><UnifiedDim scale="1" offset="-2" type="BottomEdge" /></Dim>
+                </Area>
+                <Image imageset="ShimstarImageset" image="LightEffect" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        <ImagerySection name="caption">
+            <TextComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1.0" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1.0" type="Height" /></Dim>
+                </Area>
+                <ColourProperty name="CaptionColour" />
+                <VertFormat type="CentreAligned" />
+                <HorzFormat type="CentreAligned" />
+            </TextComponent>
+        </ImagerySection>
+        <StateImagery name="Active">
+            <Layer>
+                <Section section="main" />
+                <Section section="caption" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Inactive">
+            <Layer>
+                <Section section="main" />
+                <Section section="caption" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled">
+            <Layer>
+                <Section section="main">
+                    <Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F" />
+                </Section>
+                <Section section="caption">
+                    <Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F" />
+                </Section>
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+
+    <WidgetLook name="Shimstar/Window">
+        <PropertyDefinition name="ClientAreaColour" initialValue="FF141B38" redrawOnWrite="true" />
+        <PropertyLinkDefinition name="CaptionColour" widget="__auto_titlebar__" targetProperty="CaptionColour" initialValue="FFFFFFFF" />
+        <PropertyLinkDefinition name="TitlebarFont" widget="__auto_titlebar__" targetProperty="Font" />
+        <Property name="NSSizingCursorImage" value="set:TaharezLook image:MouseNoSoCursor" />
+        <Property name="EWSizingCursorImage" value="set:TaharezLook image:MouseEsWeCursor" />
+        <Property name="NWSESizingCursorImage" value="set:TaharezLook image:MouseNwSeCursor" />
+        <Property name="NESWSizingCursorImage" value="set:TaharezLook image:MouseNeSwCursor" />
+        <Property name="UnifiedMinSize" value="{{0.1,0},{0.1,0}}" />
+        <Property name="AutoRenderingSurface" value="True" />
+        <NamedArea name="ClientWithTitleWithFrame">
+            <Area>
+                <Dim type="LeftEdge">
+                    <AbsoluteDim value="20" />
+                </Dim>
+                <Dim type="TopEdge">
+                    <AbsoluteDim value="36" />
+                </Dim>
+                <Dim type="RightEdge">
+                    <UnifiedDim scale="1" offset="0" type="RightEdge">
+                        <DimOperator op="Subtract">
+                            <AbsoluteDim value="8" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+                <Dim type="BottomEdge">
+                    <UnifiedDim scale="1" offset="0" type="BottomEdge">
+                        <DimOperator op="Subtract">
+                            <AbsoluteDim value="8" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+            </Area>
+        </NamedArea>
+        <NamedArea name="ClientWithTitleNoFrame">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><WidgetDim widget="__auto_titlebar__" dimension="BottomEdge" /></Dim>
+                <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                <Dim type="BottomEdge" ><WidgetDim dimension="BottomEdge" /></Dim>
+            </Area>
+        </NamedArea>
+        <NamedArea name="ClientNoTitleWithFrame">
+            <Area>
+                <Dim type="LeftEdge">
+                    <AbsoluteDim value="20" />
+                </Dim>
+                <Dim type="TopEdge">
+                    <AbsoluteDim value="36" />
+                </Dim>
+                <Dim type="RightEdge">
+                    <UnifiedDim scale="1" offset="0" type="RightEdge">
+                        <DimOperator op="Subtract">
+                            <AbsoluteDim value="8" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+                <Dim type="BottomEdge">
+                    <UnifiedDim scale="1" offset="0" type="BottomEdge">
+                        <DimOperator op="Subtract">
+                            <AbsoluteDim value="8" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+            </Area>
+        </NamedArea>
+        <NamedArea name="ClientNoTitleNoFrame">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+            </Area>
+        </NamedArea>
+        <Child type="Shimstar/Titlebar" nameSuffix="__auto_titlebar__">
+            <Area>
+				<Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+				<Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+				<Dim type="Width" ><FontDim type="HorzExtent" padding="30" /></Dim>
+				<Dim type="Height" ><AbsoluteDim value="28" /></Dim>
+            </Area>
+            <Property name="AlwaysOnTop" value="False" />
+        </Child>
+        <Child type="Shimstar/RoundButton" nameSuffix="__auto_closebutton__">
+            <Area>
+                <Dim type="LeftEdge" >
+                    <UnifiedDim scale="1" offset="0" type="RightEdge">
+                        <DimOperator op="Subtract">
+                            <AbsoluteDim value="44" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="Width" ><AbsoluteDim value="28" /></Dim>
+                <Dim type="Height" ><AbsoluteDim value="28" /></Dim>
+            </Area>
+            <Property name="AlwaysOnTop" value="True" />
+            <Property name="NormalImage" value="set:ShimstarImageset image:CloseButton" />
+            <Property name="HoverImage" value="set:ShimstarImageset image:CloseButton" />
+            <Property name="PushedImage" value="set:ShimstarImageset image:CloseButton" />
+            <Property name="NonClient" value="True" />
+        </Child>
+        <ImagerySection name="withtitle_frame">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge"><AbsoluteDim value="12" /></Dim>
+                    <Dim type="TopEdge"><AbsoluteDim value="12" /></Dim>
+                    <Dim type="RightEdge"><UnifiedDim scale="1" offset="0" type="RightEdge" /></Dim>
+                    <Dim type="BottomEdge"><UnifiedDim scale="1" offset="0" type="BottomEdge" /></Dim>
+                </Area>
+                <Image type="LeftEdge" imageset="ShimstarImageset" image="BigBox1L" />
+                <Image type="RightEdge" imageset="ShimstarImageset" image="BigBox1R" />
+                <Image type="TopEdge" imageset="ShimstarImageset" image="BigBox1T" />
+                <Image type="BottomEdge" imageset="ShimstarImageset" image="BigBox1B" />
+                <Image type="Background" imageset="ShimstarImageset" image="BigBox1M" />
+                <Image type="TopLeftCorner" imageset="ShimstarImageset" image="BigBox1SquareTL" />
+                <Image type="TopRightCorner" imageset="ShimstarImageset" image="BigBox1SquareTR" />
+                <Image type="BottomLeftCorner" imageset="ShimstarImageset" image="BigBox1SquareBL" />
+                <Image type="BottomRightCorner" imageset="ShimstarImageset" image="BigBox1RoundBR" />
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="notitle_frame">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge"><AbsoluteDim value="12" /></Dim>
+                    <Dim type="TopEdge"><AbsoluteDim value="12" /></Dim>
+                    <Dim type="RightEdge"><UnifiedDim scale="1" offset="0" type="RightEdge" /></Dim>
+                    <Dim type="BottomEdge"><UnifiedDim scale="1" offset="0" type="BottomEdge" /></Dim>
+                </Area>
+                <Image type="LeftEdge" imageset="ShimstarImageset" image="BigBox1L" />
+                <Image type="RightEdge" imageset="ShimstarImageset" image="BigBox1R" />
+                <Image type="TopEdge" imageset="ShimstarImageset" image="BigBox1T" />
+                <Image type="BottomEdge" imageset="ShimstarImageset" image="BigBox1B" />
+                <Image type="Background" imageset="ShimstarImageset" image="BigBox1M" />
+                <Image type="TopLeftCorner" imageset="ShimstarImageset" image="BigBox1SquareTL" />
+                <Image type="TopRightCorner" imageset="ShimstarImageset" image="BigBox1SquareTR" />
+                <Image type="BottomLeftCorner" imageset="ShimstarImageset" image="BigBox1SquareBL" />
+                <Image type="BottomRightCorner" imageset="ShimstarImageset" image="BigBox1RoundBR" />
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="withtitle_noframe_client_area">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><WidgetDim widget="__auto_titlebar__" dimension="Height" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="BottomEdge" ><UnifiedDim scale="1" type="BottomEdge" /></Dim>
+                </Area>
+                <Image imageset="ShimstarImageset" image="BigBox1M" />
+                <ColourProperty name="ClientAreaColour" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        <ImagerySection name="notitle_noframe_client_area">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+                </Area>
+                <Image imageset="ShimstarImageset" image="BigBox1M" />
+                <ColourProperty name="ClientAreaColour" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        <StateImagery name="ActiveWithTitleWithFrame">
+            <Layer>
+                <Section section="withtitle_frame" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="InactiveWithTitleWithFrame">
+            <Layer>
+                <Section section="withtitle_frame" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="DisabledWithTitleWithFrame">
+            <Layer>
+                <Section section="withtitle_frame">
+                    <Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="ActiveWithTitleNoFrame">
+            <Layer>
+                <Section section="withtitle_noframe_client_area" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="InactiveWithTitleNoFrame">
+            <Layer>
+                <Section section="withtitle_noframe_client_area" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="DisabledWithTitleNoFrame">
+            <Layer>
+                <Section section="withtitle_noframe_client_area">
+                    <Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="ActiveNoTitleWithFrame">
+            <Layer>
+                <Section section="notitle_frame" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="InactiveNoTitleWithFrame">
+            <Layer>
+                <Section section="notitle_frame" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="DisabledNoTitleWithFrame">
+            <Layer>
+                <Section section="notitle_frame">
+                    <Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="ActiveNoTitleNoFrame">
+            <Layer>
+                <Section section="notitle_noframe_client_area" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="InactiveNoTitleNoFrame">
+            <Layer>
+                <Section section="notitle_noframe_client_area" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="DisabledNoTitleNoFrame">
+            <Layer>
+                <Section section="notitle_noframe_client_area">
+                    <Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F" />
+                </Section>
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+
+
+	
+    <WidgetLook name="Shimstar/ChatBackground">
+        <PropertyDefinition name="NormalColours" initialValue="tl:BFFFFFFF tr:BFFFFFFF bl:BFFFFFFF br:BFFFFFFF" redrawOnWrite="true" />
+        <PropertyDefinition name="HoverColours" initialValue="tl:BFFFFFFF tr:BFFFFFFF bl:BFFFFFFF br:BFFFFFFF" redrawOnWrite="true" />
+        <PropertyDefinition name="DisabledColours" initialValue="tl:FFDDDDDD tr:FFDDDDDD bl:FFBBBBBB br:FFBBBBBB" redrawOnWrite="true" />
+        <ImagerySection name="normal">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge"><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge"><AbsoluteDim value="0" /></Dim>
+                    <Dim type="RightEdge"><UnifiedDim scale="1" type="RightEdge" /></Dim>
+                    <Dim type="BottomEdge"><UnifiedDim scale="1" type="BottomEdge" /></Dim>
+                </Area>
+                <Image type="RightEdge" imageset="ShimstarImageset" image="Box1R" />
+                <Image type="Background" imageset="ShimstarImageset" image="Box1M" />
+            </FrameComponent>
+        </ImagerySection>
+        <StateImagery name="Normal">
+            <Layer>
+                <Section section="normal" >
+                    <ColourRectProperty name="NormalColours" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Hover">
+            <Layer>
+                <Section section="normal" >
+                    <ColourRectProperty name="HoverColours" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Pushed">
+            <Layer>
+                <Section section="normal" >
+                    <ColourRectProperty name="HoverColours" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled">
+            <Layer>
+                <Section section="normal" >
+                    <ColourRectProperty name="DisabledColours" />
+                </Section>
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+
+
+
+    <WidgetLook name="Shimstar/ScrollablePane">
+        <NamedArea name="ViewableArea">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="RightEdge" ><UnifiedDim scale="1.0" type="RightEdge" /></Dim>
+                <Dim type="BottomEdge" ><UnifiedDim scale="1.0" type="BottomEdge" /></Dim>
+            </Area>
+        </NamedArea>
+        <NamedArea name="ViewableAreaHScroll">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="RightEdge" ><UnifiedDim scale="1.0" type="RightEdge" /></Dim>
+                <Dim type="BottomEdge" >
+                    <UnifiedDim scale="1" type="BottomEdge">
+                        <DimOperator op="Subtract">
+                            <WidgetDim widget="__auto_hscrollbar__" dimension="Height" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+            </Area>
+        </NamedArea>
+        <NamedArea name="ViewableAreaVScroll">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="RightEdge" >
+                    <UnifiedDim scale="1" type="RightEdge">
+                        <DimOperator op="Subtract">
+                            <WidgetDim widget="__auto_vscrollbar__" dimension="Width" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+                <Dim type="BottomEdge" ><UnifiedDim scale="1.0" type="BottomEdge" /></Dim>
+            </Area>
+        </NamedArea>
+        <NamedArea name="ViewableAreaHVScroll">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="RightEdge" >
+                    <UnifiedDim scale="1" type="RightEdge">
+                        <DimOperator op="Subtract">
+                            <WidgetDim widget="__auto_vscrollbar__" dimension="Width" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+                <Dim type="BottomEdge" >
+                    <UnifiedDim scale="1" type="BottomEdge">
+                        <DimOperator op="Subtract">
+                            <WidgetDim widget="__auto_hscrollbar__" dimension="Height" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+            </Area>
+        </NamedArea>
+        <Child  type="Shimstar/HScrollbar" nameSuffix="__auto_hscrollbar__">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="Width" ><UnifiedDim scale="1" offset="-18" type="Width" /></Dim>
+                <Dim type="Height" ><AbsoluteDim value="17" /></Dim>
+            </Area>
+            <VertAlignment type="BottomAligned" />
+            <Property name="NonClient" value="True" />
+        </Child>
+        <Child  type="Shimstar/VScrollbar" nameSuffix="__auto_vscrollbar__">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="Width" ><AbsoluteDim value="17" /></Dim>
+                <Dim type="Height" ><UnifiedDim scale="1" offset="-18" type="Height" /></Dim>
+            </Area>
+            <HorzAlignment type="RightAligned" />
+            <Property name="NonClient" value="True" />
+        </Child>
+        <StateImagery name="Enabled" />
+        <StateImagery name="Disabled" />
+    </WidgetLook>
+
+</Falagard>

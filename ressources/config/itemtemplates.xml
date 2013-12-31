@@ -16,22 +16,22 @@
             <numero>1</numero>
          </slot>
          <slot>
-            <item>
+            <slotitem>
                <iditem>0</iditem>
                <typeitem>2</typeitem>
                <template>3</template>
-            </item>
+            </slotitem>
             <id>2</id>
             <location>1</location>
             <types>2,10</types>
             <numero>2</numero>
          </slot>
          <slot>
-            <item>
+            <slotitem>
                <iditem>0</iditem>
                <typeitem>1</typeitem>
                <template>2</template>
-            </item>
+            </slotitem>
             <id>3</id>
             <location>2</location>
             <types>1</types>
@@ -123,24 +123,8 @@
       <img>construct</img>
       <typeItem>9</typeItem>
    </item>
-   <item>
-      <templateid>6</templateid>
-      <typeitem>7</typeitem>
-      <name></name>
-      <maxhullpoints>0</maxhullpoints>
-      <hullpoints>0</hullpoints>
-      <egg></egg>
-      <img>ship1.png</img>
-   </item>
-   <item>
-      <templateid>7</templateid>
-      <typeitem>7</typeitem>
-      <name></name>
-      <maxhullpoints>0</maxhullpoints>
-      <hullpoints>0</hullpoints>
-      <egg></egg>
-      <img>ship1.png</img>
-   </item>
+  
+   
    <item>
       <name>mining1</name>
       <templateid>8</templateid>

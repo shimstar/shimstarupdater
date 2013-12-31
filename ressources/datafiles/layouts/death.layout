@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="Shimstar/BackgroundImage" Name="ConnexionBg" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="Shimstar/Groupbox" Name="Root/group" >
+                <Property Name="Font" Value="Brassiere-m" />
+                <Property Name="Text" Value="Mort" />
+                <Property Name="RiseOnClick" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.265,0},{0.17664,0},{0.615,0},{0.696985,0}}" />
+            </Window>
+            <Window Type="Shimstar/Button" Name="Root/group/quit" >
+                <Property Name="Font" Value="Brassiere-s" />
+                <Property Name="Text" Value="Retour à la base" />
+                <Property Name="UnifiedAreaRect" Value="{{0.355,0},{0.550656,0},{0.529374,0},{0.607743,0}}" />
+            </Window>
+            <Window Type="Shimstar/Label" Name="Root/group/text" >
+                <Property Name="Font" Value="Brassiere-s" />
+                <Property Name="Text" >Votre vaisseau a été détruit.
+	Votre corps va être ramené à
+	la dernière base que vous 
+	avez visité.	</Property>
+                <Property Name="HorzExtent" Value="217" />
+                <Property Name="VertExtent" Value="89.9842" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                <Property Name="UnifiedAreaRect" Value="{{0.31375,0},{0.251706,0},{0.56375,0},{0.501705,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

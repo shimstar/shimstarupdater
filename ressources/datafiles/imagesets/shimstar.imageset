@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset Name="ShimstarImageset" Imagefile="shimstar.png" AutoScaled="false" >
+	
+	<!-- Marine blue -->
+    <Image Name="Box1L" XPos="18" YPos="246" Width="8" Height="2" />
+    <Image Name="Box1R" XPos="26" YPos="246" Width="8" Height="2" />
+    <Image Name="Box1T" XPos="25" YPos="239" Width="2" Height="8" />
+    <Image Name="Box1B" XPos="25" YPos="247" Width="2" Height="8" />
+    <Image Name="Box1M" XPos="25" YPos="246" Width="2" Height="2" />
+    <Image Name="Box1RoundTL" XPos="1" YPos="239" Width="8" Height="8" />
+    <Image Name="Box1RoundTR" XPos="9" YPos="239" Width="8" Height="8" />
+    <Image Name="Box1RoundBL" XPos="1" YPos="247" Width="8" Height="8" />
+    <Image Name="Box1RoundBR" XPos="9" YPos="247" Width="8" Height="8" />
+    <Image Name="Box1SquareTL" XPos="18" YPos="239" Width="8" Height="8" />
+    <Image Name="Box1SquareTR" XPos="26" YPos="239" Width="8" Height="8" />
+    <Image Name="Box1SquareBL" XPos="18" YPos="247" Width="8" Height="8" />
+    <Image Name="Box1SquareBR" XPos="26" YPos="247" Width="8" Height="8" />
+	
+	<!-- Purple -->
+    <Image Name="Box2L" XPos="18" YPos="229" Width="8" Height="2" />
+    <Image Name="Box2R" XPos="26" YPos="229" Width="8" Height="2" />
+    <Image Name="Box2T" XPos="25" YPos="222" Width="2" Height="8" />
+    <Image Name="Box2B" XPos="25" YPos="230" Width="2" Height="8" />
+    <Image Name="Box2M" XPos="25" YPos="229" Width="2" Height="2" />
+    <Image Name="Box2RoundTL" XPos="1" YPos="222" Width="8" Height="8" />
+    <Image Name="Box2RoundTR" XPos="9" YPos="222" Width="8" Height="8" />
+    <Image Name="Box2RoundBL" XPos="1" YPos="230" Width="8" Height="8" />
+    <Image Name="Box2RoundBR" XPos="9" YPos="230" Width="8" Height="8" />
+    <Image Name="Box2SquareTL" XPos="18" YPos="222" Width="8" Height="8" />
+    <Image Name="Box2SquareTR" XPos="26" YPos="222" Width="8" Height="8" />
+    <Image Name="Box2SquareBL" XPos="18" YPos="230" Width="8" Height="8" />
+    <Image Name="Box2SquareBR" XPos="26" YPos="230" Width="8" Height="8" />
+	
+	<!-- Dark red -->
+    <Image Name="Box3L" XPos="18" YPos="212" Width="8" Height="2" />
+    <Image Name="Box3R" XPos="26" YPos="212" Width="8" Height="2" />
+    <Image Name="Box3T" XPos="25" YPos="205" Width="2" Height="8" />
+    <Image Name="Box3B" XPos="25" YPos="213" Width="2" Height="8" />
+    <Image Name="Box3M" XPos="25" YPos="212" Width="2" Height="2" />
+    <Image Name="Box3RoundTL" XPos="1" YPos="205" Width="8" Height="8" />
+    <Image Name="Box3RoundTR" XPos="9" YPos="205" Width="8" Height="8" />
+    <Image Name="Box3RoundBL" XPos="1" YPos="213" Width="8" Height="8" />
+    <Image Name="Box3RoundBR" XPos="9" YPos="213" Width="8" Height="8" />
+    <Image Name="Box3SquareTL" XPos="18" YPos="205" Width="8" Height="8" />
+    <Image Name="Box3SquareTR" XPos="26" YPos="205" Width="8" Height="8" />
+    <Image Name="Box3SquareBL" XPos="18" YPos="213" Width="8" Height="8" />
+    <Image Name="Box3SquareBR" XPos="26" YPos="213" Width="8" Height="8" />
+	
+	<!-- Light cyan -->
+    <Image Name="Box4L" XPos="18" YPos="195" Width="8" Height="2" />
+    <Image Name="Box4R" XPos="26" YPos="195" Width="8" Height="2" />
+    <Image Name="Box4T" XPos="25" YPos="188" Width="2" Height="8" />
+    <Image Name="Box4B" XPos="25" YPos="196" Width="2" Height="8" />
+    <Image Name="Box4M" XPos="25" YPos="195" Width="2" Height="2" />
+    <Image Name="Box4RoundTL" XPos="1" YPos="188" Width="8" Height="8" />
+    <Image Name="Box4RoundTR" XPos="9" YPos="188" Width="8" Height="8" />
+    <Image Name="Box4RoundBL" XPos="1" YPos="196" Width="8" Height="8" />
+    <Image Name="Box4RoundBR" XPos="9" YPos="196" Width="8" Height="8" />
+    <Image Name="Box4SquareTL" XPos="18" YPos="188" Width="8" Height="8" />
+    <Image Name="Box4SquareTR" XPos="26" YPos="188" Width="8" Height="8" />
+    <Image Name="Box4SquareBL" XPos="18" YPos="196" Width="8" Height="8" />
+    <Image Name="Box4SquareBR" XPos="26" YPos="196" Width="8" Height="8" />
+	
+	<!-- Black -->
+    <Image Name="Box5L" XPos="18" YPos="178" Width="8" Height="2" />
+    <Image Name="Box5R" XPos="26" YPos="178" Width="8" Height="2" />
+    <Image Name="Box5T" XPos="25" YPos="171" Width="2" Height="8" />
+    <Image Name="Box5B" XPos="25" YPos="179" Width="2" Height="8" />
+    <Image Name="Box5M" XPos="25" YPos="178" Width="2" Height="2" />
+    <Image Name="Box5RoundTL" XPos="1" YPos="171" Width="8" Height="8" />
+    <Image Name="Box5RoundTR" XPos="9" YPos="171" Width="8" Height="8" />
+    <Image Name="Box5RoundBL" XPos="1" YPos="179" Width="8" Height="8" />
+    <Image Name="Box5RoundBR" XPos="9" YPos="179" Width="8" Height="8" />
+    <Image Name="Box5SquareTL" XPos="18" YPos="171" Width="8" Height="8" />
+    <Image Name="Box5SquareTR" XPos="26" YPos="171" Width="8" Height="8" />
+    <Image Name="Box5SquareBL" XPos="18" YPos="179" Width="8" Height="8" />
+    <Image Name="Box5SquareBR" XPos="26" YPos="179" Width="8" Height="8" />
+	
+	<!-- Black - same imagery as Box5 -->
+    <Image Name="SmallBox5L" XPos="18" YPos="178" Width="3" Height="2" />
+    <Image Name="SmallBox5R" XPos="31" YPos="178" Width="3" Height="2" />
+    <Image Name="SmallBox5T" XPos="25" YPos="171" Width="2" Height="3" />
+    <Image Name="SmallBox5B" XPos="25" YPos="184" Width="2" Height="3" />
+    <Image Name="SmallBox5M" XPos="25" YPos="178" Width="2" Height="2" />
+    <Image Name="SmallBox5SquareTL" XPos="18" YPos="171" Width="3" Height="3" />
+    <Image Name="SmallBox5SquareTR" XPos="31" YPos="171" Width="3" Height="3" />
+    <Image Name="SmallBox5SquareBL" XPos="18" YPos="184" Width="3" Height="3" />
+    <Image Name="SmallBox5SquareBR" XPos="31" YPos="184" Width="3" Height="3" />
+	
+	<!-- Light blue - with transparency -->
+    <Image Name="BigBox1L" XPos="34" YPos="16" Width="16" Height="2" />
+    <Image Name="BigBox1R" XPos="50" YPos="16" Width="16" Height="2" />
+    <Image Name="BigBox1T" XPos="49" YPos="1" Width="2" Height="16" />
+    <Image Name="BigBox1B" XPos="49" YPos="17" Width="2" Height="16" />
+    <Image Name="BigBox1M" XPos="49" YPos="16" Width="2" Height="2" />
+    <Image Name="BigBox1RoundTL" XPos="1" YPos="1" Width="16" Height="16" />
+    <Image Name="BigBox1RoundTR" XPos="17" YPos="1" Width="16" Height="16" />
+    <Image Name="BigBox1RoundBL" XPos="1" YPos="17" Width="16" Height="16" />
+    <Image Name="BigBox1RoundBR" XPos="17" YPos="17" Width="16" Height="16" />
+    <Image Name="BigBox1SquareTL" XPos="34" YPos="1" Width="16" Height="16" />
+    <Image Name="BigBox1SquareTR" XPos="50" YPos="1" Width="16" Height="16" />
+    <Image Name="BigBox1SquareBL" XPos="34" YPos="17" Width="16" Height="16" />
+    <Image Name="BigBox1SquareBR" XPos="50" YPos="17" Width="16" Height="16" />
+
+	<!-- Marine blue -->
+    <Image Name="ScrollButton1U" XPos="197" YPos="1" Width="17" Height="32" />
+    <Image Name="ScrollButton1D" XPos="197" YPos="84" Width="17" Height="32" />
+    <Image Name="Grid1V" XPos="197" YPos="34" Width="17" Height="2" />
+    <Image Name="Slider1VT" XPos="197" YPos="37" Width="17" Height="17" />
+    <Image Name="Slider1VM" XPos="197" YPos="55" Width="17" Height="10" />
+    <Image Name="Slider1VB" XPos="197" YPos="66" Width="17" Height="17" />
+    <Image Name="ScrollButton1L" XPos="67" YPos="66" Width="32" Height="17" />
+    <Image Name="ScrollButton1R" XPos="150" YPos="66" Width="32" Height="17" />
+    <Image Name="Grid1H" XPos="147" YPos="66" Width="2" Height="17" />
+    <Image Name="Slider1HL" XPos="100" YPos="66" Width="17" Height="17" />
+    <Image Name="Slider1HM" XPos="118" YPos="66" Width="10" Height="17" />
+    <Image Name="Slider1HR" XPos="129" YPos="66" Width="17" Height="17" />
+
+	<!-- Purple -->
+    <Image Name="ScrollButton2U" XPos="215" YPos="1" Width="17" Height="32" />
+    <Image Name="ScrollButton2D" XPos="215" YPos="84" Width="17" Height="32" />
+    <Image Name="Grid2V" XPos="215" YPos="34" Width="17" Height="2" />
+    <Image Name="Slider2VT" XPos="215" YPos="37" Width="17" Height="17" />
+    <Image Name="Slider2VM" XPos="215" YPos="55" Width="17" Height="10" />
+    <Image Name="Slider2VB" XPos="215" YPos="66" Width="17" Height="17" />
+    <Image Name="ScrollButton2L" XPos="67" YPos="84" Width="32" Height="17" />
+    <Image Name="ScrollButton2R" XPos="150" YPos="84" Width="32" Height="17" />
+    <Image Name="Grid2H" XPos="147" YPos="84" Width="2" Height="17" />
+    <Image Name="Slider2HL" XPos="100" YPos="84" Width="17" Height="17" />
+    <Image Name="Slider2HM" XPos="118" YPos="84" Width="10" Height="17" />
+    <Image Name="Slider2HR" XPos="129" YPos="84" Width="17" Height="17" />
+
+	<!-- Dark red -->
+    <Image Name="ScrollButton3U" XPos="233" YPos="1" Width="17" Height="32" />
+    <Image Name="ScrollButton3D" XPos="233" YPos="84" Width="17" Height="32" />
+    <Image Name="Grid3V" XPos="233" YPos="34" Width="17" Height="2" />
+    <Image Name="Slider3VT" XPos="233" YPos="37" Width="17" Height="17" />
+    <Image Name="Slider3VM" XPos="233" YPos="55" Width="17" Height="10" />
+    <Image Name="Slider3VB" XPos="233" YPos="66" Width="17" Height="17" />
+    <Image Name="ScrollButton3L" XPos="67" YPos="102" Width="32" Height="17" />
+    <Image Name="ScrollButton3R" XPos="150" YPos="102" Width="32" Height="17" />
+    <Image Name="Grid3H" XPos="147" YPos="102" Width="2" Height="17" />
+    <Image Name="Slider3HL" XPos="100" YPos="102" Width="17" Height="17" />
+    <Image Name="Slider3HM" XPos="118" YPos="102" Width="10" Height="17" />
+    <Image Name="Slider3HR" XPos="129" YPos="102" Width="17" Height="17" />
+	
+	<!-- Gradient -->
+    <Image Name="RedYellowGreen" XPos="68" YPos="121" Width="163" Height="2" />
+    <Image Name="PurpleBlue" XPos="68" YPos="141" Width="163" Height="2" />
+	
+	<!-- Various -->
+    <Image Name="WhiteBg" XPos="192" YPos="67" Width="3" Height="3" />
+    <Image Name="EditboxCarat" XPos="189" YPos="73" Width="7" Height="19" />
+    <Image Name="MouseArrow" XPos="237" YPos="117" Width="18" Height="18" XOffset="-1" YOffset="-1" />
+    <Image Name="CloseButton" XPos="184" YPos="109" Width="10" Height="10" />
+    <Image Name="UpArrow" XPos="184" YPos="99" Width="11" Height="8" />
+    <Image Name="LightEffect" XPos="37" YPos="224" Width="29" Height="29" />
+    <Image Name="Reticle" XPos="69" YPos="224" Width="29" Height="29" />
+	<Image Name="ReticleTarget" XPos="187" YPos="145" Width="68" Height="68" />
+	
+	
+	</Imageset>
