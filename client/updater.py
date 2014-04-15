@@ -13,8 +13,8 @@ import time
 from updatestate import *
 from versions import *
 
-#~ urlUpdater="http://shimrod.free.fr/shimstar/updater"
-urlUpdater="http://localhost/updater"
+urlUpdater="http://shimrod.free.fr/shimstar/updater"
+#~ urlUpdater="http://localhost/updater"
 
 class shimStarUpaterClient(DirectObject):
 	instance=None
@@ -26,6 +26,7 @@ class shimStarUpaterClient(DirectObject):
 		self.iterFile=0
 		self.user=""
 		self.pwd=""
+		self.ip=""
 		self.updatingVersion=-1
 		self.files=[]
 		self.sssStream=None
@@ -57,7 +58,7 @@ class shimStarUpaterClient(DirectObject):
 		self.convDirectory=""
 		self.createTree(self.directory)
 		self.readUpdateFile()
-		
+		print "POGII" + str(self.firtUpdate)
 		if self.firtUpdate==True:
 			updateState.getInstance().setState(C_STATE_INIT_FIRSTUPDATE)
 		
@@ -73,7 +74,9 @@ class shimStarUpaterClient(DirectObject):
 		self.http = HTTPClient()
 		self.channel = self.http.makeChannel(True)
 		self.channel.beginGetDocument(DocumentSpec(urlUpdater+ '/files.xml'))
-		ff=Filename(self.convCurrentDir + "/versions.xml")
+		ff=Filename(str(self.convCurrentDir) + "/versions.xml")
+		#~ ff=Filename("/c/Users/ogilp/AppData/Local/Panda3D/start" + "/versions.xml")
+		#~ ff=Filename(self.currentDir + "/versions.xml")
 		self.channel.downloadToFile(ff)
 		while self.channel.run():
 				pass
@@ -185,6 +188,7 @@ class shimStarUpaterClient(DirectObject):
 	def loadVersion(self):
 		if os.path.isfile("config.xml")!=False:
 			dom = xml.dom.minidom.parse("./config.xml")
+			print dom.toxml()
 			versions=dom.getElementsByTagName('version')
 			for v in versions:
 				self.version=float(v.firstChild.data)
@@ -194,11 +198,18 @@ class shimStarUpaterClient(DirectObject):
 				
 			usr=dom.getElementsByTagName('user')
 			for u in usr:
-				self.user=str(u.firstChild.data)
+				if u.firstChild!=None:
+					self.user=str(u.firstChild.data)
 				
 			pwd=dom.getElementsByTagName('password')
 			for p in pwd:
-				self.pwd=str(p.firstChild.data)
+				if p.firstChild!=None:
+					self.pwd=str(p.firstChild.data)
+			
+			ipp=dom.getElementsByTagName('ipd')
+			for ip in ipp:
+				if ip.firstChild!=None:
+					self.ip=str(ip.firstChild.data)
 			
 			self.firtUpdate=False
 			
@@ -297,17 +308,24 @@ class shimStarUpaterClient(DirectObject):
 									self.http=None
 							
 		elif updateState.getInstance().getState()==C_STATE_ENDUPDATE:
+			self.loadVersion()
+			
 			docXml = xml.dom.minidom.Document()
 			confXml=docXml.createElement("config")
 			versionXml=docXml.createElement("version")
 			dirXml=docXml.createElement("directory")
 			userXml=docXml.createElement("user")
 			passwordXml=docXml.createElement("password")
+			ipXml=docXml.createElement("ip")
+			userXml.appendChild(docXml.createTextNode(str(self.user)))
+			passwordXml.appendChild(docXml.createTextNode(str(self.pwd)))
 			versionXml.appendChild(docXml.createTextNode(str(self.targetedVersion)))
 			dirXml.appendChild(docXml.createTextNode(str(self.directory)))
+			ipXml.appendChild(docXml.createTextNode(str(self.ip)))
 			confXml.appendChild(passwordXml)
 			confXml.appendChild(userXml)
 			confXml.appendChild(versionXml)
+			confXml.appendChild(ipXml)
 			confXml.appendChild(dirXml)
 			docXml.appendChild(confXml)
 			fileHandle = open ( "./config.xml", 'w' ) 

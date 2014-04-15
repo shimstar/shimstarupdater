@@ -290,8 +290,9 @@
       <id>3</id>
       <name>Shimrod hut</name>
       <typezone>2</typezone>
-      <egg>models/Substation/model_1.bam</egg>
       <scale>1.0</scale>
       <music>sounds/anticipation_0.ogg</music>
+		<egg>intostation.jpg</egg>
+		<exitzone>1</exitzone>
    </zone>
 </zones>

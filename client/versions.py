@@ -20,13 +20,15 @@ class updaterVersion:
 	
 	def loadXml(self):
 		dom = xml.dom.minidom.parse(os.getcwd() + "\\versions.xml")
+		#~ dom = xml.dom.minidom.parse("c:\\temp\\versions.xml")
 		versions=dom.getElementsByTagName('version')
 		for v in versions:
 			version=float(v.getElementsByTagName('id')[0].firstChild.data)
 			filesXml=v.getElementsByTagName('file')
 			filesArray=[]
 			for f in filesXml:
-				filesArray.append(f.getElementsByTagName('name')[0].firstChild.data)
+				#~ filesArray.append(f.getElementsByTagName('name')[0].firstChild.data)
+				filesArray.append(f.firstChild.data)
 			self.versions[version]=filesArray
 			if version>self.higherVersion:
 				self.higherVersion=version
