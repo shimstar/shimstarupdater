@@ -13,8 +13,8 @@ import time
 from updatestate import *
 from versions import *
 
-urlUpdater="http://shimrod.free.fr/shimstar/updater"
-#~ urlUpdater="http://localhost/updater"
+#~ urlUpdater="http://shimrod.free.fr/shimstar/updater"
+urlUpdater="http://localhost/updater"
 
 class shimStarUpaterClient(DirectObject):
 	instance=None
@@ -58,7 +58,6 @@ class shimStarUpaterClient(DirectObject):
 		self.convDirectory=""
 		self.createTree(self.directory)
 		self.readUpdateFile()
-		print "POGII" + str(self.firtUpdate)
 		if self.firtUpdate==True:
 			updateState.getInstance().setState(C_STATE_INIT_FIRSTUPDATE)
 		
@@ -113,6 +112,7 @@ class shimStarUpaterClient(DirectObject):
 		for f in files:
 			name=f.getElementsByTagName('name')[0].firstChild.data
 			filesInstall.append(name)
+			
 		for f in filesInstall:
 			self.http = HTTPClient()
 			self.channel = self.http.makeChannel(True)
