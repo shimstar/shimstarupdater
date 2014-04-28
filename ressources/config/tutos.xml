@@ -39,11 +39,16 @@
 	</tuto>
 		<tuto>
 		<id>5</id>
-		<msg>
-			Bienvenue dans l'espace!\n
-			Pour naviguer, utilisez qzsd (pour tourner et pivoter), A pour accelerer, W pour decelerer.\n\n
-			Vous pouvez cliquer gauche pour tirer, et cliquer droit pour selectionner un objet dans l'espace (asteroid, vaisseau), et permettre d'interagir avec.\n\n
-			La touche I vous permet d'acceder a votre inventaire\n\n
+		<msg>Bienvenue dans l'espace!
+			
+			Pour naviguer, utilisez qzsd (pour tourner et pivoter), A pour accelerer, W pour decelerer.
+			Vous pouvez cliquer gauche pour tirer.
+			
+			La touche "t" vous permet de cibler le vaisseau le plus proche. Si le vaisseau n'est pas dans votre fenetre, un marqueur rouge apparait en bordure d'ecran pour vous indiquer sa localisation.
+			
+			Une barre de vie est affichee en haut de votre ecran. Si vous perdez tout vos points de coque, votre vaisseau est detruit et vous etes renvoye dans votre station de reference avec un nouveau vaisseau.
+			
+			
 			Bon jeu!			
 		</msg>
 	</tuto>

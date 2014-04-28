@@ -344,6 +344,11 @@
                 <Property Name="VertImageFormatting" Value="CentreAligned" />
                 <Property Name="ZOrderChangeEnabled" Value="False" />
 				<Property Name="Visible" Value="False" />
+				<Window Type="Shimstar/MediumProgressBar" Name="HUD/Cockpit/Reticle/ennemyHullBar" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.480952,0},{0.439844,0},{0.51792,0},{0.452865,0}}" />
+                </Window>
             </Window>
             <Window Type="Shimstar/MediumProgressBar" Name="HUD/Cockpit/ShieldBar" >
                 <Property Name="Tooltip" Value="270 / 300" />
@@ -769,6 +774,19 @@
                 <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
                 <Property Name="VertFormatting" Value="TopAligned" />
                 <Property Name="UnifiedAreaRect" Value="{{0.195508,0},{0.740349,0},{0.997436,0},{0.911559,0}}" />
+            </Window>
+        </Window>
+		  <Window Type="Shimstar/Window" Name="root/tuto" >
+            <Property Name="Text" Value="Tutoriel" />
+            <Property Name="Font" Value="Brassiere-s" />
+			<Property Name="Visible" Value="False" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.205,0},{0.111458,0},{0.810625,0},{0.823697,0}}" />
+            <Window Type="Shimstar/Label" Name="root/tuto/text" >
+				<Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+				<Property Name="VertFormatting" Value="TopAligned" />
+				<Property Name="Font" Value="Brassiere-s" />
+                <Property Name="UnifiedAreaRect" Value="{{0.035707,0},{0.00877482,0},{0.977141,0},{0.975411,0}}" />
             </Window>
         </Window>
     </Window>
