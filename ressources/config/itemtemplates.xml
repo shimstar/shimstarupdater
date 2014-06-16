@@ -57,6 +57,63 @@
          </slot>
       </slots>
    </item>
+	<item>
+      <templateid>6</templateid>
+      <typeitem>7</typeitem>
+      <name>spiderdrone</name>
+      <maxhullpoints>100</maxhullpoints>
+      <hullpoints>100</hullpoints>
+      <egg>models/spiderdrone.bam</egg>
+      <img>ship1.png</img>
+      <slots>
+         <slot>
+            <id>1</id>
+            <location>1</location>
+            <types>2,10</types>
+            <numero>1</numero>
+         </slot>
+         <slot>
+            <slotitem>
+               <iditem>0</iditem>
+               <typeitem>2</typeitem>
+               <template>3</template>
+            </slotitem>
+            <id>2</id>
+            <location>1</location>
+            <types>2,10</types>
+            <numero>2</numero>
+         </slot>
+         <slot>
+            <slotitem>
+               <iditem>0</iditem>
+               <typeitem>1</typeitem>
+               <template>2</template>
+            </slotitem>
+            <id>3</id>
+            <location>2</location>
+            <types>1</types>
+            <numero>1</numero>
+         </slot>
+         <slot>
+            <id>4</id>
+            <location>5</location>
+            <types>4,5,6,1</types>
+            <numero>1</numero>
+         </slot>
+         <slot>
+            <id>5</id>
+            <location>5</location>
+            <types>4,5,6,1</types>
+            <numero>2</numero>
+         </slot>
+         <slot>
+            <id>6</id>
+            <location>5</location>
+            <types>4,5,6,1</types>
+            <numero>3</numero>
+         </slot>
+      </slots>
+   </item>
    <item>
       <name>basic</name>
       <templateid>2</templateid>
@@ -84,7 +141,7 @@
       <damage>10</damage>
       <range>10000</range>
       <egg>sphere.bam</egg>
-      <cadence>1.0</cadence>
+      <cadence>0.3</cadence>
       <speed>1000</speed>
       <sell>250</sell>
       <energyCost>10</energyCost>

@@ -53,4 +53,57 @@
         </item>
       </items>
   </ship>
+  <ship>
+    <id>2</id>
+    <name>Drone</name>
+    <maniability>30</maniability>
+    <egg>models/spiderdrone</egg>
+    <texture>models/fighter.png</texture>
+    <hullpoints>20</hullpoints>
+    <img>ship1.png</img>
+		<mass>1</mass>
+    <slots>
+      <slot>
+        <location>1</location>
+        <type>2</type>
+        <count>2</count>
+      </slot>
+      <slot>
+        <location>2</location>
+        <type>1</type>
+        <count>1</count>
+      </slot>
+      <slot>
+        <location>5</location>
+        <type>3,4,5,6</type>
+        <count>3</count>
+      </slot>
+    </slots>
+    <items>
+        <item>
+          <type>2</type>
+          <id>1</id>
+          <location>1</location>
+          <place>1</place>
+        </item>
+        <item>
+            <type>1</type>
+            <id>1</id>
+            <location>2</location>
+            <place>1</place>
+          </item>
+        <item>
+          <type>3</type>
+          <id>1</id>
+          <place>2</place>
+          <location>5</location>
+        </item>
+        <item>
+          <type>4</type>
+          <id>1</id>
+          <place>1</place>
+          <location>5</location>
+        </item>
+      </items>
+  </ship>
 </ships>

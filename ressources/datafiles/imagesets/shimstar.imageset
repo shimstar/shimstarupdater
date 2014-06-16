@@ -157,6 +157,10 @@
     <Image Name="LightEffect" XPos="37" YPos="224" Width="29" Height="29" />
     <Image Name="Reticle" XPos="69" YPos="224" Width="29" Height="29" />
 	<Image Name="ReticleTarget" XPos="187" YPos="145" Width="68" Height="68" />
+	<Image Name="ReticleInfo" XPos="160" YPos="145" Width="24" Height="24" />
+	<Image Name="ReticleHome" XPos="154" YPos="170" Width="32" Height="32" />
 	
+	<Image Name="spiderdrone" XPos="250" YPos="0" Width="64" Height="64" />
+	<Image Name="ship1" XPos="318" YPos="0" Width="64" Height="64" />
 	
 	</Imageset>
