@@ -159,8 +159,16 @@
 	<Image Name="ReticleTarget" XPos="187" YPos="145" Width="68" Height="68" />
 	<Image Name="ReticleInfo" XPos="160" YPos="145" Width="24" Height="24" />
 	<Image Name="ReticleHome" XPos="154" YPos="170" Width="32" Height="32" />
+	<Image Name="ReticleMining" XPos="126" YPos="145" Width="24" Height="24" />
 	
 	<Image Name="spiderdrone" XPos="250" YPos="0" Width="64" Height="64" />
 	<Image Name="ship1" XPos="318" YPos="0" Width="64" Height="64" />
 	
+	<Image Name="minerai1" XPos="252" YPos="66" Width="64" Height="64" />
+	<Image Name="weapon1" XPos="317" YPos="62" Width="64" Height="64" />
+	<Image Name="motor1" XPos="385" YPos="62" Width="64" Height="64" />
+	<Image Name="minage1" XPos="317" YPos="127" Width="64" Height="64" />
+	
+	
 	</Imageset>
+
