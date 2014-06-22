@@ -168,6 +168,7 @@
 	<Image Name="weapon1" XPos="317" YPos="62" Width="64" Height="64" />
 	<Image Name="motor1" XPos="385" YPos="62" Width="64" Height="64" />
 	<Image Name="minage1" XPos="317" YPos="127" Width="64" Height="64" />
+	<Image Name="construct1" XPos="385" YPos="127" Width="64" Height="64" />
 	
 	
 	</Imageset>
