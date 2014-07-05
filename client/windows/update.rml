@@ -41,9 +41,10 @@ def update(document):
 	updateState.getInstance().setState(C_STATE_WAITING_UPDATE)
 	
 def play(document):
-	dir=document.GetElementById("path").inner_rml
-	os.startfile(dir + "\\ShimstarClient.exe")
-	sys.exit()
+	if updateState.getInstance().getState()==C_STATE_WAITING_PLAY:
+		dir=document.GetElementById("path").inner_rml
+		os.startfile(dir + "\\ShimstarClient.exe")
+		sys.exit()
 	</script>
 	
 	</head>
@@ -72,6 +73,9 @@ def play(document):
 				</div>
 				<div style="position:absolute; top:260px; left:50px;">
 					<button class="roundleft" style="width:100px;height:30px;" id="nbfichier">1000</button>
+				</div>
+				<div style="position:absolute; top:230px; left:250px;">
+					<button class="roundleft" style="width:200px;height:30px;" id="cache"><span style='color:#ff0000;'>Mise en cache</span></button>
 				</div>
 				<div style="position:absolute; top:330px; left:320px;">
 					<button class="topress" style="width:150px;height:30px;" id="connect" onclick="play(document)">Jouer</button>

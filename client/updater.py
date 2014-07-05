@@ -1,5 +1,7 @@
 from pandac.PandaModules import loadPrcFileData 
 loadPrcFileData('', 'win-size %i %i' % (1200, 720))
+loadPrcFileData("model-cache-dir",".\cache")
+loadPrcFileData("model-cache-textures", "1" )
 #~ loadPrcFileData("", "window-type none")
 import xml.dom.minidom
 import os, sys
@@ -252,13 +254,15 @@ class shimStarUpaterClient(DirectObject):
 				update.inner_rml="<span style='color:#ff0000;'>Mettre a jour</span>"
 				connect=self.doc.GetElementById("connect")
 				connect.inner_rml="<span style='color:#00ff00;'>Jouer</span>"
+				updateState.getInstance().setState(C_STATE_WAITING_PLAY)
+				#~ updateState.getInstance().setState(C_STATE_CACHING)
 			else:
 				update=self.doc.GetElementById("update")
 				update.inner_rml="<span style='color:#00ff00;'>Mettre a jour</span>"
 				connect=self.doc.GetElementById("connect")
 				connect.inner_rml="<span style='color:#ff0000;'>Jouer</span>"
+				updateState.getInstance().setState(C_STATE_WAITING_CLICK)
 			self.iterFile=0
-			updateState.getInstance().setState(C_STATE_WAITING_CLICK)
 		elif updateState.getInstance().getState()==C_STATE_WAITING_UPDATE:
 			self.directory=self.doc.GetElementById("path").inner_rml
 			if self.directory[len(self.directory)-1]!="\\":
@@ -286,7 +290,7 @@ class shimStarUpaterClient(DirectObject):
 							self.http = HTTPClient()
 							self.channel = self.http.makeChannel(True)
 							self.channel.setPersistentConnection(False)
-							print "downlaoding : " + urlUpdater + "/" + self.files[self.iterFile].replace("\\","/")
+							#~ print "downlaoding : " + urlUpdater + "/" + self.files[self.iterFile].replace("\\","/")
 							self.channel.getDocument(DocumentSpec(urlUpdater + "/" + self.files[self.iterFile].replace("\\","/")))
 							ff=Filename(self.convDirectory + "/" + self.files[self.iterFile].replace("\\","/"))
 							self.createTree(self.directory+self.files[self.iterFile])
@@ -309,7 +313,6 @@ class shimStarUpaterClient(DirectObject):
 							
 		elif updateState.getInstance().getState()==C_STATE_ENDUPDATE:
 			self.loadVersion()
-			
 			docXml = xml.dom.minidom.Document()
 			confXml=docXml.createElement("config")
 			versionXml=docXml.createElement("version")
@@ -335,8 +338,24 @@ class shimStarUpaterClient(DirectObject):
 			fileHandle.close()
 			update=self.doc.GetElementById("update")
 			update.inner_rml="<span style='color:#ff0000;'>Mettre a jour</span>"
+			#~ connect=self.doc.GetElementById("connect")
+			#~ connect.inner_rml="<span style='color:#00ff00;'>Jouer</span>"
+			updateState.getInstance().setState(C_STATE_CACHING)
+		elif updateState.getInstance().getState()==C_STATE_CACHING:
+			cache=self.doc.GetElementById("cache")
+			cache.inner_rml="<span style='color:#00ff00;'>Mise en cache</span>"
+			patth=self.winPath.GetElementById('path').value + "models"
+			convPatth=self.winPath.GetElementById('path').value.replace("\\","/")
+			convPatth=convPatth.replace("c:","/c")
+			convPatth+="models"
+			for files in os.listdir(patth):
+				if files.count(".egg")>0:
+					loader.loadModel(convPatth + "/fighter.egg")
+			cache=self.doc.GetElementById("cache")
+			cache.inner_rml="<span style='color:#0000ff;'>Mise en cache</span>"
 			connect=self.doc.GetElementById("connect")
 			connect.inner_rml="<span style='color:#00ff00;'>Jouer</span>"
+			updateState.getInstance().setState(C_STATE_WAITING_PLAY)
 			return task.done
 		
 		return task.cont
