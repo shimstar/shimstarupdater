@@ -346,11 +346,9 @@ class shimStarUpaterClient(DirectObject):
 			cache.inner_rml="<span style='color:#00ff00;'>Mise en cache</span>"
 			patth=self.winPath.GetElementById('path').value + "models"
 			convPatth=self.winPath.GetElementById('path').value.replace("\\","/")
-			convPatth=convPatth.replace("c:","/c")
+			convPatth="/" + convPatth[0:1] + convPatth[2:]
 			convPatth+="models"
-			for files in os.listdir(patth):
-				if files.count(".egg")>0:
-					loader.loadModel(convPatth + "/fighter.egg")
+			self.caching(patth,convPatth)
 			cache=self.doc.GetElementById("cache")
 			cache.inner_rml="<span style='color:#0000ff;'>Mise en cache</span>"
 			connect=self.doc.GetElementById("connect")
@@ -359,4 +357,11 @@ class shimStarUpaterClient(DirectObject):
 			return task.done
 		
 		return task.cont
-		
+	
+	def caching(self,dir,convPatth):
+		for files in os.listdir(dir):
+			if files.count(".egg")>0 or files.count(".bam")>0:
+				#~ print convPatth + "/" + str(files)
+				loader.loadModel(convPatth + "/" + str(files))
+			elif os.path.isdir(dir + "\\"+ files):
+				self.caching(dir+"\\" +files,convPatth + "/" + files)
