@@ -1,5 +1,27 @@
 <?xml version="1.0" ?>
 <versions>
+<version>
+      <id>0.4</id>
+		<files>
+			<file>config\itemtemplates.xml</file>
+			<file>config\missions.xml</file>
+			<file>config\pnjs.xml</file>
+			<file>config\dialogs.xml</file>
+			<file>config\ship.xml</file>
+			<file>datafiles\images\ships\ship1.png</file>
+			<file>datafiles\imagesets\shimstar.imageset</file>
+			<file>datafiles\imagesets\shimstar.png</file>
+			<file>images\items\spiderdrone.png</file>
+			<file>sounds\Buttton_press3.ogg</file>
+			<file>sounds\Buttton_press1.ogg</file>
+			<file>datafiles\layouts\ingame.layout</file>
+			<file>models/fighterred.egg</file>
+			<file>models/fighterred.bam</file>
+			<file>ShimstarClient.exe</file>
+			<file>datafiles\fonts\Batang-26.font</file>
+			<file>datafiles\fonts\batang.ttf</file>
+		</files>
+	</version>
 	<version>
       <id>0.31</id>
 		<files>
@@ -29,8 +51,6 @@
          <file>datafiles\animations\example.xml</file>
          <file>datafiles\animations\shimstar.anim.xml</file>
          <file>datafiles\fonts\baemuk.txt</file>
-         <file>datafiles\fonts\Batang-26.font</file>
-         <file>datafiles\fonts\batang.ttf</file>
          <file>datafiles\fonts\Brassiere-l.font</file>
          <file>datafiles\fonts\Brassiere-m.font</file>
          <file>datafiles\fonts\Brassiere-s.font</file>
@@ -311,3 +331,5 @@
       </files>
    </version>
 </versions>
+
+

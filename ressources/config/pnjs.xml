@@ -1,1 +1,30 @@
-<?xml version="1.0" ?><pnjs><pnj><dialogues><iddialogue>1</iddialogue><iddialogue>2</iddialogue><iddialogue>5</iddialogue><iddialogue>3</iddialogue><iddialogue>4</iddialogue></dialogues><missions><idmission>2</idmission><idmission>3</idmission><idmission>4</idmission></missions><name>Nina</name><id>1</id><face>face3</face><zone>3</zone><typenpc>1</typenpc></pnj><pnj><name>Joe</name><id>2</id><face>face1</face><zone>3</zone><typenpc>2</typenpc></pnj></pnjs>
+<?xml version="1.0" ?>
+<pnjs>
+   <pnj>
+      <dialogues>
+         <iddialogue>1</iddialogue>
+         <iddialogue>2</iddialogue>
+         <iddialogue>5</iddialogue>
+         <iddialogue>3</iddialogue>
+         <iddialogue>4</iddialogue>
+      </dialogues>
+      <missions>
+		<idmission>1</idmission>
+         <idmission>2</idmission>
+         <idmission>3</idmission>
+         <idmission>4</idmission>
+      </missions>
+      <name>Nina</name>
+      <id>1</id>
+      <face>face3</face>
+      <zone>3</zone>
+      <typenpc>1</typenpc>
+   </pnj>
+   <pnj>
+      <name>Joe</name>
+      <id>2</id>
+      <face>face1</face>
+      <zone>3</zone>
+      <typenpc>2</typenpc>
+   </pnj>
+</pnjs>

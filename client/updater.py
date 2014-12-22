@@ -15,8 +15,8 @@ import time
 from updatestate import *
 from versions import *
 
-#~ urlUpdater="http://shimrod.free.fr/shimstar/updater"
-urlUpdater="http://localhost/updater"
+urlUpdater="http://shimrod.free.fr/shimstar/updater"
+#~ urlUpdater="http://localhost/updater"
 
 class shimStarUpaterClient(DirectObject):
 	instance=None
@@ -78,6 +78,7 @@ class shimStarUpaterClient(DirectObject):
 		ff=Filename(str(self.convCurrentDir) + "/versions.xml")
 		#~ ff=Filename("/c/Users/ogilp/AppData/Local/Panda3D/start" + "/versions.xml")
 		#~ ff=Filename(self.currentDir + "/versions.xml")
+		#~ ff=Filename("./versions.xml")
 		self.channel.downloadToFile(ff)
 		while self.channel.run():
 				pass
@@ -360,7 +361,8 @@ class shimStarUpaterClient(DirectObject):
 	
 	def caching(self,dir,convPatth):
 		for files in os.listdir(dir):
-			if files.count(".egg")>0 or files.count(".bam")>0:
+			#~ if files.count(".egg")>0 or files.count(".bam")>0:
+			if files.count(".bam")>0:
 				#~ print convPatth + "/" + str(files)
 				loader.loadModel(convPatth + "/" + str(files))
 			elif os.path.isdir(dir + "\\"+ files):
