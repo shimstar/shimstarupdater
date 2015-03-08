@@ -10,7 +10,7 @@
       <asteroids>
          <asteroid>
             <id>1</id>
-            <idtemplate>3</idtemplate>
+            <idtemplate>5</idtemplate>
             <posx>150.0</posx>
             <posy>150.0</posy>
             <posz>30.0</posz>
@@ -20,7 +20,7 @@
          </asteroid>
          <asteroid>
             <id>2</id>
-            <idtemplate>3</idtemplate>
+            <idtemplate>5</idtemplate>
             <posx>80.0</posx>
             <posy>80.0</posy>
             <posz>-130.0</posz>
@@ -30,7 +30,7 @@
          </asteroid>
          <asteroid>
             <id>5</id>
-            <idtemplate>3</idtemplate>
+            <idtemplate>5</idtemplate>
             <posx>150.0</posx>
             <posy>-150.0</posy>
             <posz>-30.0</posz>
@@ -40,7 +40,7 @@
          </asteroid>
          <asteroid>
             <id>7</id>
-            <idtemplate>4</idtemplate>
+            <idtemplate>6</idtemplate>
             <posx>-15.0</posx>
             <posy>85.0</posy>
             <posz>-100.0</posz>
@@ -50,7 +50,7 @@
          </asteroid>
          <asteroid>
             <id>8</id>
-            <idtemplate>4</idtemplate>
+            <idtemplate>6</idtemplate>
             <posx>0.0</posx>
             <posy>250.0</posy>
             <posz>-130.0</posz>
@@ -60,7 +60,7 @@
          </asteroid>
          <asteroid>
             <id>9</id>
-            <idtemplate>4</idtemplate>
+            <idtemplate>6</idtemplate>
             <posx>200.0</posx>
             <posy>200.0</posy>
             <posz>130.0</posz>
@@ -70,7 +70,7 @@
          </asteroid>
          <asteroid>
             <id>10</id>
-            <idtemplate>4</idtemplate>
+            <idtemplate>6</idtemplate>
             <posx>400.0</posx>
             <posy>200.0</posy>
             <posz>-130.0</posz>
@@ -80,7 +80,7 @@
          </asteroid>
          <asteroid>
             <id>11</id>
-            <idtemplate>4</idtemplate>
+            <idtemplate>6</idtemplate>
             <posx>350.0</posx>
             <posy>150.0</posy>
             <posz>-70.0</posz>
@@ -90,7 +90,7 @@
          </asteroid>
          <asteroid>
             <id>12</id>
-            <idtemplate>4</idtemplate>
+            <idtemplate>6</idtemplate>
             <posx>50.0</posx>
             <posy>250.0</posy>
             <posz>-80.0</posz>
@@ -100,7 +100,7 @@
          </asteroid>
          <asteroid>
             <id>13</id>
-            <idtemplate>4</idtemplate>
+            <idtemplate>6</idtemplate>
             <posx>350.0</posx>
             <posy>120.0</posy>
             <posz>320.0</posz>
@@ -110,7 +110,7 @@
          </asteroid>
          <asteroid>
             <id>14</id>
-            <idtemplate>4</idtemplate>
+            <idtemplate>6</idtemplate>
             <posx>40.0</posx>
             <posy>-250.0</posy>
             <posz>80.0</posz>
@@ -120,7 +120,7 @@
          </asteroid>
          <asteroid>
             <id>15</id>
-            <idtemplate>4</idtemplate>
+            <idtemplate>6</idtemplate>
             <posx>350.0</posx>
             <posy>150.0</posy>
             <posz>320.0</posz>
@@ -130,7 +130,7 @@
          </asteroid>
          <asteroid>
             <id>16</id>
-            <idtemplate>4</idtemplate>
+            <idtemplate>6</idtemplate>
             <posx>500.0</posx>
             <posy>10.0</posy>
             <posz>20.0</posz>
@@ -140,7 +140,7 @@
          </asteroid>
          <asteroid>
             <id>17</id>
-            <idtemplate>4</idtemplate>
+            <idtemplate>6</idtemplate>
             <posx>600.0</posx>
             <posy>150.0</posy>
             <posz>100.0</posz>
@@ -160,7 +160,7 @@
          </asteroid>
          <asteroid>
             <id>19</id>
-            <idtemplate>4</idtemplate>
+            <idtemplate>6</idtemplate>
             <posx>250.0</posx>
             <posy>250.0</posy>
             <posz>400.0</posz>
@@ -170,7 +170,7 @@
          </asteroid>
          <asteroid>
             <id>20</id>
-            <idtemplate>4</idtemplate>
+            <idtemplate>6</idtemplate>
             <posx>350.0</posx>
             <posy>150.0</posy>
             <posz>-100.0</posz>
@@ -237,6 +237,36 @@
             <hprh>0.0</hprh>
             <hprr>0.0</hprr>
             <hprp>0.0</hprp>
+         </asteroid>
+			  <asteroid>
+            <id>27</id>
+            <idtemplate>6</idtemplate>
+            <posx>450.0</posx>
+            <posy>3500.0</posy>
+            <posz>150.0</posz>
+            <hprh>0.0</hprh>
+            <hprr>0.0</hprr>
+            <hprp>0.0</hprp>
+         </asteroid>
+			  <asteroid>
+            <id>28</id>
+            <idtemplate>6</idtemplate>
+            <posx>600.0</posx>
+            <posy>3000.0</posy>
+            <posz>300.0</posz>
+            <hprh>60.0</hprh>
+            <hprr>45.0</hprr>
+            <hprp>90.0</hprp>
+         </asteroid>
+			  <asteroid>
+            <id>29</id>
+            <idtemplate>6</idtemplate>
+            <posx>100.0</posx>
+            <posy>2400.0</posy>
+            <posz>750.0</posz>
+            <hprh>45.0</hprh>
+            <hprr>10.0</hprr>
+            <hprp>45.0</hprp>
          </asteroid>
       </asteroids>
       <stations>

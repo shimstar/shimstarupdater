@@ -336,17 +336,20 @@
                 <Property Name="ZOrderChangeEnabled" Value="False" />
             </Window>
             <Window Type="Shimstar/ChatBackground" Name="HUD/Cockpit/Chat/BackgroundBottom" >
+				<Property Name="Visible" Value="False" />
                 <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,450},{0,80}}" />
                 <Property Name="VerticalAlignment" Value="Bottom" />
                 <Property Name="ZOrderChangeEnabled" Value="False" />
             </Window>
             <Window Type="Shimstar/ChatBackground" Name="HUD/Cockpit/Chat/BackgroundTop" >
+				<Property Name="Visible" Value="False" />
                 <Property Name="NormalColours" Value="tl:00FFFFFF tr:00FFFFFF bl:BFFFFFFF br:BFFFFFFF" />
                 <Property Name="UnifiedAreaRect" Value="{{0,0},{0,-80},{0,450},{0,97}}" />
                 <Property Name="VerticalAlignment" Value="Bottom" />
                 <Property Name="ZOrderChangeEnabled" Value="False" />
             </Window>
             <Window Type="Shimstar/Label" Name="HUD/Cockpit/Chat/History" >
+				<Property Name="Visible" Value="False" />
                 <Property Name="Font" Value="Brassiere-s" />
                 <Property Name="FrameEnabled" Value="False" />
                 <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
@@ -358,6 +361,7 @@
                 <Property Name="MousePassThroughEnabled" Value="True" />
             </Window>
             <Window Type="Shimstar/Editbox" Name="HUD/Cockpit/Chat/NewMessage" >
+				<Property Name="Visible" Value="False" />
                 <Property Name="Font" Value="Brassiere-s" />
                 <Property Name="MaxTextLength" Value="1073741823" />
                 <Property Name="UnifiedAreaRect" Value="{{0,5},{0,-5},{0,408},{0,32}}" />
