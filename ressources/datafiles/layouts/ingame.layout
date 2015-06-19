@@ -23,6 +23,7 @@
             <Window Type="Shimstar/Button" Name="Station/Menus/Vaisseau" >
                 <Property Name="Font" Value="Brassiere-s" />
                 <Property Name="Text" Value="Vaisseau" />
+					 <Property Name="Visible" Value="False" />
                 <Property Name="UnifiedAreaRect" Value="{{0.0253769,0},{0.119761,0},{0.103266,0},{0.161538,0}}" />
             </Window>
             <Window Type="Shimstar/Label" Name="Station/Name" >
@@ -36,6 +37,7 @@
             <Window Type="Shimstar/Button" Name="Station/Menus/Missions" >
                 <Property Name="Font" Value="Brassiere-s" />
                 <Property Name="Text" Value="Missions" />
+					 <Property Name="Visible" Value="False" />
                 <Property Name="UnifiedAreaRect" Value="{{0.0266331,0},{0.277586,0},{0.104522,0},{0.319364,0}}" />
             </Window>
             <Window Type="Shimstar/Button" Name="Station/Menus/Options" >
@@ -51,6 +53,7 @@
             <Window Type="Shimstar/Button" Name="Station/Menus/Personnel" >
                 <Property Name="Font" Value="Brassiere-s" />
                 <Property Name="Text" Value="Personnel" />
+					 <Property Name="Visible" Value="False" />
                 <Property Name="UnifiedAreaRect" Value="{{0.0253769,0},{0.170159,0},{0.103266,0},{0.211937,0}}" />
             </Window>
             <Window Type="Shimstar/Window" Name="Station/Vaisseau" >
@@ -229,6 +232,7 @@
             <Window Type="Shimstar/Button" Name="Station/Menus/Skills" >
                 <Property Name="Font" Value="Brassiere-s" />
                 <Property Name="Text" Value="Competences" />
+					 <Property Name="Visible" Value="False" />
                 <Property Name="UnifiedAreaRect" Value="{{0.0251256,0},{0.224137,0},{0.103015,0},{0.265915,0}}" />
             </Window>
         </Window>
@@ -550,11 +554,17 @@
                             <Property Name="Tooltip" Value="Missions" />
                             <Property Name="UnifiedAreaRect" Value="{{0,4},{0,31},{0,71},{0,57}}" />
                         </Window>
+							<Window Type="TaharezLook/MenuItem" Name="HUD/Menubar/Menu/AutoPopup/Options" >
+                            <Property Name="Font" Value="Brassiere-s" />
+                            <Property Name="Text" Value="Options" />
+                            <Property Name="Tooltip" Value="Options" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,4},{0,59},{0,71},{0,85}}" />
+                        </Window>
                         <Window Type="TaharezLook/MenuItem" Name="HUD/Menubar/Menu/AutoPopup/Quitter" >
                             <Property Name="Font" Value="Brassiere-s" />
                             <Property Name="Text" Value="Quitter" />
                             <Property Name="Tooltip" Value="Quitter" />
-                            <Property Name="UnifiedAreaRect" Value="{{0,4},{0,59},{0,71},{0,85}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,4},{0,59},{0,71},{1,03}}" />
                         </Window>
                     </Window>
                 </Window>
