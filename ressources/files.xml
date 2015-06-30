@@ -1,6 +1,28 @@
 <?xml version="1.0" ?>
 <versions>
 <version>
+      <id>0.53</id>
+		<files>
+		<file>models\spiderdrone.bam</file>
+			<file>ShimstarClient.exe</file>
+		</files>
+	</version>
+<version>
+      <id>0.52</id>
+		<files>
+			<file>ShimstarClient.exe</file>
+		</files>
+	</version>
+<version>
+      <id>0.51</id>
+		<files>
+			<file>config\itemtemplates.xml</file>
+			<file>ShimstarClient.exe</file>
+			<file>datafiles\layouts\ingame.layout</file>
+			<file>datafiles\images\ships\spiderdrone.png</file>
+		</files>
+	</version>
+<version>
       <id>0.4</id>
 		<files>
 			<file>config\itemtemplates.xml</file>
