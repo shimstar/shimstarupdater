@@ -12,27 +12,27 @@
   <Scalar> shininess {12.5}
 }
 <Texture> left.png {
-  other_left2.png
+  minrLF.png
 	<Scalar> alpha { off }
   }
 <Texture> top.png {
-  other_top3.png
+  minrUP.png
   <Scalar> alpha { off }
   }
 <Texture> front.png {
-  other_front5.png
+  minrFT.png
   <Scalar> alpha { off }
   }
 <Texture> right.png {
-  other_right1.png
+  minrRT.png
   <Scalar> alpha { off }
   }
 <Texture> back.png {
-  other_back6.png
+  minrBK.png
   <Scalar> alpha { off }
   }
 <Texture> bottom.png {
-  other_bottom4.png
+  minrDN.png
   <Scalar> alpha { off }
   }
 <Group> Cube {
