@@ -23,7 +23,7 @@
             <Window Type="Shimstar/Button" Name="Station/Menus/Vaisseau" >
                 <Property Name="Font" Value="Brassiere-s" />
                 <Property Name="Text" Value="Vaisseau" />
-					 <Property Name="Visible" Value="False" />
+                <Property Name="Visible" Value="False" />
                 <Property Name="UnifiedAreaRect" Value="{{0.0253769,0},{0.119761,0},{0.103266,0},{0.161538,0}}" />
             </Window>
             <Window Type="Shimstar/Label" Name="Station/Name" >
@@ -37,7 +37,7 @@
             <Window Type="Shimstar/Button" Name="Station/Menus/Missions" >
                 <Property Name="Font" Value="Brassiere-s" />
                 <Property Name="Text" Value="Missions" />
-					 <Property Name="Visible" Value="False" />
+                <Property Name="Visible" Value="False" />
                 <Property Name="UnifiedAreaRect" Value="{{0.0266331,0},{0.277586,0},{0.104522,0},{0.319364,0}}" />
             </Window>
             <Window Type="Shimstar/Button" Name="Station/Menus/Options" >
@@ -45,7 +45,7 @@
                 <Property Name="Text" Value="Options" />
                 <Property Name="UnifiedAreaRect" Value="{{0.0257537,0},{0.328912,0},{0.103643,0},{0.37069,0}}" />
             </Window>
-				<Window Type="Shimstar/Button" Name="Station/Menus/Sortir" >
+            <Window Type="Shimstar/Button" Name="Station/Menus/Sortir" >
                 <Property Name="Font" Value="Brassiere-s" />
                 <Property Name="Text" Value="Sortir" />
                 <Property Name="UnifiedAreaRect" Value="{{0.0251271,0},{0.384902,0},{0.103016,0},{0.42668,0}}" />
@@ -53,7 +53,7 @@
             <Window Type="Shimstar/Button" Name="Station/Menus/Personnel" >
                 <Property Name="Font" Value="Brassiere-s" />
                 <Property Name="Text" Value="Personnel" />
-					 <Property Name="Visible" Value="False" />
+                <Property Name="Visible" Value="False" />
                 <Property Name="UnifiedAreaRect" Value="{{0.0253769,0},{0.170159,0},{0.103266,0},{0.211937,0}}" />
             </Window>
             <Window Type="Shimstar/Window" Name="Station/Vaisseau" >
@@ -232,7 +232,7 @@
             <Window Type="Shimstar/Button" Name="Station/Menus/Skills" >
                 <Property Name="Font" Value="Brassiere-s" />
                 <Property Name="Text" Value="Competences" />
-					 <Property Name="Visible" Value="False" />
+                <Property Name="Visible" Value="False" />
                 <Property Name="UnifiedAreaRect" Value="{{0.0251256,0},{0.224137,0},{0.103015,0},{0.265915,0}}" />
             </Window>
         </Window>
@@ -340,21 +340,21 @@
                 <Property Name="ZOrderChangeEnabled" Value="False" />
             </Window>
             <Window Type="Shimstar/ChatBackground" Name="HUD/Cockpit/Chat/BackgroundBottom" >
-				<Property Name="Visible" Value="False" />
+                <Property Name="Visible" Value="False" />
                 <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,450},{0,80}}" />
                 <Property Name="VerticalAlignment" Value="Bottom" />
                 <Property Name="ZOrderChangeEnabled" Value="False" />
             </Window>
             <Window Type="Shimstar/ChatBackground" Name="HUD/Cockpit/Chat/BackgroundTop" >
-				<Property Name="Visible" Value="False" />
+                <Property Name="Visible" Value="False" />
                 <Property Name="NormalColours" Value="tl:00FFFFFF tr:00FFFFFF bl:BFFFFFFF br:BFFFFFFF" />
                 <Property Name="UnifiedAreaRect" Value="{{0,0},{0,-80},{0,450},{0,97}}" />
                 <Property Name="VerticalAlignment" Value="Bottom" />
                 <Property Name="ZOrderChangeEnabled" Value="False" />
             </Window>
             <Window Type="Shimstar/Label" Name="HUD/Cockpit/Chat/History" >
-				<Property Name="Visible" Value="False" />
                 <Property Name="Font" Value="Brassiere-s" />
+                <Property Name="Visible" Value="False" />
                 <Property Name="FrameEnabled" Value="False" />
                 <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
                 <Property Name="VertFormatting" Value="BottomAligned" />
@@ -365,8 +365,8 @@
                 <Property Name="MousePassThroughEnabled" Value="True" />
             </Window>
             <Window Type="Shimstar/Editbox" Name="HUD/Cockpit/Chat/NewMessage" >
-				<Property Name="Visible" Value="False" />
                 <Property Name="Font" Value="Brassiere-s" />
+                <Property Name="Visible" Value="False" />
                 <Property Name="MaxTextLength" Value="1073741823" />
                 <Property Name="UnifiedAreaRect" Value="{{0,5},{0,-5},{0,408},{0,32}}" />
                 <Property Name="VerticalAlignment" Value="Bottom" />
@@ -381,7 +381,7 @@
                 <Property Name="TitlebarEnabled" Value="True" />
                 <Property Name="UnifiedAreaRect" Value="{{0,40},{0.2,0},{0,680},{0.576923,0}}" />
                 <Window Type="Shimstar/ScrollablePane" Name="HUD/Cockpit/Loots/Panel" >
-                    <Property Name="ContentArea" Value="l:0 t:-5 r:614 b:224" />
+                    <Property Name="ContentArea" Value="l:0 t:-6 r:614 b:263" />
                     <Property Name="HorzStepSize" Value="0.1" />
                     <Property Name="VertStepSize" Value="0.1" />
                     <Property Name="HorzOverlapSize" Value="0.01" />
@@ -390,8 +390,8 @@
                     <Property Name="HorzScrollPosition" Value="0" />
                     <Property Name="VertScrollPosition" Value="0" />
                     <AutoWindow NameSuffix="__auto_container__" >
-                        <Property Name="ContentArea" Value="l:0 t:-5 r:614 b:224" />
-                        <Property Name="ChildExtentsArea" Value="l:0 t:-5 r:614 b:224" />
+                        <Property Name="ContentArea" Value="l:0 t:-6 r:614 b:263" />
+                        <Property Name="ChildExtentsArea" Value="l:0 t:-6 r:614 b:263" />
                         <Window Type="DragContainer" Name="HUD/Cockpit/Loots/DragDrop" >
                             <Property Name="DragAlpha" Value="0.5" />
                             <Property Name="StickyMode" Value="False" />
@@ -532,7 +532,7 @@
                     <Property Name="Font" Value="Brassiere-s" />
                     <Property Name="Text" Value="Menu" />
                     <Property Name="Tooltip" Value="Menus" />
-                    <Property Name="UnifiedAreaRect" Value="{{0,9},{0,0},{0,50},{0,26}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,10},{0,0},{0,53},{0,27}}" />
                     <Property Name="VerticalAlignment" Value="Centre" />
                     <Window Type="TaharezLook/PopupMenu" Name="HUD/Menubar/Menu/AutoPopup" >
                         <Property Name="Visible" Value="False" />
@@ -540,31 +540,31 @@
                         <Property Name="FadeOutTime" Value="0" />
                         <Property Name="ItemSpacing" Value="2" />
                         <Property Name="ClippedByParent" Value="False" />
-                        <Property Name="UnifiedAreaRect" Value="{{1.44541e-006,0},{1.22661,0},{1.44541e-006,79},{1.22661,90.8023}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{1.44541e-006,0},{1.22661,0},{1.44541e-006,84},{1.22661,123.235}}" />
                         <Property Name="AutoResizeEnabled" Value="True" />
                         <Window Type="TaharezLook/MenuItem" Name="HUD/Menubar/Menu/AutoPopup/Inventaire" >
                             <Property Name="Font" Value="Brassiere-s" />
                             <Property Name="Text" Value="Inventaire" />
                             <Property Name="Tooltip" Value="Inventaire" />
-                            <Property Name="UnifiedAreaRect" Value="{{0,4},{0,3},{0,71},{0,29}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,5},{0,3},{0,74},{0,30}}" />
                         </Window>
                         <Window Type="TaharezLook/MenuItem" Name="HUD/Menubar/Menu/AutoPopup/Missions" >
                             <Property Name="Font" Value="Brassiere-s" />
                             <Property Name="Text" Value="Missions" />
                             <Property Name="Tooltip" Value="Missions" />
-                            <Property Name="UnifiedAreaRect" Value="{{0,4},{0,31},{0,71},{0,57}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,5},{0,32},{0,74},{0,59}}" />
                         </Window>
-							<Window Type="TaharezLook/MenuItem" Name="HUD/Menubar/Menu/AutoPopup/Options" >
+                        <Window Type="TaharezLook/MenuItem" Name="HUD/Menubar/Menu/AutoPopup/Options" >
                             <Property Name="Font" Value="Brassiere-s" />
                             <Property Name="Text" Value="Options" />
                             <Property Name="Tooltip" Value="Options" />
-                            <Property Name="UnifiedAreaRect" Value="{{0,4},{0,59},{0,71},{0,85}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,5},{0,61},{0,74},{0,88}}" />
                         </Window>
                         <Window Type="TaharezLook/MenuItem" Name="HUD/Menubar/Menu/AutoPopup/Quitter" >
                             <Property Name="Font" Value="Brassiere-s" />
                             <Property Name="Text" Value="Quitter" />
                             <Property Name="Tooltip" Value="Quitter" />
-                            <Property Name="UnifiedAreaRect" Value="{{0,4},{0,59},{0,71},{1,03}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,5},{0,90},{0,74},{0,117}}" />
                         </Window>
                     </Window>
                 </Window>
@@ -607,11 +607,30 @@
                     <Property Name="UnifiedAreaRect" Value="{{0.0399985,0},{0.145833,0},{0.945001,0},{0.395832,0}}" />
                 </Window>
             </Window>
+            <Window Type="Shimstar/Window" Name="HUD/Cockpit/TargetSelect" >
+                <Property Name="TitlebarFont" Value="DejaVuSans-10" />
+                <Property Name="TitlebarEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.848276,0},{0.00540552,0},{0.974975,0},{0.393784,0}}" />
+                <Window Type="Shimstar/ScrollablePane" Name="HUD/Cockpit/TargetSelect/Panel" >
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="HorzStepSize" Value="0.1" />
+                    <Property Name="VertStepSize" Value="0.1" />
+                    <Property Name="HorzOverlapSize" Value="0.01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.00850747,0},{-0.00918583,0},{1.01596,0},{0.978462,0}}" />
+                    <Property Name="VertOverlapSize" Value="0.01" />
+                    <Property Name="HorzScrollPosition" Value="0" />
+                    <Property Name="VertScrollPosition" Value="0" />
+                    <AutoWindow NameSuffix="__auto_container__" >
+                        <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                    </AutoWindow>
+                </Window>
+            </Window>
         </Window>
         <Window Type="Shimstar/Window" Name="HUD/Cockpit/LootsWindow" >
             <Property Name="Font" Value="Brassiere-m" />
             <Property Name="Text" Value="Loots" />
-            <Property Name="Visible" Value="False" />
+				<Property Name="Visible" Value="False" />
             <Property Name="TitlebarFont" Value="Brassiere-m" />
             <Property Name="TitlebarEnabled" Value="True" />
             <Property Name="UnifiedAreaRect" Value="{{0.628894,0},{0.103316,0},{0.779021,0},{0.52175,0}}" />
@@ -635,35 +654,35 @@
                 <Property Name="UnifiedAreaRect" Value="{{0.0824771,0},{0.801597,0},{0.911697,0},{0.949127,0}}" />
             </Window>
         </Window>
-		  <Window Type="Shimstar/Window" Name="Options" >
-					<Property Name="Visible" Value="False" />
-                <Property Name="Font" Value="Brassiere-s" />
-                <Property Name="Text" Value="options" />
-                <Property Name="TitlebarFont" Value="Brassiere-s" />
-                <Property Name="TitlebarEnabled" Value="True" />
-                <Property Name="UnifiedAreaRect" Value="{{0.419423,0},{0.230729,0},{0.56604,0},{0.683854,0}}" />
-                <Window Type="Shimstar/Button" Name="Options/Video" >
-                    <Property Name="Font" Value="Brassiere-s" />
-                    <Property Name="Text" Value="Video" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.117949,0},{0.394253,0},{0.867948,0},{0.514943,0}}" />
-                </Window>
-            </Window>
-            <Window Type="Shimstar/Window" Name="Options/OptionVideo" >
-					<Property Name="Visible" Value="False" />
+        <Window Type="Shimstar/Window" Name="Options" >
+            <Property Name="Font" Value="Brassiere-s" />
+            <Property Name="Text" Value="options" />
+            <Property Name="Visible" Value="False" />
+            <Property Name="TitlebarFont" Value="Brassiere-s" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.419423,0},{0.230729,0},{0.56604,0},{0.683854,0}}" />
+            <Window Type="Shimstar/Button" Name="Options/Video" >
                 <Property Name="Font" Value="Brassiere-s" />
                 <Property Name="Text" Value="Video" />
-                <Property Name="TitlebarFont" Value="Brassiere-s" />
-                <Property Name="TitlebarEnabled" Value="True" />
-                <Property Name="UnifiedAreaRect" Value="{{0.350877,0},{0.197917,0},{0.637845,0},{0.640624,0}}" />
-                <Window Type="TaharezLook/Listbox" Name="Options/OptionVideo/Resolution" >
-                    <Property Name="UnifiedAreaRect" Value="{{0.0703056,0},{0.105882,0},{0.936026,0},{0.535293,0}}" />
-                </Window>
-                <Window Type="Shimstar/Button" Name="Options/OptionVideo/Choose" >
-                    <Property Name="Font" Value="Brassiere-s" />
-                    <Property Name="Text" Value="Changer la resolution" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.253275,0},{0.747059,0},{0.734716,0},{0.879412,0}}" />
-                </Window>
+                <Property Name="UnifiedAreaRect" Value="{{0.117949,0},{0.394253,0},{0.867948,0},{0.514943,0}}" />
             </Window>
+        </Window>
+        <Window Type="Shimstar/Window" Name="Options/OptionVideo" >
+            <Property Name="Font" Value="Brassiere-s" />
+            <Property Name="Text" Value="Video" />
+            <Property Name="Visible" Value="False" />
+            <Property Name="TitlebarFont" Value="Brassiere-s" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.350877,0},{0.197917,0},{0.637845,0},{0.640624,0}}" />
+            <Window Type="TaharezLook/Listbox" Name="Options/OptionVideo/Resolution" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0703056,0},{0.105882,0},{0.936026,0},{0.535293,0}}" />
+            </Window>
+            <Window Type="Shimstar/Button" Name="Options/OptionVideo/Choose" >
+                <Property Name="Font" Value="Brassiere-s" />
+                <Property Name="Text" Value="Changer la resolution" />
+                <Property Name="UnifiedAreaRect" Value="{{0.253275,0},{0.747059,0},{0.734716,0},{0.879412,0}}" />
+            </Window>
+        </Window>
         <Window Type="Shimstar/Window" Name="Inventaire" >
             <Property Name="Font" Value="Brassiere-m" />
             <Property Name="Text" Value="Soute" />
@@ -672,7 +691,7 @@
             <Property Name="TitlebarEnabled" Value="True" />
             <Property Name="UnifiedAreaRect" Value="{{0.199623,0},{0.179841,0},{0.663819,0},{0.758754,0}}" />
             <Window Type="Shimstar/ScrollablePane" Name="Inventaire/Panel" >
-                <Property Name="ContentArea" Value="l:0 t:-8 r:723 b:333" />
+                <Property Name="ContentArea" Value="l:0 t:-10 r:873 b:411" />
                 <Property Name="HorzStepSize" Value="0.1" />
                 <Property Name="VertStepSize" Value="0.1" />
                 <Property Name="HorzOverlapSize" Value="0.01" />
@@ -681,8 +700,8 @@
                 <Property Name="HorzScrollPosition" Value="0" />
                 <Property Name="VertScrollPosition" Value="0" />
                 <AutoWindow NameSuffix="__auto_container__" >
-                    <Property Name="ContentArea" Value="l:0 t:-8 r:723 b:333" />
-                    <Property Name="ChildExtentsArea" Value="l:0 t:-8 r:723 b:333" />
+                    <Property Name="ContentArea" Value="l:0 t:-10 r:873 b:411" />
+                    <Property Name="ChildExtentsArea" Value="l:0 t:-10 r:873 b:411" />
                     <Window Type="DragContainer" Name="Inventaire/DragDrop" >
                         <Property Name="DragAlpha" Value="0.5" />
                         <Property Name="StickyMode" Value="False" />
