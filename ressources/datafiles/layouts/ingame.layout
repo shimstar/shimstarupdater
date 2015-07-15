@@ -23,7 +23,7 @@
             <Window Type="Shimstar/Button" Name="Station/Menus/Vaisseau" >
                 <Property Name="Font" Value="Brassiere-s" />
                 <Property Name="Text" Value="Vaisseau" />
-                <Property Name="Visible" Value="False" />
+                <Property Name="Visible" Value="True" />
                 <Property Name="UnifiedAreaRect" Value="{{0.0253769,0},{0.119761,0},{0.103266,0},{0.161538,0}}" />
             </Window>
             <Window Type="Shimstar/Label" Name="Station/Name" >
@@ -53,7 +53,7 @@
             <Window Type="Shimstar/Button" Name="Station/Menus/Personnel" >
                 <Property Name="Font" Value="Brassiere-s" />
                 <Property Name="Text" Value="Personnel" />
-                <Property Name="Visible" Value="False" />
+                <Property Name="Visible" Value="True" />
                 <Property Name="UnifiedAreaRect" Value="{{0.0253769,0},{0.170159,0},{0.103266,0},{0.211937,0}}" />
             </Window>
             <Window Type="Shimstar/Window" Name="Station/Vaisseau" >
@@ -295,7 +295,7 @@
             </Window>
             <Window Type="Shimstar/BackgroundImage" Name="HUD/Cockpit/ReticleTarget" >
                 <Property Name="BackgroundImage" Value="set:ShimstarImageset image:ReticleTarget" />
-                <Property Name="UnifiedAreaRect" Value="{{0.000937507,0},{0.00257644,0},{1.00094,0},{1.00257,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.00198244,0},{0.00149536,0},{1.00198,0},{1.00149,0}}" />
                 <Property Name="VerticalAlignment" Value="Centre" />
                 <Property Name="HorizontalAlignment" Value="Centre" />
                 <Property Name="HorzImageFormatting" Value="CentreAligned" />
@@ -376,7 +376,7 @@
             <Window Type="Shimstar/Window" Name="HUD/Cockpit/Loots" >
                 <Property Name="Font" Value="Brassiere-m" />
                 <Property Name="Text" Value="Loots" />
-                <Property Name="Visible" Value="False" />
+					 <Property Name="Visible" Value="False" />
                 <Property Name="TitlebarFont" Value="Brassiere-m" />
                 <Property Name="TitlebarEnabled" Value="True" />
                 <Property Name="UnifiedAreaRect" Value="{{0,40},{0.2,0},{0,680},{0.576923,0}}" />
@@ -404,6 +404,11 @@
                     <Property Name="Font" Value="Brassiere-s" />
                     <Property Name="Text" Value="Tout prendre" />
                     <Property Name="UnifiedAreaRect" Value="{{0.356963,0},{0.896115,0},{0.606963,0},{1.01086,0}}" />
+                </Window>
+                <Window Type="Shimstar/Button" Name="HUD/Cockpit/Loots/DestroyButton" >
+                    <Property Name="Font" Value="Brassiere-s" />
+                    <Property Name="Text" Value="Detruire" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.623789,0},{0.894488,0},{0.873791,0},{1.00923,0}}" />
                 </Window>
             </Window>
             <Window Type="Shimstar/Label" Name="HUD/Cockpit/hullLabel" >
@@ -540,7 +545,7 @@
                         <Property Name="FadeOutTime" Value="0" />
                         <Property Name="ItemSpacing" Value="2" />
                         <Property Name="ClippedByParent" Value="False" />
-                        <Property Name="UnifiedAreaRect" Value="{{1.44541e-006,0},{1.22661,0},{1.44541e-006,84},{1.22661,123.235}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{1.44541e-006,0},{1.22661,0},{1.44541e-006,84},{1.22661,123.951}}" />
                         <Property Name="AutoResizeEnabled" Value="True" />
                         <Window Type="TaharezLook/MenuItem" Name="HUD/Menubar/Menu/AutoPopup/Inventaire" >
                             <Property Name="Font" Value="Brassiere-s" />
@@ -626,34 +631,43 @@
                     </AutoWindow>
                 </Window>
             </Window>
-        </Window>
-        <Window Type="Shimstar/Window" Name="HUD/Cockpit/LootsWindow" >
+				 <Window Type="Shimstar/Window" Name="HUD/Cockpit/LootsWindow" >
             <Property Name="Font" Value="Brassiere-m" />
             <Property Name="Text" Value="Loots" />
 				<Property Name="Visible" Value="False" />
             <Property Name="TitlebarFont" Value="Brassiere-m" />
             <Property Name="TitlebarEnabled" Value="True" />
-            <Property Name="UnifiedAreaRect" Value="{{0.628894,0},{0.103316,0},{0.779021,0},{0.52175,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.628894,0},{0.102235,0},{0.779021,0},{0.272021,0}}" />
             <Window Type="Shimstar/Label" Name="HUD/Cockpit/LootsWindow/Name" >
                 <Property Name="Font" Value="Brassiere-s" />
                 <Property Name="Text" Value="Nom : ast1" />
                 <Property Name="HorzExtent" Value="63" />
                 <Property Name="VertExtent" Value="18.7393" />
-                <Property Name="UnifiedAreaRect" Value="{{0.0569041,0},{0.0164817,0},{0.92615,0},{0.13336,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.554567,0},{0.0350358,0},{0.880908,0},{0.345369,0}}" />
             </Window>
             <Window Type="Shimstar/Label" Name="HUD/Cockpit/LootsWindow/Distance" >
                 <Property Name="Font" Value="Brassiere-s" />
                 <Property Name="Text" Value="Distance : " />
                 <Property Name="HorzExtent" Value="65" />
                 <Property Name="VertExtent" Value="18.7393" />
-                <Property Name="UnifiedAreaRect" Value="{{0.0566949,0},{0.158399,0},{0.925941,0},{0.275277,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.557838,0},{0.340811,0},{0.887659,0},{0.630841,0}}" />
             </Window>
             <Window Type="Shimstar/Button" Name="HUD/Cockpit/LootsWindow/Open" >
                 <Property Name="Font" Value="Brassiere-s" />
                 <Property Name="Text" Value="Ouvrir" />
-                <Property Name="UnifiedAreaRect" Value="{{0.0824771,0},{0.801597,0},{0.911697,0},{0.949127,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0581159,0},{0.63513,0},{0.438396,0},{0.99761,0}}" />
+            </Window>
+            <Window Type="Shimstar/Button" Name="HUD/Cockpit/LootsWindow/Destroy" >
+                <Property Name="Font" Value="Brassiere-s" />
+                <Property Name="Text" Value="Detruire" />
+                <Property Name="UnifiedAreaRect" Value="{{0.533171,0},{0.629558,0},{0.915418,0},{0.992527,0}}" />
+            </Window>
+            <Window Type="Shimstar/BackgroundImage" Name="HUD/Cockpit/LootsWindow/Img" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0937457,0},{0.0880014,0},{0.375067,0},{0.579959,0}}" />
             </Window>
         </Window>
+        </Window>
+       
         <Window Type="Shimstar/Window" Name="Options" >
             <Property Name="Font" Value="Brassiere-s" />
             <Property Name="Text" Value="options" />
