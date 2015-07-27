@@ -23,6 +23,7 @@
 	<FalagardMapping WindowType="Shimstar/MediumProgressBar"    TargetType="CEGUI/ProgressBar"      Renderer="Falagard/ProgressBar"         LookNFeel="Shimstar/MediumProgressBar" />
 	
 	<FalagardMapping WindowType="Shimstar/Window"               TargetType="CEGUI/FrameWindow"      Renderer="Falagard/FrameWindow"         LookNFeel="Shimstar/Window" />
+	<FalagardMapping WindowType="Shimstar/WindowOpac"               TargetType="CEGUI/FrameWindow"      Renderer="Falagard/FrameWindow"         LookNFeel="Shimstar/WindowOpac" />
 	<FalagardMapping WindowType="Shimstar/Titlebar"             TargetType="CEGUI/Titlebar"         Renderer="Falagard/Titlebar"            LookNFeel="Shimstar/Titlebar" />
 
 	<FalagardMapping WindowType="Shimstar/ChatBackground"       TargetType="CEGUI/PushButton"       Renderer="Falagard/Button"              LookNFeel="Shimstar/ChatBackground" />

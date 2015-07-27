@@ -4,7 +4,7 @@
 
 <Comment> { "Egg laid by Chicken for Blender v1.0" }
 
-<Texture> craters.png { "craters.png" }
+<Texture> craters.png { "./craters.png" }
 
 <Texture> craternormal { craternormal2.png
 	<Scalar> format { rgb }

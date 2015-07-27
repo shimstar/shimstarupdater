@@ -1,6 +1,112 @@
 <?xml version="1.0" ?>
 <versions>
 <version>
+      <id>0.603</id>
+		<files>
+			<file>ShimstarClient.exe</file>
+		</files>
+</version>
+<version>
+      <id>0.602</id>
+		<files>
+			<file>ShimstarClient.exe</file>
+			<file>sounds\Button_press3.ogg</file>
+			<file>sounds\Button_press1.ogg</file>
+		</files>
+</version>
+<version>
+      <id>0.601</id>
+		<files>
+			<file>ShimstarClient.exe</file>
+			<file>datafiles\layouts\ingame.layout</file>
+			<file>config\asteroids.xml</file>
+			<file>config\itemtemplates.xml</file>
+			<file>config\zones.xml</file>
+			<file>datafiles\imagesets\shimstar.imageset</file>
+			<file>datafiles\imagesets\shimstar.png</file>
+			<file>datafiles\looknfeel\shimstar.looknfeel</file>
+			<file>datafiles\schemes\shimstar.scheme</file>
+			<file>models\asteroid1.bam</file>
+			<file>models\asteroid2.bam</file>
+			<file>models\AssJacket.bam</file>
+			<file>models\AssJacketfar.bam</file>
+			<file>models\AssJacketmiddle.bam</file>
+			<file>models\beam.bam</file>
+			<file>models\ion.png</file>
+			<file>models\NotASphere.bam</file>
+			<file>models\NotASpherefar.bam</file>
+			<file>models\NotASpheremiddle.bam</file>
+			<file>models\RustyGremlin.bam</file>
+			<file>models\RustyGremlinfar.bam</file>
+			<file>models\RustyGremlinmiddle.bam</file>
+			<file>models\spheregreen.bam</file>
+			<file>models\spherepurple.bam</file>
+			<file>models\spherered.bam</file>
+			<file>models\TehShoe.bam</file>
+			<file>models\TehShoefar.bam</file>
+			<file>models\TehShoemiddle.bam</file>
+			<file>models\TehShoefar.bam</file>
+			<file>models\TehShoefar.bam</file>
+			<file>models\TehShoefar.bam</file>
+			<file>tex\asteroid.png</file>
+			<file>tex\asteroidnormal.tga</file>
+			<file>models\skybox\skybb.bam</file>
+			<file>models\skybox\purplenebula_2048_top3.png</file>
+			<file>models\skybox\purplenebula_2048_right1.png</file>
+			<file>models\skybox\purplenebula_2048_left2.png</file>
+			<file>models\skybox\purplenebula_2048_front5.png</file>
+			<file>models\skybox\purplenebula_2048_bottom4.png</file>
+			<file>models\skybox\purplenebula_2048_back6.png</file>
+		</files>
+	</version>
+<version>
+      <id>0.6</id>
+		<files>
+			<file>ShimstarClient.exe</file>
+			<file>config\itemtemplates.xml</file>
+			<file>datafiles\layouts\ingame.layout</file>
+			<file>models\spherered.bam</file>
+			<file>models\spheregreen.bam</file>
+			<file>models\spherepurple.bam</file>
+		</files>
+	</version>
+<version>
+      <id>0.57</id>
+		<files>
+			<file>ShimstarClient.exe</file>
+			<file>config\itemtemplates.xml</file>
+		</files>
+	</version>
+<version>
+      <id>0.56</id>
+		<files>
+			<file>ShimstarClient.exe</file>
+			<file>datafiles\imagesets\shimstar.imageset</file>
+		</files>
+	</version>
+<version>
+      <id>0.55</id>
+		<files>
+			<file>ShimstarClient.exe</file>
+			<file>models\skybox\earth_1.bam</file>
+			<file>models\skybox\earth_2.bam</file>
+         <file>models\skybox\earth_2.egg</file>
+         <file>models\skybox\minrBK.png</file>
+         <file>models\skybox\minrDN.png</file>
+         <file>models\skybox\minrFT.png</file>
+         <file>models\skybox\minrLF.png</file>
+         <file>models\skybox\minrRT.png</file>
+         <file>models\skybox\minrUP.png</file>
+			<file>datafiles\layouts\ingame.layout</file>
+		</files>
+	</version>
+<version>
+      <id>0.54</id>
+		<files>
+			<file>ShimstarClient.exe</file>
+		</files>
+	</version>
+<version>
       <id>0.53</id>
 		<files>
 		<file>models\spiderdrone.bam</file>
@@ -34,11 +140,9 @@
 			<file>datafiles\imagesets\shimstar.imageset</file>
 			<file>datafiles\imagesets\shimstar.png</file>
 			<file>images\items\spiderdrone.png</file>
-			<file>sounds\Buttton_press3.ogg</file>
-			<file>sounds\Buttton_press1.ogg</file>
+			<file>sounds\Button_press3.ogg</file>
+			<file>sounds\Button_press1.ogg</file>
 			<file>datafiles\layouts\ingame.layout</file>
-			<file>models/fighterred.egg</file>
-			<file>models/fighterred.bam</file>
 			<file>ShimstarClient.exe</file>
 			<file>datafiles\fonts\Batang-26.font</file>
 			<file>datafiles\fonts\batang.ttf</file>
@@ -48,7 +152,7 @@
       <id>0.31</id>
 		<files>
 			<file>config\tutos.xml</file>
-			<file>datafiles\layout\ingame.layout</file>
+			<file>datafiles\layouts\ingame.layout</file>
 			<file>ShimstarClient.exe</file>
 		</files>
 	</version>

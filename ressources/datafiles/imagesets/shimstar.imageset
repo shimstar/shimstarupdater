@@ -167,8 +167,15 @@
 	<Image Name="minerai1" XPos="252" YPos="66" Width="64" Height="64" />
 	<Image Name="weapon1" XPos="317" YPos="62" Width="64" Height="64" />
 	<Image Name="motor1" XPos="385" YPos="62" Width="64" Height="64" />
+	<Image Name="weapon1ko" XPos="385" YPos="194" Width="64" Height="64" />
+	<Image Name="motor1ko" XPos="317" YPos="194" Width="64" Height="64" />
 	<Image Name="minage1" XPos="317" YPos="127" Width="64" Height="64" />
 	<Image Name="construct1" XPos="385" YPos="127" Width="64" Height="64" />
+	<Image Name="shield1" XPos="317" YPos="260" Width="64" Height="64" />
+	<Image Name="shield1ko" XPos="385" YPos="260" Width="64" Height="64" />
+	<Image Name="minage1ko" XPos="317" YPos="326" Width="64" Height="64" />
+	<Image Name="energy1" XPos="317" YPos="392" Width="64" Height="64" />
+	<Image Name="energy1ko" XPos="385" YPos="392" Width="64" Height="64" />
 	
 	
 	</Imageset>
