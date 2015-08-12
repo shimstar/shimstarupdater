@@ -1,0 +1,1889 @@
+<CoordinateSystem> { Z-Up }
+
+<Comment> {
+  "egg-trans shieldssmall.egg -o shieldssmallscale.egg -TS 2.1"
+}
+<Comment> {
+  "Egg laid by Chicken for Blender v1.0"
+}
+<Texture> 0015 {
+  0015.png
+}
+<Texture> 0014 {
+  0014.png
+}
+<Texture> 0013 {
+  0013.png
+}
+<Texture> 0012 {
+  0012.png
+}
+<Texture> 0011 {
+  0011.png
+}
+<Texture> 0010 {
+  0010.png
+}
+<Texture> 0009 {
+  0009.png
+}
+<Texture> 0008 {
+  0008.png
+}
+<Texture> 0007 {
+  0007.png
+}
+<Texture> 0006 {
+  0006.png
+}
+<Texture> 0005 {
+  0005.png
+}
+<Texture> 0004 {
+  0004.png
+}
+<Texture> 0003 {
+  0003.png
+}
+<Texture> 0002 {
+  0002.png
+}
+<Texture> 0001 {
+  0001.png
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 15 }
+  <VertexPool> Sphere {
+    <Vertex> 0 {
+      4.69577 8.93181 -2.90217
+      <UV> { 0.508833 0.008856 }
+      <Normal> { 0.351036 0.910886 -0.216933 }
+    }
+    <Vertex> 1 {
+      2.76012 8.49462 -5.52024
+      <UV> { 0.802157 0.021847 }
+      <Normal> { 0.217056 0.890898 -0.398983 }
+    }
+    <Vertex> 2 {
+      1.45109 9.98608 -2.90217
+      <UV> { 0.651526 0.265029 }
+      <Normal> { 0.14994 0.950975 -0.270491 }
+    }
+    <Vertex> 3 {
+      1.45109 9.98608 -2.90217
+      <UV> { 0.651526 0.265029 }
+      <Normal> { 0.14994 0.950975 -0.270491 }
+    }
+    <Vertex> 4 {
+      3.24468 9.98609 0
+      <UV> { 0.366141 0.265033 }
+      <Normal> { 0.308977 0.950979 -0.013123 }
+    }
+    <Vertex> 5 {
+      4.69577 8.93181 -2.90217
+      <UV> { 0.508833 0.008856 }
+      <Normal> { 0.351036 0.910886 -0.216933 }
+    }
+    <Vertex> 6 {
+      6.17175 8.49468 0
+      <UV> { 0.215511 0.021856 }
+      <Normal> { 0.453933 0.890898 -0.015687 }
+    }
+    <Vertex> 7 {
+      4.69577 8.93181 -2.90217
+      <UV> { 0.508833 0.008856 }
+      <Normal> { 0.351036 0.910886 -0.216933 }
+    }
+    <Vertex> 8 {
+      3.24468 9.98609 0
+      <UV> { 0.366141 0.265033 }
+      <Normal> { 0.308977 0.950979 -0.013123 }
+    }
+    <Vertex> 9 {
+      3.24468 9.98609 0
+      <UV> { 0.366141 0.265033 }
+      <Normal> { 0.308977 0.950979 -0.013123 }
+    }
+    <Vertex> 10 {
+      1.45109 9.98608 -2.90217
+      <UV> { 0.651526 0.265029 }
+      <Normal> { 0.14994 0.950975 -0.270491 }
+    }
+    <Vertex> 11 {
+      0 10.5 0
+      <UV> { 0.508833 0.496088 }
+      <Normal> { 0 1 0 }
+    }
+    <Vertex> 12 {
+      1.50844 10.1004 2.44079
+      <UV> { 0.26984 0.496091 }
+      <Normal> { 0.150336 0.958231 0.243296 }
+    }
+    <Vertex> 13 {
+      2.90204 8.93172 4.69576
+      <UV> { 0.022252 0.496094 }
+      <Normal> { 0.21205 0.915038 0.343132 }
+    }
+    <Vertex> 14 {
+      4.71644 9.05802 2.44079
+      <UV> { 0.109253 0.25714 }
+      <Normal> { 0.353535 0.918568 0.176767 }
+    }
+    <Vertex> 15 {
+      4.71644 9.05802 2.44079
+      <UV> { 0.109253 0.25714 }
+      <Normal> { 0.353535 0.918568 0.176767 }
+    }
+    <Vertex> 16 {
+      3.24468 9.98609 0
+      <UV> { 0.366141 0.265033 }
+      <Normal> { 0.308977 0.950979 -0.013123 }
+    }
+    <Vertex> 17 {
+      1.50844 10.1004 2.44079
+      <UV> { 0.26984 0.496091 }
+      <Normal> { 0.150336 0.958231 0.243296 }
+    }
+    <Vertex> 18 {
+      0 10.5 0
+      <UV> { 0.508833 0.496088 }
+      <Normal> { 0 1 0 }
+    }
+    <Vertex> 19 {
+      1.50844 10.1004 2.44079
+      <UV> { 0.26984 0.496091 }
+      <Normal> { 0.150336 0.958231 0.243296 }
+    }
+    <Vertex> 20 {
+      3.24468 9.98609 0
+      <UV> { 0.366141 0.265033 }
+      <Normal> { 0.308977 0.950979 -0.013123 }
+    }
+    <Vertex> 21 {
+      3.24468 9.98609 0
+      <UV> { 0.366141 0.265033 }
+      <Normal> { 0.308977 0.950979 -0.013123 }
+    }
+    <Vertex> 22 {
+      4.71644 9.05802 2.44079
+      <UV> { 0.109253 0.25714 }
+      <Normal> { 0.353535 0.918568 0.176767 }
+    }
+    <Vertex> 23 {
+      6.17175 8.49468 0
+      <UV> { 0.215511 0.021856 }
+      <Normal> { 0.453933 0.890898 -0.015687 }
+    }
+    <Vertex> 24 {
+      -1.50844 10.1004 -2.44079
+      <UV> { 0.747826 0.496083 }
+      <Normal> { -0.150336 0.958231 -0.243296 }
+    }
+    <Vertex> 25 {
+      0 10.5 0
+      <UV> { 0.508833 0.496088 }
+      <Normal> { 0 1 0 }
+    }
+    <Vertex> 26 {
+      1.45109 9.98608 -2.90217
+      <UV> { 0.651526 0.265029 }
+      <Normal> { 0.14994 0.950975 -0.270491 }
+    }
+    <Vertex> 27 {
+      1.45109 9.98608 -2.90217
+      <UV> { 0.651526 0.265029 }
+      <Normal> { 0.14994 0.950975 -0.270491 }
+    }
+    <Vertex> 28 {
+      -0.0737688 9.05798 -5.31014
+      <UV> { 0.908414 0.257128 }
+      <Normal> { 0 0.91856 -0.395282 }
+    }
+    <Vertex> 29 {
+      -1.50844 10.1004 -2.44079
+      <UV> { 0.747826 0.496083 }
+      <Normal> { -0.150336 0.958231 -0.243296 }
+    }
+    <Vertex> 30 {
+      -2.90204 8.93172 -4.69576
+      <UV> { 0.995414 0.496078 }
+      <Normal> { -0.21205 0.915038 -0.343132 }
+    }
+    <Vertex> 31 {
+      -1.50844 10.1004 -2.44079
+      <UV> { 0.747826 0.496083 }
+      <Normal> { -0.150336 0.958231 -0.243296 }
+    }
+    <Vertex> 32 {
+      -0.0737688 9.05798 -5.31014
+      <UV> { 0.908414 0.257128 }
+      <Normal> { 0 0.91856 -0.395282 }
+    }
+    <Vertex> 33 {
+      -0.0737688 9.05798 -5.31014
+      <UV> { 0.908414 0.257128 }
+      <Normal> { 0 0.91856 -0.395282 }
+    }
+    <Vertex> 34 {
+      1.45109 9.98608 -2.90217
+      <UV> { 0.651526 0.265029 }
+      <Normal> { 0.14994 0.950975 -0.270491 }
+    }
+    <Vertex> 35 {
+      2.76012 8.49462 -5.52024
+      <UV> { 0.802157 0.021847 }
+      <Normal> { 0.217056 0.890898 -0.398983 }
+    }
+    <Vertex> 36 {
+      -4.69577 8.93181 2.90217
+      <UV> { 0.508831 0.983322 }
+      <Normal> { -0.351036 0.910886 0.216933 }
+    }
+    <Vertex> 37 {
+      -3.24468 9.98609 0
+      <UV> { 0.651525 0.727143 }
+      <Normal> { -0.308977 0.950979 0.013123 }
+    }
+    <Vertex> 38 {
+      -6.17175 8.49468 0
+      <UV> { 0.802158 0.970322 }
+      <Normal> { -0.453933 0.890898 0.015687 }
+    }
+    <Vertex> 39 {
+      -3.24468 9.98609 0
+      <UV> { 0.651525 0.727143 }
+      <Normal> { -0.308977 0.950979 0.013123 }
+    }
+    <Vertex> 40 {
+      -4.69577 8.93181 2.90217
+      <UV> { 0.508831 0.983322 }
+      <Normal> { -0.351036 0.910886 0.216933 }
+    }
+    <Vertex> 41 {
+      -1.45109 9.98608 2.90217
+      <UV> { 0.366139 0.727147 }
+      <Normal> { -0.14994 0.950975 0.270491 }
+    }
+    <Vertex> 42 {
+      -2.76012 8.49462 5.52024
+      <UV> { 0.215504 0.97033 }
+      <Normal> { -0.217056 0.890898 0.398983 }
+    }
+    <Vertex> 43 {
+      -1.45109 9.98608 2.90217
+      <UV> { 0.366139 0.727147 }
+      <Normal> { -0.14994 0.950975 0.270491 }
+    }
+    <Vertex> 44 {
+      -4.69577 8.93181 2.90217
+      <UV> { 0.508831 0.983322 }
+      <Normal> { -0.351036 0.910886 0.216933 }
+    }
+    <Vertex> 45 {
+      -1.45109 9.98608 2.90217
+      <UV> { 0.366139 0.727147 }
+      <Normal> { -0.14994 0.950975 0.270491 }
+    }
+    <Vertex> 46 {
+      0 10.5 0
+      <UV> { 0.508833 0.496088 }
+      <Normal> { 0 1 0 }
+    }
+    <Vertex> 47 {
+      -3.24468 9.98609 0
+      <UV> { 0.651525 0.727143 }
+      <Normal> { -0.308977 0.950979 0.013123 }
+    }
+    <Vertex> 48 {
+      1.50844 10.1004 2.44079
+      <UV> { 0.26984 0.496091 }
+      <Normal> { 0.150336 0.958231 0.243296 }
+    }
+    <Vertex> 49 {
+      0.0737688 9.05798 5.31014
+      <UV> { 0.10925 0.735046 }
+      <Normal> { 0 0.91856 0.395282 }
+    }
+    <Vertex> 50 {
+      2.90204 8.93172 4.69576
+      <UV> { 0.022252 0.496094 }
+      <Normal> { 0.21205 0.915038 0.343132 }
+    }
+    <Vertex> 51 {
+      0.0737688 9.05798 5.31014
+      <UV> { 0.10925 0.735046 }
+      <Normal> { 0 0.91856 0.395282 }
+    }
+    <Vertex> 52 {
+      1.50844 10.1004 2.44079
+      <UV> { 0.26984 0.496091 }
+      <Normal> { 0.150336 0.958231 0.243296 }
+    }
+    <Vertex> 53 {
+      -1.45109 9.98608 2.90217
+      <UV> { 0.366139 0.727147 }
+      <Normal> { -0.14994 0.950975 0.270491 }
+    }
+    <Vertex> 54 {
+      0 10.5 0
+      <UV> { 0.508833 0.496088 }
+      <Normal> { 0 1 0 }
+    }
+    <Vertex> 55 {
+      -1.45109 9.98608 2.90217
+      <UV> { 0.366139 0.727147 }
+      <Normal> { -0.14994 0.950975 0.270491 }
+    }
+    <Vertex> 56 {
+      1.50844 10.1004 2.44079
+      <UV> { 0.26984 0.496091 }
+      <Normal> { 0.150336 0.958231 0.243296 }
+    }
+    <Vertex> 57 {
+      -1.45109 9.98608 2.90217
+      <UV> { 0.366139 0.727147 }
+      <Normal> { -0.14994 0.950975 0.270491 }
+    }
+    <Vertex> 58 {
+      -2.76012 8.49462 5.52024
+      <UV> { 0.215504 0.97033 }
+      <Normal> { -0.217056 0.890898 0.398983 }
+    }
+    <Vertex> 59 {
+      0.0737688 9.05798 5.31014
+      <UV> { 0.10925 0.735046 }
+      <Normal> { 0 0.91856 0.395282 }
+    }
+    <Vertex> 60 {
+      -1.50844 10.1004 -2.44079
+      <UV> { 0.747826 0.496083 }
+      <Normal> { -0.150336 0.958231 -0.243296 }
+    }
+    <Vertex> 61 {
+      -3.24468 9.98609 0
+      <UV> { 0.651525 0.727143 }
+      <Normal> { -0.308977 0.950979 0.013123 }
+    }
+    <Vertex> 62 {
+      0 10.5 0
+      <UV> { 0.508833 0.496088 }
+      <Normal> { 0 1 0 }
+    }
+    <Vertex> 63 {
+      -3.24468 9.98609 0
+      <UV> { 0.651525 0.727143 }
+      <Normal> { -0.308977 0.950979 0.013123 }
+    }
+    <Vertex> 64 {
+      -1.50844 10.1004 -2.44079
+      <UV> { 0.747826 0.496083 }
+      <Normal> { -0.150336 0.958231 -0.243296 }
+    }
+    <Vertex> 65 {
+      -4.71644 9.05802 -2.44079
+      <UV> { 0.908415 0.735034 }
+      <Normal> { -0.353535 0.918568 -0.176767 }
+    }
+    <Vertex> 66 {
+      -2.90204 8.93172 -4.69576
+      <UV> { 0.995414 0.496078 }
+      <Normal> { -0.21205 0.915038 -0.343132 }
+    }
+    <Vertex> 67 {
+      -4.71644 9.05802 -2.44079
+      <UV> { 0.908415 0.735034 }
+      <Normal> { -0.353535 0.918568 -0.176767 }
+    }
+    <Vertex> 68 {
+      -1.50844 10.1004 -2.44079
+      <UV> { 0.747826 0.496083 }
+      <Normal> { -0.150336 0.958231 -0.243296 }
+    }
+    <Vertex> 69 {
+      -4.71644 9.05802 -2.44079
+      <UV> { 0.908415 0.735034 }
+      <Normal> { -0.353535 0.918568 -0.176767 }
+    }
+    <Vertex> 70 {
+      -6.17175 8.49468 0
+      <UV> { 0.802158 0.970322 }
+      <Normal> { -0.453933 0.890898 0.015687 }
+    }
+    <Vertex> 71 {
+      -3.24468 9.98609 0
+      <UV> { 0.651525 0.727143 }
+      <Normal> { -0.308977 0.950979 0.013123 }
+    }
+  }
+  <Group> 0001 {
+    <Polygon> {
+      <TRef> { 0001 }
+      <VertexRef> { 0 1 2 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0001 }
+      <VertexRef> { 3 4 5 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0001 }
+      <VertexRef> { 6 7 8 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0001 }
+      <VertexRef> { 9 10 11 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0001 }
+      <VertexRef> { 12 13 14 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0001 }
+      <VertexRef> { 15 16 17 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0001 }
+      <VertexRef> { 18 19 20 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0001 }
+      <VertexRef> { 21 22 23 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0001 }
+      <VertexRef> { 24 25 26 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0001 }
+      <VertexRef> { 27 28 29 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0001 }
+      <VertexRef> { 30 31 32 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0001 }
+      <VertexRef> { 33 34 35 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0001 }
+      <VertexRef> { 36 37 38 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0001 }
+      <VertexRef> { 39 40 41 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0001 }
+      <VertexRef> { 42 43 44 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0001 }
+      <VertexRef> { 45 46 47 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0001 }
+      <VertexRef> { 48 49 50 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0001 }
+      <VertexRef> { 51 52 53 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0001 }
+      <VertexRef> { 54 55 56 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0001 }
+      <VertexRef> { 57 58 59 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0001 }
+      <VertexRef> { 60 61 62 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0001 }
+      <VertexRef> { 63 64 65 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0001 }
+      <VertexRef> { 66 67 68 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0001 }
+      <VertexRef> { 69 70 71 <Ref> { Sphere } }
+    }
+  }
+  <Group> 0002 {
+    <Polygon> {
+      <TRef> { 0002 }
+      <VertexRef> { 0 1 2 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0002 }
+      <VertexRef> { 3 4 5 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0002 }
+      <VertexRef> { 6 7 8 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0002 }
+      <VertexRef> { 9 10 11 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0002 }
+      <VertexRef> { 12 13 14 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0002 }
+      <VertexRef> { 15 16 17 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0002 }
+      <VertexRef> { 18 19 20 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0002 }
+      <VertexRef> { 21 22 23 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0002 }
+      <VertexRef> { 24 25 26 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0002 }
+      <VertexRef> { 27 28 29 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0002 }
+      <VertexRef> { 30 31 32 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0002 }
+      <VertexRef> { 33 34 35 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0002 }
+      <VertexRef> { 36 37 38 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0002 }
+      <VertexRef> { 39 40 41 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0002 }
+      <VertexRef> { 42 43 44 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0002 }
+      <VertexRef> { 45 46 47 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0002 }
+      <VertexRef> { 48 49 50 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0002 }
+      <VertexRef> { 51 52 53 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0002 }
+      <VertexRef> { 54 55 56 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0002 }
+      <VertexRef> { 57 58 59 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0002 }
+      <VertexRef> { 60 61 62 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0002 }
+      <VertexRef> { 63 64 65 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0002 }
+      <VertexRef> { 66 67 68 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0002 }
+      <VertexRef> { 69 70 71 <Ref> { Sphere } }
+    }
+  }
+  <Group> 0003 {
+    <Polygon> {
+      <TRef> { 0003 }
+      <VertexRef> { 0 1 2 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0003 }
+      <VertexRef> { 3 4 5 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0003 }
+      <VertexRef> { 6 7 8 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0003 }
+      <VertexRef> { 9 10 11 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0003 }
+      <VertexRef> { 12 13 14 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0003 }
+      <VertexRef> { 15 16 17 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0003 }
+      <VertexRef> { 18 19 20 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0003 }
+      <VertexRef> { 21 22 23 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0003 }
+      <VertexRef> { 24 25 26 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0003 }
+      <VertexRef> { 27 28 29 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0003 }
+      <VertexRef> { 30 31 32 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0003 }
+      <VertexRef> { 33 34 35 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0003 }
+      <VertexRef> { 36 37 38 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0003 }
+      <VertexRef> { 39 40 41 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0003 }
+      <VertexRef> { 42 43 44 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0003 }
+      <VertexRef> { 45 46 47 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0003 }
+      <VertexRef> { 48 49 50 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0003 }
+      <VertexRef> { 51 52 53 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0003 }
+      <VertexRef> { 54 55 56 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0003 }
+      <VertexRef> { 57 58 59 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0003 }
+      <VertexRef> { 60 61 62 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0003 }
+      <VertexRef> { 63 64 65 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0003 }
+      <VertexRef> { 66 67 68 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0003 }
+      <VertexRef> { 69 70 71 <Ref> { Sphere } }
+    }
+  }
+  <Group> 0004 {
+    <Polygon> {
+      <TRef> { 0004 }
+      <VertexRef> { 0 1 2 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0004 }
+      <VertexRef> { 3 4 5 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0004 }
+      <VertexRef> { 6 7 8 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0004 }
+      <VertexRef> { 9 10 11 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0004 }
+      <VertexRef> { 12 13 14 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0004 }
+      <VertexRef> { 15 16 17 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0004 }
+      <VertexRef> { 18 19 20 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0004 }
+      <VertexRef> { 21 22 23 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0004 }
+      <VertexRef> { 24 25 26 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0004 }
+      <VertexRef> { 27 28 29 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0004 }
+      <VertexRef> { 30 31 32 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0004 }
+      <VertexRef> { 33 34 35 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0004 }
+      <VertexRef> { 36 37 38 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0004 }
+      <VertexRef> { 39 40 41 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0004 }
+      <VertexRef> { 42 43 44 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0004 }
+      <VertexRef> { 45 46 47 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0004 }
+      <VertexRef> { 48 49 50 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0004 }
+      <VertexRef> { 51 52 53 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0004 }
+      <VertexRef> { 54 55 56 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0004 }
+      <VertexRef> { 57 58 59 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0004 }
+      <VertexRef> { 60 61 62 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0004 }
+      <VertexRef> { 63 64 65 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0004 }
+      <VertexRef> { 66 67 68 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0004 }
+      <VertexRef> { 69 70 71 <Ref> { Sphere } }
+    }
+  }
+  <Group> 0005 {
+    <Polygon> {
+      <TRef> { 0005 }
+      <VertexRef> { 0 1 2 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0005 }
+      <VertexRef> { 3 4 5 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0005 }
+      <VertexRef> { 6 7 8 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0005 }
+      <VertexRef> { 9 10 11 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0005 }
+      <VertexRef> { 12 13 14 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0005 }
+      <VertexRef> { 15 16 17 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0005 }
+      <VertexRef> { 18 19 20 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0005 }
+      <VertexRef> { 21 22 23 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0005 }
+      <VertexRef> { 24 25 26 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0005 }
+      <VertexRef> { 27 28 29 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0005 }
+      <VertexRef> { 30 31 32 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0005 }
+      <VertexRef> { 33 34 35 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0005 }
+      <VertexRef> { 36 37 38 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0005 }
+      <VertexRef> { 39 40 41 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0005 }
+      <VertexRef> { 42 43 44 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0005 }
+      <VertexRef> { 45 46 47 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0005 }
+      <VertexRef> { 48 49 50 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0005 }
+      <VertexRef> { 51 52 53 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0005 }
+      <VertexRef> { 54 55 56 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0005 }
+      <VertexRef> { 57 58 59 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0005 }
+      <VertexRef> { 60 61 62 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0005 }
+      <VertexRef> { 63 64 65 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0005 }
+      <VertexRef> { 66 67 68 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0005 }
+      <VertexRef> { 69 70 71 <Ref> { Sphere } }
+    }
+  }
+  <Group> 0006 {
+    <Polygon> {
+      <TRef> { 0006 }
+      <VertexRef> { 0 1 2 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0006 }
+      <VertexRef> { 3 4 5 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0006 }
+      <VertexRef> { 6 7 8 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0006 }
+      <VertexRef> { 9 10 11 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0006 }
+      <VertexRef> { 12 13 14 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0006 }
+      <VertexRef> { 15 16 17 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0006 }
+      <VertexRef> { 18 19 20 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0006 }
+      <VertexRef> { 21 22 23 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0006 }
+      <VertexRef> { 24 25 26 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0006 }
+      <VertexRef> { 27 28 29 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0006 }
+      <VertexRef> { 30 31 32 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0006 }
+      <VertexRef> { 33 34 35 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0006 }
+      <VertexRef> { 36 37 38 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0006 }
+      <VertexRef> { 39 40 41 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0006 }
+      <VertexRef> { 42 43 44 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0006 }
+      <VertexRef> { 45 46 47 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0006 }
+      <VertexRef> { 48 49 50 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0006 }
+      <VertexRef> { 51 52 53 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0006 }
+      <VertexRef> { 54 55 56 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0006 }
+      <VertexRef> { 57 58 59 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0006 }
+      <VertexRef> { 60 61 62 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0006 }
+      <VertexRef> { 63 64 65 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0006 }
+      <VertexRef> { 66 67 68 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0006 }
+      <VertexRef> { 69 70 71 <Ref> { Sphere } }
+    }
+  }
+  <Group> 0007 {
+    <Polygon> {
+      <TRef> { 0007 }
+      <VertexRef> { 0 1 2 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0007 }
+      <VertexRef> { 3 4 5 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0007 }
+      <VertexRef> { 6 7 8 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0007 }
+      <VertexRef> { 9 10 11 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0007 }
+      <VertexRef> { 12 13 14 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0007 }
+      <VertexRef> { 15 16 17 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0007 }
+      <VertexRef> { 18 19 20 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0007 }
+      <VertexRef> { 21 22 23 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0007 }
+      <VertexRef> { 24 25 26 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0007 }
+      <VertexRef> { 27 28 29 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0007 }
+      <VertexRef> { 30 31 32 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0007 }
+      <VertexRef> { 33 34 35 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0007 }
+      <VertexRef> { 36 37 38 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0007 }
+      <VertexRef> { 39 40 41 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0007 }
+      <VertexRef> { 42 43 44 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0007 }
+      <VertexRef> { 45 46 47 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0007 }
+      <VertexRef> { 48 49 50 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0007 }
+      <VertexRef> { 51 52 53 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0007 }
+      <VertexRef> { 54 55 56 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0007 }
+      <VertexRef> { 57 58 59 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0007 }
+      <VertexRef> { 60 61 62 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0007 }
+      <VertexRef> { 63 64 65 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0007 }
+      <VertexRef> { 66 67 68 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0007 }
+      <VertexRef> { 69 70 71 <Ref> { Sphere } }
+    }
+  }
+  <Group> 0008 {
+    <Polygon> {
+      <TRef> { 0008 }
+      <VertexRef> { 0 1 2 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0008 }
+      <VertexRef> { 3 4 5 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0008 }
+      <VertexRef> { 6 7 8 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0008 }
+      <VertexRef> { 9 10 11 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0008 }
+      <VertexRef> { 12 13 14 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0008 }
+      <VertexRef> { 15 16 17 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0008 }
+      <VertexRef> { 18 19 20 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0008 }
+      <VertexRef> { 21 22 23 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0008 }
+      <VertexRef> { 24 25 26 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0008 }
+      <VertexRef> { 27 28 29 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0008 }
+      <VertexRef> { 30 31 32 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0008 }
+      <VertexRef> { 33 34 35 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0008 }
+      <VertexRef> { 36 37 38 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0008 }
+      <VertexRef> { 39 40 41 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0008 }
+      <VertexRef> { 42 43 44 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0008 }
+      <VertexRef> { 45 46 47 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0008 }
+      <VertexRef> { 48 49 50 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0008 }
+      <VertexRef> { 51 52 53 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0008 }
+      <VertexRef> { 54 55 56 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0008 }
+      <VertexRef> { 57 58 59 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0008 }
+      <VertexRef> { 60 61 62 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0008 }
+      <VertexRef> { 63 64 65 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0008 }
+      <VertexRef> { 66 67 68 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0008 }
+      <VertexRef> { 69 70 71 <Ref> { Sphere } }
+    }
+  }
+  <Group> 0009 {
+    <Polygon> {
+      <TRef> { 0009 }
+      <VertexRef> { 0 1 2 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0009 }
+      <VertexRef> { 3 4 5 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0009 }
+      <VertexRef> { 6 7 8 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0009 }
+      <VertexRef> { 9 10 11 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0009 }
+      <VertexRef> { 12 13 14 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0009 }
+      <VertexRef> { 15 16 17 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0009 }
+      <VertexRef> { 18 19 20 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0009 }
+      <VertexRef> { 21 22 23 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0009 }
+      <VertexRef> { 24 25 26 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0009 }
+      <VertexRef> { 27 28 29 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0009 }
+      <VertexRef> { 30 31 32 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0009 }
+      <VertexRef> { 33 34 35 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0009 }
+      <VertexRef> { 36 37 38 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0009 }
+      <VertexRef> { 39 40 41 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0009 }
+      <VertexRef> { 42 43 44 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0009 }
+      <VertexRef> { 45 46 47 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0009 }
+      <VertexRef> { 48 49 50 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0009 }
+      <VertexRef> { 51 52 53 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0009 }
+      <VertexRef> { 54 55 56 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0009 }
+      <VertexRef> { 57 58 59 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0009 }
+      <VertexRef> { 60 61 62 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0009 }
+      <VertexRef> { 63 64 65 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0009 }
+      <VertexRef> { 66 67 68 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0009 }
+      <VertexRef> { 69 70 71 <Ref> { Sphere } }
+    }
+  }
+  <Group> 0010 {
+    <Polygon> {
+      <TRef> { 0010 }
+      <VertexRef> { 0 1 2 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0010 }
+      <VertexRef> { 3 4 5 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0010 }
+      <VertexRef> { 6 7 8 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0010 }
+      <VertexRef> { 9 10 11 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0010 }
+      <VertexRef> { 12 13 14 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0010 }
+      <VertexRef> { 15 16 17 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0010 }
+      <VertexRef> { 18 19 20 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0010 }
+      <VertexRef> { 21 22 23 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0010 }
+      <VertexRef> { 24 25 26 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0010 }
+      <VertexRef> { 27 28 29 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0010 }
+      <VertexRef> { 30 31 32 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0010 }
+      <VertexRef> { 33 34 35 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0010 }
+      <VertexRef> { 36 37 38 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0010 }
+      <VertexRef> { 39 40 41 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0010 }
+      <VertexRef> { 42 43 44 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0010 }
+      <VertexRef> { 45 46 47 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0010 }
+      <VertexRef> { 48 49 50 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0010 }
+      <VertexRef> { 51 52 53 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0010 }
+      <VertexRef> { 54 55 56 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0010 }
+      <VertexRef> { 57 58 59 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0010 }
+      <VertexRef> { 60 61 62 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0010 }
+      <VertexRef> { 63 64 65 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0010 }
+      <VertexRef> { 66 67 68 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0010 }
+      <VertexRef> { 69 70 71 <Ref> { Sphere } }
+    }
+  }
+  <Group> 0011 {
+    <Polygon> {
+      <TRef> { 0011 }
+      <VertexRef> { 0 1 2 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0011 }
+      <VertexRef> { 3 4 5 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0011 }
+      <VertexRef> { 6 7 8 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0011 }
+      <VertexRef> { 9 10 11 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0011 }
+      <VertexRef> { 12 13 14 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0011 }
+      <VertexRef> { 15 16 17 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0011 }
+      <VertexRef> { 18 19 20 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0011 }
+      <VertexRef> { 21 22 23 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0011 }
+      <VertexRef> { 24 25 26 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0011 }
+      <VertexRef> { 27 28 29 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0011 }
+      <VertexRef> { 30 31 32 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0011 }
+      <VertexRef> { 33 34 35 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0011 }
+      <VertexRef> { 36 37 38 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0011 }
+      <VertexRef> { 39 40 41 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0011 }
+      <VertexRef> { 42 43 44 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0011 }
+      <VertexRef> { 45 46 47 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0011 }
+      <VertexRef> { 48 49 50 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0011 }
+      <VertexRef> { 51 52 53 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0011 }
+      <VertexRef> { 54 55 56 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0011 }
+      <VertexRef> { 57 58 59 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0011 }
+      <VertexRef> { 60 61 62 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0011 }
+      <VertexRef> { 63 64 65 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0011 }
+      <VertexRef> { 66 67 68 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0011 }
+      <VertexRef> { 69 70 71 <Ref> { Sphere } }
+    }
+  }
+  <Group> 0012 {
+    <Polygon> {
+      <TRef> { 0012 }
+      <VertexRef> { 0 1 2 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0012 }
+      <VertexRef> { 3 4 5 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0012 }
+      <VertexRef> { 6 7 8 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0012 }
+      <VertexRef> { 9 10 11 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0012 }
+      <VertexRef> { 12 13 14 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0012 }
+      <VertexRef> { 15 16 17 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0012 }
+      <VertexRef> { 18 19 20 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0012 }
+      <VertexRef> { 21 22 23 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0012 }
+      <VertexRef> { 24 25 26 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0012 }
+      <VertexRef> { 27 28 29 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0012 }
+      <VertexRef> { 30 31 32 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0012 }
+      <VertexRef> { 33 34 35 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0012 }
+      <VertexRef> { 36 37 38 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0012 }
+      <VertexRef> { 39 40 41 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0012 }
+      <VertexRef> { 42 43 44 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0012 }
+      <VertexRef> { 45 46 47 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0012 }
+      <VertexRef> { 48 49 50 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0012 }
+      <VertexRef> { 51 52 53 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0012 }
+      <VertexRef> { 54 55 56 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0012 }
+      <VertexRef> { 57 58 59 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0012 }
+      <VertexRef> { 60 61 62 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0012 }
+      <VertexRef> { 63 64 65 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0012 }
+      <VertexRef> { 66 67 68 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0012 }
+      <VertexRef> { 69 70 71 <Ref> { Sphere } }
+    }
+  }
+  <Group> 0013 {
+    <Polygon> {
+      <TRef> { 0013 }
+      <VertexRef> { 0 1 2 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0013 }
+      <VertexRef> { 3 4 5 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0013 }
+      <VertexRef> { 6 7 8 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0013 }
+      <VertexRef> { 9 10 11 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0013 }
+      <VertexRef> { 12 13 14 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0013 }
+      <VertexRef> { 15 16 17 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0013 }
+      <VertexRef> { 18 19 20 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0013 }
+      <VertexRef> { 21 22 23 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0013 }
+      <VertexRef> { 24 25 26 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0013 }
+      <VertexRef> { 27 28 29 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0013 }
+      <VertexRef> { 30 31 32 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0013 }
+      <VertexRef> { 33 34 35 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0013 }
+      <VertexRef> { 36 37 38 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0013 }
+      <VertexRef> { 39 40 41 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0013 }
+      <VertexRef> { 42 43 44 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0013 }
+      <VertexRef> { 45 46 47 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0013 }
+      <VertexRef> { 48 49 50 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0013 }
+      <VertexRef> { 51 52 53 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0013 }
+      <VertexRef> { 54 55 56 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0013 }
+      <VertexRef> { 57 58 59 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0013 }
+      <VertexRef> { 60 61 62 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0013 }
+      <VertexRef> { 63 64 65 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0013 }
+      <VertexRef> { 66 67 68 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0013 }
+      <VertexRef> { 69 70 71 <Ref> { Sphere } }
+    }
+  }
+  <Group> 0014 {
+    <Polygon> {
+      <TRef> { 0014 }
+      <VertexRef> { 0 1 2 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0014 }
+      <VertexRef> { 3 4 5 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0014 }
+      <VertexRef> { 6 7 8 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0014 }
+      <VertexRef> { 9 10 11 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0014 }
+      <VertexRef> { 12 13 14 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0014 }
+      <VertexRef> { 15 16 17 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0014 }
+      <VertexRef> { 18 19 20 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0014 }
+      <VertexRef> { 21 22 23 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0014 }
+      <VertexRef> { 24 25 26 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0014 }
+      <VertexRef> { 27 28 29 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0014 }
+      <VertexRef> { 30 31 32 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0014 }
+      <VertexRef> { 33 34 35 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0014 }
+      <VertexRef> { 36 37 38 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0014 }
+      <VertexRef> { 39 40 41 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0014 }
+      <VertexRef> { 42 43 44 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0014 }
+      <VertexRef> { 45 46 47 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0014 }
+      <VertexRef> { 48 49 50 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0014 }
+      <VertexRef> { 51 52 53 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0014 }
+      <VertexRef> { 54 55 56 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0014 }
+      <VertexRef> { 57 58 59 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0014 }
+      <VertexRef> { 60 61 62 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0014 }
+      <VertexRef> { 63 64 65 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0014 }
+      <VertexRef> { 66 67 68 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0014 }
+      <VertexRef> { 69 70 71 <Ref> { Sphere } }
+    }
+  }
+  <Group> 0015 {
+    <Polygon> {
+      <TRef> { 0015 }
+      <VertexRef> { 0 1 2 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0015 }
+      <VertexRef> { 3 4 5 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0015 }
+      <VertexRef> { 6 7 8 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0015 }
+      <VertexRef> { 9 10 11 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0015 }
+      <VertexRef> { 12 13 14 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0015 }
+      <VertexRef> { 15 16 17 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0015 }
+      <VertexRef> { 18 19 20 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0015 }
+      <VertexRef> { 21 22 23 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0015 }
+      <VertexRef> { 24 25 26 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0015 }
+      <VertexRef> { 27 28 29 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0015 }
+      <VertexRef> { 30 31 32 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0015 }
+      <VertexRef> { 33 34 35 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0015 }
+      <VertexRef> { 36 37 38 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0015 }
+      <VertexRef> { 39 40 41 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0015 }
+      <VertexRef> { 42 43 44 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0015 }
+      <VertexRef> { 45 46 47 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0015 }
+      <VertexRef> { 48 49 50 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0015 }
+      <VertexRef> { 51 52 53 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0015 }
+      <VertexRef> { 54 55 56 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0015 }
+      <VertexRef> { 57 58 59 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0015 }
+      <VertexRef> { 60 61 62 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0015 }
+      <VertexRef> { 63 64 65 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0015 }
+      <VertexRef> { 66 67 68 <Ref> { Sphere } }
+    }
+    <Polygon> {
+      <TRef> { 0015 }
+      <VertexRef> { 69 70 71 <Ref> { Sphere } }
+    }
+  }
+}

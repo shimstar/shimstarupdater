@@ -160,6 +160,7 @@
 	<Image Name="ReticleInfo" XPos="160" YPos="145" Width="24" Height="24" />
 	<Image Name="ReticleHome" XPos="154" YPos="170" Width="32" Height="32" />
 	<Image Name="ReticleMining" XPos="126" YPos="145" Width="24" Height="24" />
+	<Image Name="ReticleMiningKO" XPos="126" YPos="174" Width="24" Height="24" />
 	
 	<Image Name="spiderdrone" XPos="250" YPos="0" Width="64" Height="64" />
 	<Image Name="ship1" XPos="318" YPos="0" Width="64" Height="64" />
@@ -176,7 +177,9 @@
 	<Image Name="minage1ko" XPos="317" YPos="326" Width="64" Height="64" />
 	<Image Name="energy1" XPos="317" YPos="392" Width="64" Height="64" />
 	<Image Name="energy1ko" XPos="385" YPos="392" Width="64" Height="64" />
-	
+	<Image Name="splargh115" XPos="457" YPos="0" Width="64" Height="64" />
+	<Image Name="tehShoe103" XPos="457" YPos="64" Width="64" Height="64" />
+	<Image Name="station" XPos="457" YPos="128" Width="64" Height="64" />
 	
 	</Imageset>
 

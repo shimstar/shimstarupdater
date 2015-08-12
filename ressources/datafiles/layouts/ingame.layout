@@ -80,10 +80,10 @@
                     </Window>
                     <Window Type="Shimstar/Label" Name="Station/Vaisseau/bckground/legend" >
                         <Property Name="Font" Value="Brassiere-s" />
-                        <Property Name="Text" Value="M : moteur    A : Arme   J : Energie   E : Electronique   G : Minage    R : Radar    C : Container" />
-                        <Property Name="HorzExtent" Value="597" />
+                        <Property Name="Text" Value="M : moteur    A : Arme   J : Energie   E : Electronique   G : Minage    R : Radar    C : Container   S : Bouclier" />
+                        <Property Name="HorzExtent" Value="683" />
                         <Property Name="VertExtent" Value="18.7393" />
-                        <Property Name="UnifiedAreaRect" Value="{{0.00636436,0},{0.0111969,0},{0.990948,0},{0.0798145,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.00636436,0},{0.0224759,0},{0.990948,0},{0.0910935,0}}" />
                     </Window>
                 </Window>
                 <Window Type="Shimstar/Label" Name="Station/Vaisseau/Energie" >
@@ -356,6 +356,12 @@
                 <Property Name="UnifiedAreaRect" Value="{{0.0198543,0},{0.630205,0},{0.986765,0},{0.733394,0}}" />
                 <Property Name="BackgroundEnabled" Value="False" />
             </Window>
+				<Window Type="Shimstar/Label" Name="InfoItem/Prix" >
+                <Property Name="Font" Value="Brassiere-s" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0324651,0},{0.865829,0},{0.999376,0},{0.969017,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
         </Window>
         <Window Type="DefaultWindow" Name="HUD/Cockpit" >
             <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
@@ -398,6 +404,13 @@
                     <Property Name="BackgroundImage" Value="set:ShimstarImageset image:ReticleMining" />
                     <Property Name="UnifiedAreaRect" Value="{{0.45625,0},{0.46117,0},{0.471875,0},{0.490426,0}}" />
                 </Window>
+					 <Window Type="Shimstar/MediumProgressBar" Name="HUD/Cockpit/Reticle/ennemyShieldBar" >
+                    <Property Name="Visible" Value="False" />
+						  <Property Name="ProgressImage" Value="set:ShimstarImageset image:PurpleBlue" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.482362,0},{0.424979,0},{0.51792,0},{0.438,0}}" />
+                </Window>
             </Window>
             <Window Type="Shimstar/MediumProgressBar" Name="HUD/Cockpit/ShieldBar" >
                 <Property Name="Tooltip" Value="270 / 300" />
@@ -405,7 +418,7 @@
                 <Property Name="StepSize" Value="0.01" />
                 <Property Name="ProgressImage" Value="set:ShimstarImageset image:PurpleBlue" />
                 <Property Name="CurrentProgress" Value="0.9" />
-                <Property Name="UnifiedAreaRect" Value="{{0,50},{0,27},{0,350},{0,40}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,198},{0,27},{0,372},{0,40}}" />
                 <Property Name="ZOrderChangeEnabled" Value="False" />
             </Window>
             <Window Type="Shimstar/MediumProgressBar" Name="HUD/Cockpit/HullBar" >
@@ -494,85 +507,101 @@
                 <Property Name="VertExtent" Value="18.7393" />
                 <Property Name="UnifiedAreaRect" Value="{{0.0505025,0},{0.00368936,0},{0.0636933,95},{0.0481189,0}}" />
             </Window>
-            <Window Type="Shimstar/Window" Name="HUD/Cockpit/Asteroid" >
+			 <Window Type="Shimstar/Window" Name="HUD/Cockpit/Asteroid" >
                 <Property Name="Font" Value="Brassiere-m" />
                 <Property Name="Text" Value="Asteroid" />
-                <Property Name="Visible" Value="False" />
                 <Property Name="TitlebarFont" Value="Brassiere-m" />
                 <Property Name="TitlebarEnabled" Value="True" />
-                <Property Name="UnifiedAreaRect" Value="{{0.578894,0},{0.0533156,0},{0.729021,0},{0.47175,0}}" />
+					 <Property Name="Visible" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.00160667,0},{0.0511105,0},{0.151734,0},{0.226986,0}}" />
                 <Window Type="Shimstar/Label" Name="HUD/Cockpit/Asteroid/Name" >
                     <Property Name="Font" Value="Brassiere-s" />
                     <Property Name="Text" Value="Nom : ast1" />
                     <Property Name="HorzExtent" Value="63" />
                     <Property Name="VertExtent" Value="18.7393" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.0569041,0},{0.0164817,0},{0.92615,0},{0.13336,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.424626,0},{-0.00332381,0},{0.97518,0},{0.302466,0}}" />
                 </Window>
                 <Window Type="Shimstar/Label" Name="HUD/Cockpit/Asteroid/Distance" >
                     <Property Name="Font" Value="Brassiere-s" />
                     <Property Name="Text" Value="Distance : " />
                     <Property Name="HorzExtent" Value="65" />
                     <Property Name="VertExtent" Value="18.7393" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.0566949,0},{0.158399,0},{0.925941,0},{0.275277,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.424417,0},{0.308687,0},{0.97497,0},{0.607468,0}}" />
+                </Window>
+                <Window Type="Shimstar/BackgroundImage" Name="HUD/Cockpit/Asteroid/Img" >
+                    <Property Name="BackgroundImage" Value="set:ShimstarImageset image:splargh115" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0354006,0},{0.0208263,0},{0.337932,0},{0.603073,0}}" />
+                </Window>
+                <Window Type="Shimstar/Button" Name="HUD/Cockpit/Asteroid/Miner" >
+                    <Property Name="Font" Value="Brassiere-s" />
+                    <Property Name="Text" Value="Miner" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.187932,0},{0.640252,0},{0.819663,0},{0.979464,0}}" />
                 </Window>
             </Window>
             <Window Type="Shimstar/Window" Name="HUD/Cockpit/Station" >
                 <Property Name="Font" Value="Brassiere-m" />
                 <Property Name="Text" Value="Station" />
-                <Property Name="Visible" Value="False" />
+					 <Property Name="Visible" Value="False" />
                 <Property Name="TitlebarFont" Value="Brassiere-m" />
                 <Property Name="TitlebarEnabled" Value="True" />
-                <Property Name="UnifiedAreaRect" Value="{{0.58304,0},{0.517109,0},{0.733167,0},{0.935544,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.00259817,0},{0.0452234,0},{0.149044,0},{0.248663,0}}" />
                 <Window Type="Shimstar/Label" Name="HUD/Cockpit/Station/Name" >
                     <Property Name="Font" Value="Brassiere-s" />
                     <Property Name="Text" Value="Nom : ast1" />
                     <Property Name="HorzExtent" Value="63" />
                     <Property Name="VertExtent" Value="18.7393" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.0569041,0},{0.0164817,0},{0.92615,0},{0.13336,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.45182,0},{0.00564277,0},{0.994363,0},{0.263427,0}}" />
                 </Window>
                 <Window Type="Shimstar/Label" Name="HUD/Cockpit/Station/Distance" >
                     <Property Name="Font" Value="Brassiere-s" />
                     <Property Name="Text" Value="Distance : " />
                     <Property Name="HorzExtent" Value="65" />
                     <Property Name="VertExtent" Value="18.7393" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.0566949,0},{0.158399,0},{0.925941,0},{0.275277,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.451611,0},{0.255949,0},{0.990564,0},{0.519153,0}}" />
                 </Window>
                 <Window Type="Shimstar/Button" Name="HUD/Cockpit/Station/Enter" >
                     <Property Name="Font" Value="Brassiere-m" />
                     <Property Name="Text" Value="Entrer" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.0535574,0},{0.304596,0},{0.9228,0},{0.424644,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.175622,0},{0.683958,0},{0.750473,0},{0.934073,0}}" />
+                </Window>
+                <Window Type="Shimstar/BackgroundImage" Name="HUD/Cockpit/Station/Img" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0235591,0},{0.0236074,0},{0.435116,0},{0.577096,0}}" />
                 </Window>
             </Window>
             <Window Type="Shimstar/Window" Name="HUD/Cockpit/Ship" >
                 <Property Name="Font" Value="Brassiere-m" />
                 <Property Name="Text" Value="Vaisseau" />
-                <Property Name="Visible" Value="False" />
+					 <Property Name="Visible" Value="False" />
                 <Property Name="TitlebarFont" Value="Brassiere-m" />
                 <Property Name="TitlebarEnabled" Value="True" />
-                <Property Name="UnifiedAreaRect" Value="{{0.432663,0},{0.519356,0},{0.58279,0},{0.937791,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.00048622,0},{0.0463678,0},{0.152716,0},{0.256423,0}}" />
                 <Window Type="Shimstar/Label" Name="HUD/Cockpit/Ship/Name" >
                     <Property Name="Font" Value="Brassiere-s" />
                     <Property Name="Text" Value="Nom : ast1" />
                     <Property Name="HorzExtent" Value="63" />
                     <Property Name="VertExtent" Value="18.7393" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.067312,0},{0.261188,0},{0.936558,0},{0.378066,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.464491,0},{0.00399773,0},{1.00218,0},{0.278339,0}}" />
                 </Window>
                 <Window Type="Shimstar/Label" Name="HUD/Cockpit/Ship/Distance" >
                     <Property Name="Font" Value="Brassiere-s" />
                     <Property Name="Text" Value="Distance : " />
                     <Property Name="HorzExtent" Value="65" />
                     <Property Name="VertExtent" Value="18.7393" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.0566949,0},{0.399927,0},{0.925941,0},{0.516805,0}}" />
-                </Window>
-                <Window Type="Shimstar/Label" Name="HUD/Cockpit/Ship/Hullpoints" >
-                    <Property Name="Font" Value="Brassiere-s" />
-                    <Property Name="Text" Value="Hull : " />
-                    <Property Name="HorzExtent" Value="35" />
-                    <Property Name="VertExtent" Value="18.7393" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.0554663,0},{0.541836,0},{0.924712,0},{0.658714,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.471143,0},{0.305449,0},{0.998469,0},{0.57979,0}}" />
                 </Window>
                 <Window Type="Shimstar/BackgroundImage" Name="HUD/Cockpit/Ship/Img" >
-                    <Property Name="UnifiedAreaRect" Value="{{0.102251,0},{-0.0178001,0},{0.518776,0},{0.2322,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0287065,0},{-0.00726026,0},{0.445232,0},{0.610155,0}}" />
+                </Window>
+               <Window Type="Shimstar/MediumProgressBar" Name="HUD/Cockpit/Ship/Hullpoints" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0384771,0},{0.663054,0},{0.972008,0},{0.744309,0}}" />
+                </Window>
+                <Window Type="Shimstar/MediumProgressBar" Name="HUD/Cockpit/Ship/Shield" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="ProgressImage" Value="set:ShimstarImageset image:PurpleBlue" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0384771,0},{0.8,0},{0.972008,0},{0.881766,0}}" />
                 </Window>
             </Window>
             <Window Type="Shimstar/Window" Name="HUD/Cockpit/Wormhole" >

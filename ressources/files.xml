@@ -1,9 +1,36 @@
 <?xml version="1.0" ?>
 <versions>
 <version>
+      <id>0.610</id>
+		<files>
+			<file>ShimstarClient.exe</file>
+			<file>datafiles\layouts\ingame.layout</file>
+			<file>config\itemtemplates.xml</file>
+			<file>datafiles\imagesets\shimstar.imageset</file>
+			<file>datafiles\imagesets\shimstar.png</file>
+			<file>models\shieldstrike\shield00.png</file>
+			<file>models\shieldstrike\shield01.png</file>
+			<file>models\shieldstrike\shield02.png</file>
+			<file>models\shieldstrike\shield03.png</file>
+			<file>models\shieldstrike\shield04.png</file>
+			<file>models\shieldstrike\shield05.png</file>
+			<file>models\shieldstrike\shield06.png</file>
+			<file>models\shieldstrike\shield07.png</file>
+			<file>models\shieldstrike\shield08.png</file>
+			<file>models\shieldstrike\shield09.png</file>
+			<file>models\shieldstrike\shield10.png</file>
+			<file>models\shieldstrike\shield11.png</file>
+			<file>models\shieldstrike\shield12.png</file>
+			<file>models\shieldstrike\shield13.png</file>
+			<file>models\shieldstrike\shield14.png</file>
+			<file>models\shieldstrike\shield15.png</file>
+		</files>
+</version>
+<version>
       <id>0.603</id>
 		<files>
 			<file>ShimstarClient.exe</file>
+
 		</files>
 </version>
 <version>
