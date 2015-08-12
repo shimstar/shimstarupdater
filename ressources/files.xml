@@ -6,6 +6,9 @@
 			<file>ShimstarClient.exe</file>
 			<file>datafiles\layouts\ingame.layout</file>
 			<file>config\itemtemplates.xml</file>
+			<file>config\pnjs.xml</file>
+			<file>config\stations.xml</file>
+			<file>config\zones.xml</file>
 			<file>datafiles\imagesets\shimstar.imageset</file>
 			<file>datafiles\imagesets\shimstar.png</file>
 			<file>models\shieldstrike\shield00.png</file>
@@ -24,6 +27,8 @@
 			<file>models\shieldstrike\shield13.png</file>
 			<file>models\shieldstrike\shield14.png</file>
 			<file>models\shieldstrike\shield15.png</file>
+			<file>models\tex\asteroid.png</file>
+			<file>models\tex\asteroidnormal.tga</file>
 		</files>
 </version>
 <version>

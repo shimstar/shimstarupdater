@@ -180,6 +180,11 @@
 	<Image Name="splargh115" XPos="457" YPos="0" Width="64" Height="64" />
 	<Image Name="tehShoe103" XPos="457" YPos="64" Width="64" Height="64" />
 	<Image Name="station" XPos="457" YPos="128" Width="64" Height="64" />
+	<Image Name="RustyGremlin" XPos="458" YPos="194" Width="64" Height="64" />
+	<Image Name="NotASphere" XPos="458" YPos="260" Width="64" Height="64" />
+	<Image Name="TehShoe" XPos="457" YPos="64" Width="64" Height="64" />
+	<Image Name="AssJacket" XPos="458" YPos="326" Width="64" Height="64" />
+	
 	
 	</Imageset>
 
